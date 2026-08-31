@@ -6,6 +6,7 @@ No third-party packages are required.
 Rules matched to the current Pretty Quantum publications page:
 - group by year, newest first;
 - preserve BibTeX order within each year;
+- omit proceedings/conference entries from the generated HTML;
 - omit an arXiv entry when a non-arXiv entry with the same normalized title exists;
 - convert BibTeX author names from "Family, Given" to "Given Family";
 - render a literal BibTeX author "others" as "et al.";
@@ -260,6 +261,22 @@ def normalize_title(title: str) -> str:
     return "".join(ch for ch in title if ch.isalnum())
 
 
+PROCEEDINGS_ENTRY_TYPES = {"inproceedings", "proceedings", "conference"}
+
+
+def remove_proceedings(entries: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Exclude conference/proceedings entries from the web publication list.
+
+    The BibTeX entries themselves are left untouched. Book chapters
+    (@incollection) are retained.
+    """
+    return [
+        entry
+        for entry in entries
+        if entry.get("ENTRYTYPE", "").lower() not in PROCEEDINGS_ENTRY_TYPES
+    ]
+
+
 def remove_duplicate_arxiv(entries: list[dict[str, str]]) -> list[dict[str, str]]:
     published_titles = {
         normalize_title(e.get("title", ""))
@@ -325,6 +342,7 @@ def render_entry(entry: dict[str, str]) -> str:
 
 
 def render_publications(entries: list[dict[str, str]]) -> str:
+    entries = remove_proceedings(entries)
     entries = remove_duplicate_arxiv(entries)
 
     # Stable sort: Python's sort preserves BibTeX order for equal years.
@@ -364,8 +382,20 @@ def main() -> None:
     output = template.replace(PLACEHOLDER, body)
     OUTPUT_PATH.write_text(output, encoding="utf-8")
 
-    kept = len(remove_duplicate_arxiv(entries))
-    print(f"Generated {OUTPUT_PATH.name}: {kept} publications from {len(entries)} BibTeX entries")
+    without_proceedings = remove_proceedings(entries)
+    kept_entries = remove_duplicate_arxiv(without_proceedings)
+    proceedings_count = len(entries) - len(without_proceedings)
+    duplicate_arxiv_count = len(without_proceedings) - len(kept_entries)
+
+    details = [f"excluded {proceedings_count} proceedings/conference entries"]
+    if duplicate_arxiv_count:
+        details.append(f"{duplicate_arxiv_count} duplicate arXiv entries")
+
+    print(
+        f"Generated {OUTPUT_PATH.name}: {len(kept_entries)} publications "
+        f"from {len(entries)} BibTeX entries "
+        f"({', '.join(details)})"
+    )
 
 
 if __name__ == "__main__":
