@@ -113,12 +113,13 @@ def nav(active: str) -> str:
         ("international.html", "International", "international"),
         ("domestic.html", "Domestic", "domestic"),
         ("other-works.html", "Other works", "other"),
+        ("guide.html", "Guide", "guide"),
+        ("qjapanimation.html", "Qjapanimation", "qja"),
     ]
     return '<nav class="nav">' + ''.join(
         f'<a href="{href}"' + (' class="active"' if key == active else '') + f'>{label}</a>'
         for href, label, key in links
     ) + '</nav>'
-
 
 def main() -> None:
     data = yaml.safe_load(DATA_PATH.read_text(encoding="utf-8")) or {}
