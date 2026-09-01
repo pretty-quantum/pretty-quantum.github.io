@@ -4,32 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Publications - Rikizo Ikuta</title>
-  <style>:root { --green:#1e5440; --text:#303030; --gray:#6f6f6f; --page-width:1320px; }
-* { box-sizing:border-box; }
-html,body { margin:0; min-height:100%; }
-body { background:#fff; color:var(--text); font-family:"Helvetica Neue",Arial,"Noto Sans JP","Yu Gothic",YuGothic,sans-serif; font-size:18px; }
-.topbar { min-height:78px; padding:0 37px; display:flex; align-items:center; justify-content:space-between; border-top:2px solid #4d4d4d; background:#fff; }
-.site-name, .site-name a { color:#4c4c4c; font-size:25px; font-weight:300; letter-spacing:-.4px; text-decoration:none; white-space:nowrap; }
-.nav { display:flex; align-items:center; gap:28px; min-height:76px; }
-.nav a { color:#777; text-decoration:none; font-size:17px; font-weight:300; white-space:nowrap; }
-.nav a.active { color:#222; font-weight:400; }
-.hero { height:190px; display:flex; align-items:center; justify-content:center; }
-.hero h1 { margin:0; color:var(--green); font-size:48px; line-height:1.1; font-weight:400; letter-spacing:1px; text-align:center; }
-.page { width:min(var(--page-width),calc(100% - 64px)); margin:0 auto; padding:20px 0 100px; }
-.year-section { border-top:1px solid #dedede; padding:28px 0 34px; }
-.year-section h2 { margin:0 0 18px; color:var(--green); font-size:29px; font-weight:400; }
-ol.entries { margin:0; padding-left:2.2em; }
-ol.entries li { margin:0 0 12px; padding-left:.25em; line-height:1.55; font-size:16px; }
-a.item-link { color:var(--green); text-decoration:underline; text-underline-offset:2px; }
-.badge { display:inline-block; margin-left:.4em; padding:.06em .45em; border:1px solid #b9b9b9; border-radius:3px; color:#666; font-size:.78em; vertical-align:.08em; }
-.meta { color:#555; }
-.empty { border-top:1px solid #dedede; padding:30px 0; color:#666; }
-.home { width:min(1100px,calc(100% - 64px)); margin:0 auto; padding:15px 0 100px; line-height:1.8; }
-.home-links { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:15px; margin-top:28px; }
-.home-links a { display:block; padding:18px 20px; border:1px solid #ddd; color:var(--green); text-decoration:none; }
-@media (max-width:900px) { .topbar{padding:14px 20px;display:block}.site-name{margin-bottom:10px}.nav{gap:18px;overflow-x:auto;min-height:auto;padding-bottom:4px}.hero{height:150px}.hero h1{font-size:38px}.page,.home{width:calc(100% - 36px)} }</style>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+<body class="publications-page-body">
   <header class="topbar">
     <div class="site-name"><a href="index.html">Rikizo Ikuta's website</a></div>
     <nav class="nav">
@@ -41,7 +18,7 @@ a.item-link { color:var(--green); text-decoration:underline; text-underline-offs
     </nav>
   </header>
   <section class="hero"><h1>Publications</h1></section>
-  <main class="page">
+  <main class="publication-page">
 {{PUBLICATIONS}}
   </main>
 </body>

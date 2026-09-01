@@ -329,7 +329,7 @@ def render_entry(entry: dict[str, str]) -> str:
 
     if href:
         venue_html = (
-            f'<a class="item-link" href="{html.escape(href, quote=True)}">'
+            f'<a class="journal-link" href="{html.escape(href, quote=True)}">'
             f"{venue}</a>"
         )
     else:
@@ -362,8 +362,8 @@ def render_publications(entries: list[dict[str, str]]) -> str:
     for year in year_order:
         items = "".join(render_entry(e) for e in grouped[year])
         sections.append(
-            f'<section class="year-section"><h2>{html.escape(year)}</h2>'
-            f'<ol class="entries">{items}</ol></section>'
+            f'<section class="pub-year"><h2>{html.escape(year)}</h2>'
+            f'<ol class="publication-list">{items}</ol></section>'
         )
     return "\n".join(sections)
 
