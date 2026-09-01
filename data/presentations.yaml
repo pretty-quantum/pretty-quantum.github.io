@@ -1,0 +1,4957 @@
+# Presentations involving Rikizo Ikuta / R. Ikuta / 生田力三
+# First author is treated as the presenter.
+# Dates are stored only in ISO format: YYYY-MM-DD.
+# presentation_date: actual presentation date
+# presentation_end_date: end date only when the presentation itself spans multiple days
+# conference_start / conference_end: conference or event period
+# null means that the supplied source did not determine the value unambiguously.
+schema_version: 1
+person:
+  canonical_name: Rikizo Ikuta
+  aliases:
+  - Rikizo Ikuta
+  - R. Ikuta
+  - 生田力三
+  - 生田 力三
+presentations:
+- id: int-2026-2ba180d5
+  scope: international
+  fiscal_year: 2026
+  authors:
+  - Rikizo Ikuta
+  title: Toward a wavelength-multiplexed quantum internet based on quantum frequency conversion
+  presentation_type: invited
+  presentation_date: '2026-08-03'
+  presentation_end_date: null
+  conference: CLEO Pacific Rim 2026
+  conference_start: '2026-08-02'
+  conference_end: '2026-08-06'
+  location: Beijing International Convention Center, Beijing, China
+  url: null
+  note: null
+- id: int-2026-dee8616e
+  scope: international
+  fiscal_year: 2026
+  authors:
+  - Rikizo Ikuta
+  title: A quantum frequency conversion hub interfacing with DWDM networks
+  presentation_type: poster
+  presentation_date: '2026-04-28'
+  presentation_end_date: null
+  conference: The 5th Workshop for Quantum Repeaters and Networks (WQRN5
+  conference_start: '2026-04-27'
+  conference_end: '2026-04-29'
+  location: Catapult, Singapore
+  url: null
+  note: null
+- id: int-2026-a00dc015
+  scope: international
+  fiscal_year: 2026
+  authors:
+  - Yuya Maeda
+  - Toshiki Kobayashi
+  - Takuma Ueno
+  - Kentaro Shibata
+  - Shinichi Takenaka
+  - Kazuki Ito
+  - Yuma Fujiwara
+  - Shigehito Miki
+  - Hirotaka Terai
+  - Tsuyoshi Kodama
+  - Hideki Shimoi
+  - Rikizo Ikuta
+  - Makoto Yamashita
+  - Shuta Nakajima
+  - Takashi Yamamoto
+  title: null
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 15th Advanced Lasers and Photon Sources Conference (ALPS2026) in the framework of the OPTICS & PHOTONICS International
+    Congress 2026 (OPIC2026)
+  conference_start: null
+  conference_end: null
+  location: PACIFICO Yokohamam, Yokohama, Japan
+  url: null
+  note: null
+- id: int-2026-7a541427
+  scope: international
+  fiscal_year: 2026
+  authors:
+  - Kurama Hirano
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Frequency multiplexing of nonclassical two photon interference
+  presentation_type: oral
+  presentation_date: '2026-04-20'
+  presentation_end_date: null
+  conference: The 15th Advanced Lasers and Photon Sources (ALPS2026
+  conference_start: '2026-04-20'
+  conference_end: '2026-04-24'
+  location: PACIFICO Yokohama, Japan
+  url: null
+  note: null
+- id: int-2025-afd63b59
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Yuya Maeda
+  - Toshiki Kobayashi
+  - Takuma Ueno
+  - Kentaro Shibata
+  - Shinichi Takenaka
+  - Kazuki Ito
+  - Yuma Fujiwara
+  - Shigehito Miki
+  - Hirotaka Terai
+  - Tsuyoshi Kodama
+  - Hideki Shimoi
+  - Rikizo Ikuta
+  - Makoto Yamashita
+  - Shuta Nakajima
+  - Takashi Yamamoto
+  title: Developing multiplexed photonic links with Rb atom array
+  presentation_type: poster
+  presentation_date: '2025-11-26'
+  presentation_end_date: null
+  conference: 2025 Symposium of the JP-DE ASPIRE “Neutral-atom QC”
+  conference_start: '2025-11-25'
+  conference_end: '2025-11-28'
+  location: Institute for Molecular Science (IMS), Okazaki, Japan
+  url: null
+  note: null
+- id: int-2025-25c6279d
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Rikizo Ikuta
+  title: Photonic quantum information processing using frequency degree of freedom
+  presentation_type: invited
+  presentation_date: '2025-10-01'
+  presentation_end_date: null
+  conference: 'Okinawa School in Physics 2025: From quantum key distribution to the quantum internet (OSP2025'
+  conference_start: '2025-09-21'
+  conference_end: '2025-10-03'
+  location: OIST, Okinawa, Japan
+  url: https://www.oist.jp/conference/osp2025
+  note: null
+- id: int-2025-a357f64b
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Masatake Yamada
+  - Kurama Hirano
+  - Shunsuke Hiraoka
+  - Shoichi Murakami
+  - Toshiki Kobayashi
+  - Masahiro Yabuno
+  - Shigehito Miki
+  - Tsuyoshi Kodama
+  - Hideki Shimoi
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Polarization insensitive quantum frequency conversion for frequency-multiplexed quantum network
+  presentation_type: poster
+  presentation_date: '2025-07-29'
+  presentation_end_date: null
+  conference: Quantum Innovation 2025
+  conference_start: '2025-07-29'
+  conference_end: '2025-07-31'
+  location: Congrès Square Grand Green Osaka, Osaka, Japan
+  url: null
+  note: null
+- id: int-2025-73305d8b
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Rikizo Ikuta
+  title: Our recent progress in photonic quantum technologies toward the quantum internet
+  presentation_type: invited
+  presentation_date: '2025-07-29'
+  presentation_end_date: null
+  conference: Quantum Innovation 2025
+  conference_start: '2025-07-29'
+  conference_end: '2025-07-31'
+  location: Congrès Square Grand Green Osaka, Osaka, Japan
+  url: null
+  note: null
+- id: int-2025-edfc973e
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Yuya Maeda
+  - Kentaro Shibata
+  - Toshiki Kobayashi
+  - Makoto Yamashita
+  - Shuta Nakajima
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: Measuring non-classical statistics of fluorescence from a single atom on atom array towards quantum networking
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: APS Division of Atomic, Molecular and Optical Physics Meeting 2025
+  conference_start: '2025-06-16'
+  conference_end: '2025-06-20'
+  location: at Oregon Convention Center, Portland, Oregon, US Poster
+  url: null
+  note: null
+- id: int-2025-30c53c7c
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Rikizo Ikuta
+  - Shoichi Murakami
+  - Toshiki Kobayashi
+  - Masahiro Yabuno
+  - Shigehito miki
+  - Tsuyoshi Kodama
+  - Tsuneaki Sawaya
+  - Akihiko Ohtomo
+  - Hideki Shimoi
+  - Takashi Yamamoto
+  title: Quantum frequency conversion with cavity structure for converted mode
+  presentation_type: poster
+  presentation_date: '2025-05-07'
+  presentation_end_date: null
+  conference: CLEO
+  conference_start: '2025-05-04'
+  conference_end: '2025-05-09'
+  location: Long Beach Convention Center, California, United States
+  url: null
+  note: null
+- id: int-2025-01e3717d
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Toshiki Kobayashi
+  - Tomoaki Arizono
+  - Masahiro Yabuno
+  - Shigehito Miki
+  - Tsuyoshi Kodama
+  - Hideki Shimoi
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Demonstration of channel-selective quantum frequency conversion
+  presentation_type: oral
+  presentation_date: '2025-05-08'
+  presentation_end_date: null
+  conference: CLEO
+  conference_start: '2025-05-04'
+  conference_end: '2025-05-09'
+  location: Long Beach Convention Center, California, United States
+  url: null
+  note: null
+- id: int-2025-57ad1f58
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Rikizo Ikuta
+  title: Laser frequency locking with an infinite capture range
+  presentation_type: poster
+  presentation_date: '2025-05-07'
+  presentation_end_date: null
+  conference: CLEO
+  conference_start: '2025-05-04'
+  conference_end: '2025-05-09'
+  location: Long Beach Convention Center, California, United States
+  url: null
+  note: null
+- id: int-2025-b41b9dc2
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Rikizo Ikuta
+  - Kiichiro Kuwahara
+  - Ayumu Kariya
+  - Takahiro Kodama
+  title: Free-Space to SMF Integration and Green-to-C-Band Conversion Based on PPLN for Remote Optical Sensing
+  presentation_type: oral
+  presentation_date: '2025-05-05'
+  presentation_end_date: null
+  conference: CLEO
+  conference_start: '2025-05-04'
+  conference_end: '2025-05-09'
+  location: Long Beach Convention Center, California, United States
+  url: null
+  note: null
+- id: int-2025-b2c55c35
+  scope: international
+  fiscal_year: 2025
+  authors:
+  - Yuya Maeda
+  - Kentaro Shibata
+  - Toshiki Kobayashi
+  - Makoto Yamashita
+  - Shuta Nakajima
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: The observation of antibunching of the fluorescence from a single atom in 87Rb atom array
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: The 14th Advanced Lasers and Photon Sources (ALPS
+  conference_start: '2025-04-21'
+  conference_end: '2025-04-25'
+  location: at PACIFICO Yokohama, Japan Poster (Student award
+  url: null
+  note: null
+- id: int-2024-ff47ab36
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Shoichi Murakami
+  - Toshiki Kobayashi
+  - Shigehito Miki
+  - Hirotaka Terai
+  - Tsuyoshi Kodama
+  - Tsuneaki Sawaya
+  - Akihito Otomo
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Demonstration of quantum frequency conversion in the singly resonant cavity
+  presentation_type: poster
+  presentation_date: '2024-10-22'
+  presentation_end_date: null
+  conference: Quantum Innovation 2024
+  conference_start: '2024-10-21'
+  conference_end: '2024-10-23'
+  location: sola city Conference Center, Tokyo, Japan
+  url: null
+  note: null
+- id: int-2024-5f675a43
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Yuya Maeda
+  - Kentaro Shibata
+  - Toshiki Kobayashi
+  - Makoto Yamashita
+  - Shuta Nakajima
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: Observation of anti-bunching of the fluorescence from single atom on atom array
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: Quantum Innovation 2024
+  conference_start: '2024-10-21'
+  conference_end: '2024-10-23'
+  location: sola city Conference Center4-6, Kandasurugadai, Chiyoda-ku, Tokyo, 101-006
+  url: null
+  note: null
+- id: int-2024-a85cf689
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Shunsuke Hiraoka
+  - Shoichi Murakami
+  - Toshiki Kobayashi
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Selective frequency conversion by optical frequency tweezers
+  presentation_type: poster
+  presentation_date: '2024-10-22'
+  presentation_end_date: null
+  conference: Quantum Innovation 2024
+  conference_start: '2024-10-21'
+  conference_end: '2024-10-23'
+  location: sola city Conference Center, Tokyo, Japan
+  url: null
+  note: null
+- id: int-2024-42d6a6f1
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Shoichi Murakami
+  - Toshiki Kobayashi
+  - Shigehito Miki
+  - Hirotaka Terai
+  - Tsuyoshi Kodama
+  - Tsuneaki Sawaya
+  - Akihito Otomo
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Quantum frequency conversion with cavity-enhanced converted mode
+  presentation_type: poster
+  presentation_date: '2024-09-12'
+  presentation_end_date: null
+  conference: Workshop for Quantum Repeaters and Networks 2024 (WQRN2024
+  conference_start: '2024-09-11'
+  conference_end: '2024-09-13'
+  location: the Hotel Eden Palace au Lac, Montreux, Switzerland
+  url: null
+  note: null
+- id: int-2024-738548c1
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Rikizo Ikuta
+  title: Multiplexed quantum network based on quantum frequency conversion
+  presentation_type: poster
+  presentation_date: '2024-09-12'
+  presentation_end_date: null
+  conference: Workshop for Quantum Repeaters and Networks 2024 (WQRN2024
+  conference_start: '2024-09-11'
+  conference_end: '2024-09-13'
+  location: the Hotel Eden Palace au Lac, Montreux, Switzerland
+  url: null
+  note: null
+- id: int-2024-41a67109
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Shoichi Murakami
+  - Toshiki Kobayashi
+  - Shigehito Miki
+  - Hirotaka Terai
+  - Tsuyoshi Kodama
+  - Tsuneaki Sawaya
+  - Akihiko Ohtomo
+  - Hideki Shimoi
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Quantum frequency conversion experiment with a PPLN waveguide resonator
+  presentation_type: poster
+  presentation_date: '2024-08-26'
+  presentation_end_date: null
+  conference: 24th Asian Quantum Information Science Conference (AQIS2024
+  conference_start: '2024-08-26'
+  conference_end: '2024-08-30'
+  location: Sapporo, Japan
+  url: null
+  note: null
+- id: int-2024-cd90932b
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Toshiki Kobayashi
+  - Yuya Maeda
+  - Kentaro Shibata
+  - Makoto Yamashita
+  - Shuta Nakajima
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: Characterizing single photon from an atom array
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: The 28th International Conference on Atomic Physics (ICAP2024
+  conference_start: '2024-07-14'
+  conference_end: '2024-07-19'
+  location: Imperial College, London, UK
+  url: null
+  note: null
+- id: int-2024-26753ad4
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Yuya Maeda
+  - Kentaro Shibata
+  - Toshiki Kobayashi
+  - Makoto Yamashita
+  - Shuta Nakajima
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: Characterizing single photon from an atom array via optical fiber
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: Young Atom Opticians Conference 2024
+  conference_start: '2024-06-30'
+  conference_end: '2024-07-05'
+  location: Institut de Science et d’Ingénierie Supramoléculaires, Strasbourg, France
+  url: null
+  note: null
+- id: int-2024-155d92b4
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Shinichi Takenaka
+  - Shoichi Murakami
+  - Toshiki Kobayashi
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Polarization-insensitive quantum frequency conversion module based on Mach-Zehnder interferometer
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: ALPS The 13th Advanced Lasers and Photon Sources Apr. 22(Mon.)-26(Fri.), 2024 Optics & Photonics International
+    Congress 2024 at PACIFICO Yokohama, Yokohama, Japan
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: int-2024-f7bee50c
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Shunsuke Hiraoka
+  - Shoichi Murakami
+  - Daiki Hara
+  - Toshiki Kobayashi
+  - Fumihiro China
+  - Shigehito Miki
+  - Hirotaka Terai
+  - Tsuyoshi Kodama
+  - Tsuneaki Sawaya
+  - Akihiko Ohtomo
+  - Hideki Shimoi
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: Polarization-entangled photon pair generation using tandem type-II QPM PPLN waveguide
+  presentation_type: poster
+  presentation_date: '2024-04-25'
+  presentation_end_date: null
+  conference: 13th Advanced Lasers and Photon Sources Conference (ALPS2024
+  conference_start: '2024-04-22'
+  conference_end: '2024-04-26'
+  location: Pacifico Yokohama, Yokohama, Japan
+  url: null
+  note: null
+- id: int-2024-22ab40f2
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Toshiki Kobayashi
+  - Tomoaki Arizono
+  - Riku Arao
+  - Shigehito Miki
+  - Fumihiro China
+  - Hirotaka Terai
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Channel selective quantum frequency conversion
+  presentation_type: oral
+  presentation_date: '2024-04-25'
+  presentation_end_date: null
+  conference: 13th Advanced Lasers and Photon Sources Conference (ALPS2024
+  conference_start: '2024-04-22'
+  conference_end: '2024-04-26'
+  location: Pacifico Yokohama, Yokohama, Japan
+  url: null
+  note: null
+- id: int-2024-45eb113a
+  scope: international
+  fiscal_year: 2024
+  authors:
+  - Shoichi Murakami
+  - Toshiki Kobayashi
+  - Shigehito Miki
+  - Fumihiro China
+  - Hirotaka Terai
+  - Takashi Yamamoto
+  - Rikizo Ikuta
+  title: Quantum frequency conversion by PPLN waveguide with resonant structure for the converted mode
+  presentation_type: oral
+  presentation_date: '2024-04-25'
+  presentation_end_date: null
+  conference: 13th Advanced Lasers and Photon Sources Conference (ALPS2024
+  conference_start: '2024-04-22'
+  conference_end: '2024-04-26'
+  location: Pacifico Yokohama, Yokohama, Japan
+  url: null
+  note: null
+- id: int-2023-83157240
+  scope: international
+  fiscal_year: 2023
+  authors:
+  - Toshiki Kobayashi
+  - Tomohiro Yamazaki
+  - Rintaro Fujimoto
+  - Shigehito Miki
+  - Fumihiro China
+  - Hirotaka Terai
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: Polarization-entangled biphoton frequency comb for DWDM technology
+  presentation_type: poster
+  presentation_date: '2023-11-16'
+  presentation_end_date: null
+  conference: Quantum Innovation 2023
+  conference_start: '2023-11-15'
+  conference_end: '2023-11-17'
+  location: Tokyo Convention Hall, Tokyo, Japan
+  url: null
+  note: null
+- id: int-2023-209c0784
+  scope: international
+  fiscal_year: 2023
+  authors:
+  - Rikizo Ikuta
+  title: Second-order duality of light and its nonclassical complementarity
+  presentation_type: poster
+  presentation_date: '2023-06-29'
+  presentation_end_date: null
+  conference: Cleo/Europe-EQEC
+  conference_start: '2023-06-26'
+  conference_end: '2023-06-30'
+  location: ICM center, Munich, Germany
+  url: null
+  note: null
+- id: int-2023-e034c9f4
+  scope: international
+  fiscal_year: 2023
+  authors:
+  - Toshiki Kobayashi
+  - Tomohiro Yamazaki
+  - Rintaro Fujimoto
+  - Shigehito Miki
+  - Fumihiro China
+  - Hirotaka Terai
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: DWDM-compatible entanglement distribution using a biphoton frequency comb
+  presentation_type: poster
+  presentation_date: '2023-06-29'
+  presentation_end_date: null
+  conference: Cleo/Europe-EQEC
+  conference_start: '2023-06-26'
+  conference_end: '2023-06-30'
+  location: ICM center, Munich, Germany
+  url: null
+  note: null
+- id: int-2023-23227ee0
+  scope: international
+  fiscal_year: 2023
+  authors:
+  - Rikizo Ikuta
+  - Masayo Yokota
+  - Toshiki Kobayashi
+  - Nobuyuki Imoto
+  - Takashi Yamamoto
+  title: Singly resonant frequency conversion for manipulation of a frequency-multiplexed single photon
+  presentation_type: oral
+  presentation_date: '2023-06-29'
+  presentation_end_date: null
+  conference: Cleo/Europe-EQEC
+  conference_start: '2023-06-26'
+  conference_end: '2023-06-30'
+  location: ICM center, Munich, Germany
+  url: null
+  note: null
+- id: int-2023-0012a13c
+  scope: international
+  fiscal_year: 2023
+  authors:
+  - Shoichi Murakami
+  - Shogo Hayashi
+  - Toshiki Kobayashi
+  - Fumihiro China
+  - Shigehito Miki
+  - Hirotaka Terai
+  - Tsuyoshi Kodama
+  - Tsuneaki Sawaya
+  - Akihiko Ohtomo
+  - Hideki Shimoi
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: Polarization-entangled photon pair generation with a tandem type-II quasi-phase-matched PPLN waveguide
+  presentation_type: oral
+  presentation_date: '2023-04-20'
+  presentation_end_date: null
+  conference: 12th Advanced Lasers and Photon Sources Conference (ALPS2023
+  conference_start: '2023-04-18'
+  conference_end: '2023-04-21'
+  location: Pacifico Yokohama, Yokohama, Japan
+  url: null
+  note: null
+- id: int-2023-2af7063e
+  scope: international
+  fiscal_year: 2023
+  authors:
+  - Rikizo Ikuta
+  - Tomohiro Yamazaki
+  - Rintaro Fujimoto
+  - Toshiki Kobayashi
+  - Shigehito Miki
+  - Fumihito China
+  - Hirotaka Terai
+  - Takashi Yamamoto
+  title: Frequency-multiplexed entanglement distribution with a massive-mode biphoton frequency comb generator
+  presentation_type: oral
+  presentation_date: '2023-04-19'
+  presentation_end_date: null
+  conference: 12th Advanced Lasers and Photon Sources Conference (ALPS2023
+  conference_start: '2023-04-18'
+  conference_end: '2023-04-21'
+  location: Pacifico Yokohama, Yokohama, Japan
+  url: null
+  note: null
+- id: int-2022-f9b60778
+  scope: international
+  fiscal_year: 2022
+  authors:
+  - Rikizo Ikuta
+  title: Application of PPLN Waveguide Resonators to Quantum Information Processing
+  presentation_type: invited
+  presentation_date: '2023-02-08'
+  presentation_end_date: null
+  conference: 12th Annual World Congress of Nano Science & Technology
+  conference_start: '2023-02-08'
+  conference_end: '2023-02-10'
+  location: Hotel emisia Sappro, Sapporo, Japan
+  url: null
+  note: null
+- id: int-2022-cd4409e3
+  scope: international
+  fiscal_year: 2022
+  authors:
+  - Rikizo Ikuta
+  title: Young Researcher Panel Session in Quantum Cryptography & Communication Track
+  presentation_type: invited
+  presentation_date: '2022-11-29'
+  presentation_end_date: null
+  conference: Quantum Innovation 2022
+  conference_start: '2022-11-28'
+  conference_end: '2022-11-30'
+  location: Riken (Online
+  url: https://quantum-innovation.riken.jp/
+  note: null
+- id: int-2022-00b09548
+  scope: international
+  fiscal_year: 2022
+  authors:
+  - Rikizo Ikuta
+  - Masayo Yokota
+  - Toshiki Kobayashi
+  - Nobuyuki Imoto
+  - Takashi Yamamoto
+  title: Optical frequency conversion using a resonator that is pre-resonated only to the desired converted frequency
+  presentation_type: oral
+  presentation_date: '2022-08-05'
+  presentation_end_date: null
+  conference: CLEO Pacific Rim 2022
+  conference_start: '2022-07-31'
+  conference_end: '2022-08-05'
+  location: Convention Center, Sapporo, Japan
+  url: https://www.cleopr2022.org/
+  note: null
+- id: int-2021-83fddf6f
+  scope: international
+  fiscal_year: 2021
+  authors:
+  - Rikizo Ikuta
+  title: Towards an optical-fiber-based quantum internet
+  presentation_type: invited
+  presentation_date: '2022-03-09'
+  presentation_end_date: null
+  conference: Symposium on Quantum Sciences – Osaka University & Universität Hamburg
+  conference_start: '2022-03-08'
+  conference_end: '2022-03-10'
+  location: Online
+  url: https://indico.rcnp.osaka-u.ac.jp/event/1838/
+  note: null
+- id: int-2020-28c79d11
+  scope: international
+  fiscal_year: 2020
+  authors:
+  - Rikizo Ikuta
+  - Ryoya Tani
+  - Masahiro Ishizaki
+  - Shigehito Miki
+  - Masahiro Yabuno
+  - Hirotaka Terai
+  - Nobuyuki Imoto
+  - Takashi Yamamoto
+  title: 1000-mode frequency multiplexed singly-resonant photon pairs
+  presentation_type: oral
+  presentation_date: '2020-08-05'
+  presentation_end_date: null
+  conference: CLEO Pacific Rim 2020
+  conference_start: '2020-08-03'
+  conference_end: '2020-08-05'
+  location: a virtual conference
+  url: https://www.cleopr2020.org/
+  note: null
+- id: int-2019-ac0b906a
+  scope: international
+  fiscal_year: 2019
+  authors:
+  - Tomohiro Yamazaki
+  - Rikizo Ikuta
+  - Toshiki Kobayashi
+  - Shigehito Miki
+  - Masahiro Yabuno
+  - Hirotaka Terai
+  - Nobuyuki Imoto
+  - Takashi Yamamoto
+  title: Frequency Multiplexing of Polarization-Entangled Photon Pairs without External Filtering
+  presentation_type: oral
+  presentation_date: '2019-11-28'
+  presentation_end_date: null
+  conference: International Symposium for Nano Science(ISNS2019
+  conference_start: '2019-11-27'
+  conference_end: '2019-11-28'
+  location: Sigma Hall, Osaka Univ., Japan
+  url: https://www.msc.osaka-u.ac.jp/isns/
+  note: null
+- id: int-2019-bc221133
+  scope: international
+  fiscal_year: 2019
+  authors:
+  - Tomohiro Yamazaki
+  - Rikizo Ikuta
+  - Toshiki Kobayashi
+  - Shigehito Miki
+  - Masahiro Yabuno
+  - Hirotaka Terai
+  - Nobuyuki Imoto
+  - Takashi Yamamoto
+  title: Frequency-multiplexed polarization-entangled photon pairs generated by cavity-enhanced spontaneous parametric down-conversion
+  presentation_type: poster
+  presentation_date: '2019-11-19'
+  presentation_end_date: null
+  conference: International School and Symposium on Nanoscale Transport and phoTonics 2019(ISNTT2019
+  conference_start: '2019-11-18'
+  conference_end: '2019-11-22'
+  location: NTT Atsugi R&D Center, Japan
+  url: http://www.brl.ntt.co.jp/event/isntt2019/index.html
+  note: null
+- id: int-2019-7e10639c
+  scope: international
+  fiscal_year: 2019
+  authors:
+  - Rikizo Ikuta
+  - Yasushi Hasegawa
+  - Nobuyuki Matsuda
+  - Kiyoshi Tamaki
+  - Hoi-Kwong Lo
+  - Takashi Yamamoto
+  - Koji Azuma
+  - Nobuyuki Imoto
+  title: Experimental time-reversed adaptive Bell measurement towards all-photonic quantum repeaters
+  presentation_type: poster
+  presentation_date: '2019-08-28'
+  presentation_end_date: null
+  conference: 9th International Conference on Quantum Cryptography (QCrypt 2019
+  conference_start: '2019-08-26'
+  conference_end: '2019-08-30'
+  location: UQAM Coeur des Sciences Conference Centre, Montreal, Canada
+  url: http://2019.qcrypt.net/
+  note: null
+- id: int-2019-7e10639c
+  scope: international
+  fiscal_year: 2019
+  authors:
+  - Rikizo Ikuta
+  - Yasushi Hasegawa
+  - Nobuyuki Matsuda
+  - Kiyoshi Tamaki
+  - Hoi-Kwong Lo
+  - Takashi Yamamoto
+  - Koji Azuma
+  - Nobuyuki Imoto
+  title: Experimental time-reversed adaptive Bell measurement towards all-photonic quantum repeaters
+  presentation_type: oral
+  presentation_date: '2019-08-23'
+  presentation_end_date: null
+  conference: 19th Asian Quantum Information Science Conference (AQIS 2019
+  conference_start: '2019-08-19'
+  conference_end: '2019-08-23'
+  location: Korea Institute for Advanced Study, Seoul, Korea
+  url: http://aqis-conf.org/2019/
+  note: null
+- id: int-2019-446d2a6d
+  scope: international
+  fiscal_year: 2019
+  authors:
+  - Toshiki Kobayashi
+  - Rikizo Ikuta
+  - Tetsuo Kawakami
+  - Shigehito Miki
+  - Masahiro Yabuno
+  - Taro Yamashita
+  - Hirotaka Terai
+  - Masato Koashi
+  - Tetsuya Mukai
+  - Takashi Yamamoto
+  - Nobuyuki Imoto
+  title: Polarization insensitive frequency conversion for a fiber-optic communication of an atom-photon entanglement
+  presentation_type: oral
+  presentation_date: '2019-08-20'
+  presentation_end_date: null
+  conference: 19th Asian Quantum Information Science Conference (AQIS 2019
+  conference_start: '2019-08-19'
+  conference_end: '2019-08-23'
+  location: Korea Institute for Advanced Study, Seoul, Korea
+  url: http://aqis-conf.org/2019/
+  note: null
+- id: int-2019-4c170e73
+  scope: international
+  fiscal_year: 2019
+  authors:
+  - Rikizo Ikuta
+  - Ryoya Tani
+  - Masahiro Ishizaki
+  - Shigehito Miki
+  - Masahiro Yabuno
+  - Hirotaka Terai
+  - Nobuyuki Imoto
+  - Takashi Yamamoto
+  title: Frequency-multiplexed singly-resonant photon pairs from quadratic nonlinear optical waveguide resonator
+  presentation_type: poster
+  presentation_date: '2019-06-27'
+  presentation_end_date: null
+  conference: Cleo/Europe-EQEC
+  conference_start: '2019-06-23'
+  conference_end: '2019-06-27'
+  location: ICM center, Munich, Germany
+  url: null
+  note: null
+- id: int-2018-18369c47
+  scope: international
+  fiscal_year: 2018
+  authors:
+  - Rikizo Ikuta
+  - Motoki Asano
+  - Ryoya Tani
+  - Takashi Yamamoto
+  - Nobuyuki Imoto
+  title: Frequency comb generation in a quadratic nonlinear waveguide resonator
+  presentation_type: oral
+  presentation_date: '2019-02-05'
+  presentation_end_date: null
+  conference: SPIE Photonic West
+  conference_start: '2019-02-02'
+  conference_end: '2019-02-07'
+  location: The Moscone Center, San Francisco, California, United States
+  url: null
+  note: null
+- id: int-2018-6c45c91d
+  scope: international
+  fiscal_year: 2018
+  authors:
+  - Rikizo Ikuta
+  - Motoki Asano
+  - Ryoya Tani
+  - Takashi Yamamoto
+  - Nobuyuki Imoto
+  title: Frequency comb generation by a PPLN waveguide resonator
+  presentation_type: poster
+  presentation_date: '2019-01-08'
+  presentation_end_date: null
+  conference: International Workshop on Hybrid Quantum Systems, 8th January 2019, OIST, Okinawa, Japan
+  conference_start: null
+  conference_end: null
+  location: null
+  url: https://groups.oist.jp/hybridqs/event/international-workshop-hybrid-quantum-systems
+  note: null
+- id: int-2018-c0ea55bb
+  scope: international
+  fiscal_year: 2018
+  authors:
+  - Rikizo Ikuta
+  - Toshiki Kobayashi
+  - Tetsuo Kawakami
+  - Shigehito Miki
+  - Masahiro Yabuno
+  - Taro Yamashita
+  - Hirotaka Terai
+  - Masato Koashi
+  - Tetsuya Mukai
+  - Takashi Yamamoto
+  - Nobuyuki Imoto
+  title: Polarization insensitive frequency conversion for an atom-photon entanglement distribution via a telecom network
+  presentation_type: poster
+  presentation_date: '2018-09-19'
+  presentation_end_date: null
+  conference: Hybrid Approaches to Quantum-Information Processing
+  conference_start: '2018-09-18'
+  conference_end: '2018-09-19'
+  location: Royal Danish Academy of Sciences and Letters, Copenhagen, Denmark
+  url: null
+  note: null
+- id: int-2018-175b2b74
+  scope: international
+  fiscal_year: 2018
+  authors:
+  - Thomas Walker
+  - Koichiro Miyanishi
+  - Rikizo Ikuta
+  - Hiroki Takahashi
+  - Samir Vartabi Kashanian
+  - Yoshiaki Tsujimoto
+  - Kazuhiro Hayasaka
+  - Takashi Yamamoto
+  - Nobuyuki Imoto
+  - Matthias Keller
+  title: Long-distance single photon transmission from a trapped ion via quantum frequency conversion
+  presentation_type: oral
+  presentation_date: '2018-09-07'
+  presentation_end_date: null
+  conference: QTech2018 (Quantum Technology International Conference 2018
+  conference_start: '2018-09-05'
+  conference_end: '2018-09-07'
+  location: Ecole Normale Supérieure Ulm, Paris, France
+  url: null
+  note: null
+- id: int-2017-a165b0f4
+  scope: international
+  fiscal_year: 2017
+  authors:
+  - K. Miyanishi
+  - T. Tsujimoto
+  - R. Ikuta
+  - T. Yamamoto
+  - N. Imoto
+  title: Faithful distribution of polarization entangled photon-pairs at telecom wavelength through optical fiber
+  presentation_type: poster
+  presentation_date: '2017-06-08'
+  presentation_end_date: null
+  conference: Interdisciplinary Symposium for Up-and-coming Material Scientists 2017 (ISUMS 2017
+  conference_start: '2017-06-08'
+  conference_end: '2017-06-09'
+  location: presented on 8 June), Osaka University Hall, Osaka, Japan
+  url: null
+  note: null
+- id: int-2016-14d09892
+  scope: international
+  fiscal_year: 2016
+  authors:
+  - A. Mizutani
+  - Y. Nagamatsu
+  - M. Curty
+  - H.-K. Lo
+  - K. Azuma
+  - R. Ikuta
+  - T. Yamamoto
+  - N. Imoto
+  - K. Tamaki
+  title: Towards Secure QKD with Testable Assumptions on Modulation Devices
+  presentation_type: oral
+  presentation_date: '2016-09-12'
+  presentation_end_date: null
+  conference: 6th International Conference on Quantum Cryptography (QCrypt2016
+  conference_start: '2016-09-12'
+  conference_end: '2016-09-16'
+  location: Carnegie Institution for Science, Washington DC, USA
+  url: null
+  note: null
+- id: int-2016-a7fbadb8
+  scope: international
+  fiscal_year: 2016
+  authors:
+  - Kentaro Waki
+  - Taro Yamashita
+  - Shin-ichiro Inoue
+  - Shigehito Miki
+  - Hirotaka Terai
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  - Nobuyuki Imoto
+  title: Waveguide-coupled NbTiN SSPD toward on-chip quantum waveguide circuit
+  presentation_type: oral
+  presentation_date: '2016-09-09'
+  presentation_end_date: null
+  conference: Applied Superconductivity Conference 2016 (ASC2016
+  conference_start: '2016-09-04'
+  conference_end: '2016-09-09'
+  location: Colorado Convention Center, Denver, USA
+  url: null
+  note: null
+- id: int-2016-010e2423
+  scope: international
+  fiscal_year: 2016
+  authors:
+  - T. Kobayashi
+  - R. Ikuta
+  - S. Yasui
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - T. Yamamoto
+  - M. Koashi
+  - N. Imoto
+  title: Observation of frequency-domain Hong-Ou-Mandel interference
+  presentation_type: oral
+  presentation_date: '2016-08-29'
+  presentation_end_date: null
+  conference: 16th Asian Quantum Information Science Conference (AQIS’16
+  conference_start: '2016-08-28'
+  conference_end: '2016-09-02'
+  location: Academia Sinica, Taipei, Taiwan
+  url: null
+  note: null
+- id: int-2016-bb634e26
+  scope: international
+  fiscal_year: 2016
+  authors:
+  - Yoshiaki Tsujimoto
+  - Motoki Tanaka
+  - Yukihiro Sugiura
+  - Rikizo Ikuta
+  - Shigehito Miki
+  - Taro Yamashita
+  - Hirotaka Terai
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: High fidelity entanglement swapping via a time-resolved coincidence measurement
+  presentation_type: poster
+  presentation_date: '2016-07-05'
+  presentation_end_date: null
+  conference: 13th International Conference on Quantum Communication, Measurement, and Computing (QCMC 2016
+  conference_start: '2016-07-04'
+  conference_end: '2016-07-08'
+  location: National University of Singapore, Singapore
+  url: null
+  note: null
+- id: int-2016-85af29c9
+  scope: international
+  fiscal_year: 2016
+  authors:
+  - R. Ikuta
+  - T. Kobayashi
+  - K. Matsuki
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - T. Yamamoto
+  - M. Koashi
+  - T. Mukai
+  - N. Imoto
+  title: Wavelength Conversion of non-classical light from rubidium atoms to the telecom band
+  presentation_type: poster
+  presentation_date: '2016-07-05'
+  presentation_end_date: null
+  conference: 13th International Conference on Quantum Communication, Measurement, and Computing (QCMC 2016
+  conference_start: '2016-07-04'
+  conference_end: '2016-07-08'
+  location: National University of Singapore, Singapore
+  url: null
+  note: null
+- id: int-2016-b4e4f075
+  scope: international
+  fiscal_year: 2016
+  authors:
+  - T. Kobayashi
+  - R. Ikuta
+  - S. Yasui
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - T. Yamamoto
+  - M. Koashi
+  - N. Imoto
+  title: Experimental demonstration of frequency-domain Hong-Ou-Mandel interference
+  presentation_type: poster
+  presentation_date: '2016-07-04'
+  presentation_end_date: null
+  conference: 13th International Conference on Quantum Communication, Measurement, and Computing (QCMC 2016
+  conference_start: '2016-07-04'
+  conference_end: '2016-07-08'
+  location: National University of Singapore, Singapore
+  url: null
+  note: null
+- id: int-2015-4c5e448d
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - M. Asano
+  - Y. Takeuchi
+  - S. K. Ozdemir
+  - R. Ikuta
+  - N. Imoto
+  - L. Yang
+  - T. Yamamoto
+  title: Cavity-enhanced stimulated Brillouin scattering in a whispering-gallery-mode bottle resonator
+  presentation_type: poster
+  presentation_date: '2015-12-02'
+  presentation_end_date: null
+  conference: The 4th International Workshop on Microcavities and Their Applications (WOMA2015
+  conference_start: '2015-12-01'
+  conference_end: '2015-12-04'
+  location: Hokkaido University, Hokkaido, Japan
+  url: null
+  note: null
+- id: int-2015-9a57f5c6
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - M. Asano
+  - Y. Takeuchi
+  - W. Chen
+  - S. K. Ozdemir
+  - R. Ikuta
+  - N. Imoto
+  - L. Yang
+  - T. Yamamoto
+  title: Cavity optomechanics in a whispering-gallery-mode bottle resonator
+  presentation_type: poster
+  presentation_date: '2015-11-18'
+  presentation_end_date: null
+  conference: The 2nd International Symposium on INTERACTIVE MATERIALS SCIENCE CADET PROGRAM (iSIMSC-2
+  conference_start: '2015-11-18'
+  conference_end: '2015-11-19'
+  location: Senri Hankyu Hotel, Osaka, Japan
+  url: null
+  note: null
+- id: int-2015-7527b7b1
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - Y. Takeuchi
+  - M. Asano
+  - S. Komori
+  - S. K. Ozdemir
+  - R. Ikuta
+  - T. Yamamoto
+  - L. Yang
+  - N. Imoto
+  title: Optical vortex emission from a half-bottle microstructure
+  presentation_type: poster
+  presentation_date: '2015-11-18'
+  presentation_end_date: null
+  conference: The 2nd International Symposium on INTERACTIVE MATERIALS SCIENCE CADET PROGRAM (iSIMSC-2
+  conference_start: '2015-11-18'
+  conference_end: '2015-11-19'
+  location: Senri Hankyu Hotel, Osaka, Japan
+  url: null
+  note: null
+- id: int-2015-1d355937
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - Y. Takeuchi
+  - K. Fujii
+  - R. Ikuta
+  - T. Yamamoto
+  - N. Imoto
+  title: Blind Quantum Computation over a collective-noise quantum channel
+  presentation_type: oral
+  presentation_date: '2015-10-05'
+  presentation_end_date: null
+  conference: Workshop on secure quantum computing 2, 5 October 2015, University of Tokyo (Hongo Campus), Tokyo, Japan
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: int-2015-2d7a6b17
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - Yuichi Nagamatsu
+  - Akihiro Mizutani
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  - Nobuyuki Imoto
+  - Kiyoshi Tamaki
+  title: Security of quantum key distribution with non I.I.D. light sources
+  presentation_type: poster
+  presentation_date: '2015-09-29'
+  presentation_end_date: null
+  conference: 5th International Conference on Quantum Cryptography (QCrypt2015
+  conference_start: '2015-09-28'
+  conference_end: '2015-10-02'
+  location: Hitotsubashi Hall, Tokyo, Japan
+  url: null
+  note: null
+- id: int-2015-88b74b2d
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - Y. Takeuchi
+  - K. Fujii
+  - R. Ikuta
+  - T. Yamamoto
+  - N. Imoto
+  title: Blind Quantum Computation against collective noise
+  presentation_type: poster
+  presentation_date: '2015-09-29'
+  presentation_end_date: null
+  conference: 5th International Conference on Quantum Cryptography (QCrypt2015
+  conference_start: '2015-09-28'
+  conference_end: '2015-10-02'
+  location: Hitotsubashi Hall, Tokyo, Japan
+  url: null
+  note: null
+- id: int-2015-b6b9fd27
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - K. Waki
+  - T. Yamashita
+  - S. Inoue
+  - S. Miki
+  - H. Terai
+  - R. Ikuta
+  - T. Yamamoto
+  - N. Imoto
+  title: Characterization of NbTiN-Based Superconducting Nanowire Single-Photon Detectors on Si Waveguide
+  presentation_type: poster
+  presentation_date: '2015-07-06'
+  presentation_end_date: null
+  conference: 15th International Superconductive Electronics Conference (ISEC2015
+  conference_start: '2015-07-06'
+  conference_end: '2015-07-09'
+  location: Nagoya University and Nogakudo, Nagoya, Japan
+  url: null
+  note: null
+- id: int-2015-6737b10f
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - T. Kobayashi
+  - R. Ikuta
+  - S. Yasui
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - T. Yamamoto
+  - M. Sasaki
+  - Z. Wang
+  - M. Koashi
+  - N. Imoto
+  title: Observation of Hong-Ou-Mandel interference by using a frequency-domain beamsplitter
+  presentation_type: poster
+  presentation_date: '2015-06-25'
+  presentation_end_date: null
+  conference: CLEO/Europe-EQEC 2015
+  conference_start: '2015-06-21'
+  conference_end: '2015-06-25'
+  location: International Congress Centre (ICM), Munich, Germany
+  url: null
+  note: null
+- id: int-2015-3b713c83
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - Y. Takeuchi
+  - M. Asano
+  - S. K. Ozdemir
+  - R. Ikuta
+  - T. Yamamoto
+  - L. Yang
+  - N. Imoto
+  title: Controlling the group velocities of light pulses in a fiber-coupled bottle microresonator
+  presentation_type: oral
+  presentation_date: '2015-05-28'
+  presentation_end_date: null
+  conference: 'Workshop on Optical Nanofiber Applications: From Quantum to Bio Technologies (ONNA 2015'
+  conference_start: '2015-05-25'
+  conference_end: '2015-05-28'
+  location: OIST Seaside House, Okinawa, Japan
+  url: null
+  note: null
+- id: int-2015-6b64d290
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - Y. Tsujimoto
+  - Y. Sugiura
+  - M. Ando
+  - D. Katsuse
+  - R. Ikuta
+  - T. Yamamoto
+  - M. Koashi
+  - N. Imoto
+  title: Extracting an entangled photon pair from collectively decohered pairs at a telecommunication wavelength
+  presentation_type: oral
+  presentation_date: '2015-05-20'
+  presentation_end_date: null
+  conference: The 2nd International Engineering Science Consortium meeting (IESC
+  conference_start: '2015-05-19'
+  conference_end: '2015-05-20'
+  location: National University of Singapore, Singapore
+  url: null
+  note: null
+- id: int-2015-b5304097
+  scope: international
+  fiscal_year: 2015
+  authors:
+  - M. Bechu
+  - M. Asano
+  - M. Tame
+  - S. K. Ozdemir
+  - R. Ikuta
+  - T. Yamamoto
+  - D. O. Guney
+  - L. Yang
+  - M. Wegener
+  - N. Imoto
+  title: Quantum Entanglement Distillation Using an Optical Metamaterial
+  presentation_type: oral
+  presentation_date: '2015-05-12'
+  presentation_end_date: null
+  conference: CLEO:2015
+  conference_start: '2015-05-10'
+  conference_end: '2015-05-15'
+  location: San Jose Convention Center, San Jose, CA, USA
+  url: null
+  note: null
+- id: int-2014-c6105d4c
+  scope: international
+  fiscal_year: 2014
+  authors:
+  - Y. Tsujimoto
+  - Y. Sugiura
+  - M. Tanaka
+  - R. Ikuta
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - T. Yamamoto
+  - M. Koashi
+  - M. Sasaki
+  - Z. Wang
+  - N. Imoto
+  title: Observation of a high visibility Hong-Ou-Mandel interference via a time-resolved coincidence measurement
+  presentation_type: poster
+  presentation_date: '2014-11-17'
+  presentation_end_date: '2014-11-18'
+  conference: The 1st international symposium on interactive materials science cadet program (iSIMSC
+  conference_start: '2014-11-16'
+  conference_end: '2014-11-19'
+  location: Hotel Hankyu Expo Park, Osaka, Japan
+  url: null
+  note: null
+- id: int-2014-c2ee55b5
+  scope: international
+  fiscal_year: 2014
+  authors:
+  - Y. Takeuchi
+  - M. Asano
+  - S. K. Ozdemir
+  - R. Ikuta
+  - T. Yamamoto
+  - L. Yang
+  - N. Imoto
+  title: Observation of Slow and Fast Light in a Bottle Microresonator
+  presentation_type: poster
+  presentation_date: '2014-11-17'
+  presentation_end_date: '2014-11-18'
+  conference: The 1st international symposium on interactive materials science cadet program (iSIMSC
+  conference_start: '2014-11-16'
+  conference_end: '2014-11-19'
+  location: Hotel Hankyu Expo Park, Osaka, Japan
+  url: null
+  note: null
+- id: int-2014-b1f34ffa
+  scope: international
+  fiscal_year: 2014
+  authors:
+  - M. Asano
+  - M. Bechu
+  - M. Tame
+  - D. O. Guney
+  - S. K. Ozdemir
+  - R. Ikuta
+  - T. Yamamoto
+  - L. Yang
+  - M. Wegener
+  - N. Imoto
+  title: Demonstration of Entanglement Distillation with Photonic Metamaterial
+  presentation_type: poster
+  presentation_date: '2014-11-17'
+  presentation_end_date: '2014-11-18'
+  conference: The 1st international symposium on interactive materials science cadet program (iSIMSC
+  conference_start: '2014-11-16'
+  conference_end: '2014-11-19'
+  location: Hotel Hankyu Expo Park, Osaka, Japan
+  url: null
+  note: null
+- id: int-2014-9fc9e439
+  scope: international
+  fiscal_year: 2014
+  authors:
+  - M. Asano
+  - M. Bechu
+  - M. Tame
+  - D. O. Guney
+  - S. K. Ozdemir
+  - R. Ikuta
+  - T. Yamamoto
+  - L. Yang
+  - M. Wegener
+  - N. Imoto
+  title: Entanglement Distillation with Photonic Metamaterial
+  presentation_type: poster
+  presentation_date: '2014-11-04'
+  presentation_end_date: null
+  conference: 12th International Conference on Quantum Communication, Measurement, and Computing (QCMC 2014
+  conference_start: '2014-11-01'
+  conference_end: '2014-11-09'
+  location: University of Science and Technology of China, Hefei, China
+  url: null
+  note: null
+- id: int-2014-0f5f3d31
+  scope: international
+  fiscal_year: 2014
+  authors:
+  - Y. Tsujimoto
+  - Y. Sugiura
+  - M. Ando
+  - D. Katsuse
+  - R. Ikuta
+  - T. Yamamoto
+  - M. Koashi
+  - N. Imoto
+  title: Experimental extraction of an entangled photon pair at a telecom wavelength
+  presentation_type: poster
+  presentation_date: '2014-08-25'
+  presentation_end_date: '2014-08-26'
+  conference: Physics of Quantum Information Processing (Satellite workshop at Osaka University of AQIS 2014 (Kyoto
+  conference_start: '2014-08-25'
+  conference_end: '2014-08-26'
+  location: Sigma Hall (Engineering Science Int. Bldg.), Osaka University, Japan
+  url: null
+  note: null
+- id: int-2014-4034a7ad
+  scope: international
+  fiscal_year: 2014
+  authors:
+  - T. Kobayashi
+  - S. Yasui
+  - R. Ikuta
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - T. Yamamoto
+  - M. Koashi
+  - M. Sasaki
+  - Z. Wang
+  - N. Imoto
+  title: Observation of Hong-Ou-Mandel interference by using a frequency-domain beamsplitter
+  presentation_type: poster
+  presentation_date: '2014-08-25'
+  presentation_end_date: '2014-08-26'
+  conference: Physics of Quantum Information Processing (Satellite workshop at Osaka University of AQIS 2014 (Kyoto
+  conference_start: '2014-08-25'
+  conference_end: '2014-08-26'
+  location: Sigma Hall (Engineering Science Int. Bldg.), Osaka University, Japan
+  url: null
+  note: null
+- id: int-2014-32e5fd63
+  scope: international
+  fiscal_year: 2014
+  authors:
+  - K. Waki
+  - T. Yamashita
+  - S. Inoue
+  - S. Miki
+  - H. Terai
+  - R. Ikuta
+  - T. Yamamoto
+  - N. Imoto
+  title: Fabrication and characterization of waveguide-coupled superconducting nanowire single-photon detectors on silicon-on-insulator
+    substrates
+  presentation_type: poster
+  presentation_date: '2014-08-25'
+  presentation_end_date: '2014-08-26'
+  conference: Physics of Quantum Information Processing (Satellite workshop at Osaka University of AQIS 2014 (Kyoto
+  conference_start: '2014-08-25'
+  conference_end: '2014-08-26'
+  location: Sigma Hall (Engineering Science Int. Bldg.), Osaka University, Japan
+  url: null
+  note: null
+- id: int-2014-2b568c2d
+  scope: international
+  fiscal_year: 2014
+  authors:
+  - A. Mizutani
+  - K. Tamaki
+  - R. Ikuta
+  - T. Yamamoto
+  - N. Imoto
+  title: Measurement-device-independent quantum key distribution for Scarani-Acin-Ribordy-Gisin 04 protocol
+  presentation_type: poster
+  presentation_date: '2014-08-21'
+  presentation_end_date: null
+  conference: 14th Asian Quantum Information Science Conference (AQIS 2014
+  conference_start: '2014-08-20'
+  conference_end: '2014-08-24'
+  location: Shirankaikan, Kyoto, Japan
+  url: null
+  note: null
+- id: int-2014-32e5fd63
+  scope: international
+  fiscal_year: 2014
+  authors:
+  - K. Waki
+  - T. Yamashita
+  - S. Inoue
+  - S. Miki
+  - H. Terai
+  - R. Ikuta
+  - T. Yamamoto
+  - N. Imoto
+  title: Fabrication and characterization of waveguide-coupled superconducting nanowire single-photon detectors on silicon-on-insulator
+    substrates
+  presentation_type: poster
+  presentation_date: '2014-08-14'
+  presentation_end_date: null
+  conference: Applied Superconductivity Conference 2014 (ASC2014
+  conference_start: '2014-08-10'
+  conference_end: '2014-08-15'
+  location: Charlotte Convention Center, Charlotte, NC, USA
+  url: null
+  note: null
+- id: int-2013-edecce6f
+  scope: international
+  fiscal_year: 2013
+  authors:
+  - R. Ikuta
+  - T. Kobayashi
+  - H. Kato
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - T. Yamamoto
+  - M. Koashi
+  - M. Sasaki
+  - Z. Wang
+  - N. Imoto
+  title: The HOM interference between independent telecom light pulses frequency-down-converted by difference-frequency generation
+  presentation_type: oral
+  presentation_date: '2013-08-29'
+  presentation_end_date: null
+  conference: 13th Asian Quantum Information Science Conference (AQIS 2013
+  conference_start: '2013-08-25'
+  conference_end: '2013-08-30'
+  location: The Institute of Mathematical Sciences Taramani, Chennai
+  url: null
+  note: null
+- id: int-2013-8822b456
+  scope: international
+  fiscal_year: 2013
+  authors:
+  - M. Asano
+  - S. K. Ozdemir
+  - R. Ikuta
+  - T. Yamamoto
+  - N. Imoto
+  - L. Yang
+  title: Observation of slow and fast light in a whispering gallery mode microtoroid resonator
+  presentation_type: poster
+  presentation_date: '2013-07-18'
+  presentation_end_date: null
+  conference: The 12th Asia Pacific Physics Conference (APPC12
+  conference_start: '2013-07-14'
+  conference_end: '2013-07-19'
+  location: International Conference Hall, Makuhari Messe, Chiba, Japan
+  url: null
+  note: null
+- id: int-2013-f9444b82
+  scope: international
+  fiscal_year: 2013
+  authors:
+  - T. Kobayashi
+  - R. Ikuta
+  - H. Kato
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - T. Yamamoto
+  - M. Koashi
+  - M. Sasaki
+  - Z. Wang
+  - N. Imoto
+  title: Non-classical interference between two telecom light pulses converted by difference-frequency generation
+  presentation_type: poster
+  presentation_date: '2013-07-08'
+  presentation_end_date: null
+  conference: The International Workshop on New Science and Technologies using Entangled Photons (NSTEP
+  conference_start: '2013-07-08'
+  conference_end: '2013-07-09'
+  location: Osaka University, Japan
+  url: null
+  note: null
+- id: int-2013-3de73110
+  scope: international
+  fiscal_year: 2013
+  authors:
+  - Y. Tsujimoto
+  - D. Katsuse
+  - M. Ando
+  - R. Ikuta
+  - T. Yamamoto
+  - M. Koashi
+  - N. Imoto
+  title: Experimental extraction of entangled photon pair at a telecom wavelength
+  presentation_type: poster
+  presentation_date: '2013-07-08'
+  presentation_end_date: null
+  conference: The International Workshop on New Science and Technologies using Entangled Photons (NSTEP
+  conference_start: '2013-07-08'
+  conference_end: '2013-07-09'
+  location: Osaka University, Japan
+  url: null
+  note: null
+- id: int-2013-b3d29b4f
+  scope: international
+  fiscal_year: 2013
+  authors:
+  - R. Ikuta
+  - T. Kobayashi
+  - H. Kato
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - T. Yamamoto
+  - M. Koashi
+  - M. Sasaki
+  - Z. Wang
+  - N. Imoto
+  title: Observation of converted and unconverted lights preserving phase information via difference frequency generation
+    by using coherent light pulse at a single photon level
+  presentation_type: poster
+  presentation_date: '2013-07-08'
+  presentation_end_date: null
+  conference: The International Workshop on New Science and Technologies using Entangled Photons (NSTEP
+  conference_start: '2013-07-08'
+  conference_end: '2013-07-09'
+  location: Osaka University, Japan
+  url: null
+  note: null
+- id: int-2013-b0239dd0
+  scope: international
+  fiscal_year: 2013
+  authors:
+  - T. Kobayashi
+  - R. Ikuta
+  - H. Kato
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - T. Yamamoto
+  - M. Koashi
+  - M. Sasaki
+  - Z. Wang
+  - N. Imoto
+  title: Non-classical Interference Between Two Telecom Photons with Wavelength Conversion
+  presentation_type: oral
+  presentation_date: '2013-07-04'
+  presentation_end_date: null
+  conference: The 10th Conference on Lasers and Electro-Optics Pacific Rim, and The 18th OptoElectronics and Communications
+    Conference / Photonics in Switching 2013
+  conference_start: '2013-06-30'
+  conference_end: '2013-07-04'
+  location: Kyoto International Conference Center, Kyoto, Japan
+  url: null
+  note: null
+- id: int-2013-1d6bb0b8
+  scope: international
+  fiscal_year: 2013
+  authors:
+  - T. Yamamoto
+  - R. Ikuta
+  - T. Kobayashi
+  - H. Kato
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - M. Koashi
+  - M. Sasaki
+  - Z. Wang
+  - N. Imoto
+  title: A photonic quantum interface for an optical fiber based quantum communication
+  presentation_type: oral
+  presentation_date: '2013-06-17'
+  presentation_end_date: null
+  conference: 20th Central European Workshop on Quantum Optics
+  conference_start: '2013-06-16'
+  conference_end: '2013-06-20'
+  location: KTH, Stockholm, Sweden
+  url: null
+  note: null
+- id: int-2013-d1c0e1df
+  scope: international
+  fiscal_year: 2013
+  authors:
+  - R. Ikuta
+  title: Non-classical two-photon interference between telecom light pulses converted by difference-frequency generation
+  presentation_type: poster
+  presentation_date: '2013-04-06'
+  presentation_end_date: '2013-04-09'
+  conference: The 11th US-Japan Joint Seminar on Quantum Electronics and Laser Spectroscopy “Ultimate Quantum Systems of Light
+    and Matter- Control and Applications”
+  conference_start: '2013-04-04'
+  conference_end: '2013-04-12'
+  location: Nara Prefectural New Public Hall, Japan
+  url: null
+  note: null
+- id: int-2012-d220d383
+  scope: international
+  fiscal_year: 2012
+  authors:
+  - T. Yamamoto
+  - R. Ikuta
+  - M. Koashi
+  - N. Imoto
+  title: A Photonic Quantum Interface for Visible-to-Telecommunication Wavelength Conversion
+  presentation_type: invited
+  presentation_date: '2012-09-26'
+  presentation_end_date: null
+  conference: IEEE PHOTONICS CONFERENCE 2012
+  conference_start: '2012-09-23'
+  conference_end: '2012-09-27'
+  location: Hyatt Regency San Francisco Airport, USA
+  url: null
+  note: null
+- id: int-2012-47f00da5
+  scope: international
+  fiscal_year: 2012
+  authors:
+  - R. Ikuta
+  - H. Kato
+  - Y. Kusaka
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - T. Yamamoto
+  - M. Koashi
+  - M. Sasaki
+  - Z. Wang
+  - N. Imoto
+  title: High-fidelity frequency down-conversion of visible entangled photon pairs with superconducting single-photon detectors
+  presentation_type: poster
+  presentation_date: '2012-07-31'
+  presentation_end_date: null
+  conference: 11th International Conference on Quantum Communication, Measurement, and Computing (QCMC 2012
+  conference_start: '2012-07-30'
+  conference_end: '2012-08-03'
+  location: Vienna University of Technology, Vienna, Austria
+  url: null
+  note: null
+- id: int-2011-6e2994a7
+  scope: international
+  fiscal_year: 2011
+  authors:
+  - Rikizo Ikuta
+  - Yoshiaki Kusaka
+  - Tsuyoshi Kitano
+  - Hiroshi Kato
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: Wide-band quantum interface for visible-to-telecommunication wavelength conversion
+  presentation_type: oral
+  presentation_date: '2011-08-27'
+  presentation_end_date: null
+  conference: 11th Asian Quantum Information Science Conference (AQIS 2011
+  conference_start: '2011-08-24'
+  conference_end: '2011-08-27'
+  location: Pukyong National University, Busan, Korea
+  url: null
+  note: null
+- id: int-2011-3ada2233
+  scope: international
+  fiscal_year: 2011
+  authors:
+  - Rikizo Ikuta
+  - Tsuyoshi Kitano
+  - Yoshiaki Kusaka
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: Frequency down-conversion of non-classical light from visible wavelength to telecom wavelength using difference-frequency
+    generation
+  presentation_type: poster
+  presentation_date: '2011-05-06'
+  presentation_end_date: null
+  conference: CLEO:2011
+  conference_start: '2011-05-01'
+  conference_end: '2011-05-06'
+  location: Baltimore Convention Center, Baltimore, Maryland, USA
+  url: null
+  note: null
+- id: int-2010-f54dafe5
+  scope: international
+  fiscal_year: 2010
+  authors:
+  - Rikizo Ikuta
+  - Yohei Ono
+  - Toshiyuki Tashima
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: Efficient and robust photonic entanglement distribution using decoherence-free subspace
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: QCMC 2010 The Tenth International Conference on Quantum Communication, Measurement and Computation
+  conference_start: '2010-07-19'
+  conference_end: '2010-07-23'
+  location: University of Queensland, Brisbane, Queensland, Australia
+  url: null
+  note: null
+- id: int-2010-f54dafe5
+  scope: international
+  fiscal_year: 2010
+  authors:
+  - Rikizo Ikuta
+  - Yohei Ono
+  - Toshiyuki Tashima
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: Efficient and robust photonic entanglement distribution using decoherence-free subspace
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: International Conference on Core Research and Engineering Science of Advanced Materials (Global COE Program)
+    Third International Conference on Nanospintronics Design and Realization (3rd-ICNDR
+  conference_start: '2010-05-30'
+  conference_end: '2010-06-04'
+  location: Osaka University, Convention Center, Osaka, Japan
+  url: null
+  note: null
+- id: int-2010-e5048475
+  scope: international
+  fiscal_year: 2010
+  authors:
+  - Yuuki Tokunaga
+  - Satoru Okamoto
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: Complete Process Tomography of Photonic One-Way Quantum Computing
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: 2010 International Symposium on Physics of Quantum Technology (2010 ISPQT
+  conference_start: '2010-04-06'
+  conference_end: '2010-04-09'
+  location: Hitotsubashi-Memorial Hall, Tokyo, Japan
+  url: null
+  note: null
+- id: int-2009-6e6fdc47
+  scope: international
+  fiscal_year: 2009
+  authors:
+  - Yuuki Tokunaga
+  - Satoru Okamoto
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: Full process characterization of experimental one-way quantum computing
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: QIPC2009 International Conference on Quantum Information Processing and Communication
+  conference_start: '2009-09-21'
+  conference_end: '2009-09-25'
+  location: Rome, Italy
+  url: null
+  note: null
+- id: int-2009-64d4dca6
+  scope: international
+  fiscal_year: 2009
+  authors:
+  - Rikizo Ikuta
+  - Toshiyuki Tashima
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: Efficiency improvement of local expansion of W states using linear optics,
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: 5th Handai Nanoscience and Nanotechnology International Symposium
+  conference_start: '2009-09-01'
+  conference_end: '2009-09-03'
+  location: Osaka University, Japan
+  url: null
+  note: null
+- id: int-2009-eae55b03
+  scope: international
+  fiscal_year: 2009
+  authors:
+  - Yuuki Tokunaga
+  - Satoru Okamoto
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: Complete process tomography of experimental one-way quantum computation
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: The 3rd Conference on Quantum Information and Quantum Control (CQIQCIII
+  conference_start: '2009-08-24'
+  conference_end: '2009-08-27'
+  location: Fields Institute, Toronto, Canada
+  url: null
+  note: null
+- id: int-2009-c5f38e06
+  scope: international
+  fiscal_year: 2009
+  authors:
+  - Rikizo Ikuta
+  - Toshiyuki Tashima
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Nobuyuki Imoto
+  title: Local expansion of W states using linear optics,
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: The 3rd Conference on Quantum Information and Quantum Control (CQIQCIII
+  conference_start: '2009-08-24'
+  conference_end: '2009-08-27'
+  location: Fields Institute, Toronto, Canada
+  url: null
+  note: null
+- id: dom-2025-896f1390
+  scope: domestic
+  fiscal_year: 2025
+  authors:
+  - 生田力三
+  title: 量子インターネット ― 光子が切り拓く未来の通信技術
+  presentation_type: invited
+  presentation_date: '2025-09-12'
+  presentation_end_date: null
+  conference: 2025年電子情報通信学会ソサイエティ大会
+  conference_start: '2025-09-09'
+  conference_end: '2025-09-12'
+  location: null
+  url: null
+  note: null
+- id: dom-2025-636700f7
+  scope: domestic
+  fiscal_year: 2025
+  authors:
+  - 生田力三
+  title: 量子ネットワーク技術とその応用展望
+  presentation_type: invited
+  presentation_date: null
+  presentation_end_date: null
+  conference: 大阪大学ナノ理工学人材育成産学コンソーシアム 令和７年度 第２回ナノ理工学情報交流会“量子技術の未来”, 2025/8/28, 大阪大学豊中キャンパス 豊中共創棟A ３階３０５号室
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2024-0964e3bf
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 村上翔一
+  - 平岡駿佑
+  - 小林俊輝
+  - 山本俊
+  - 生田力三
+  title: 周波数多重量子ネットワークの実現に向けた選択的周波数上方変換実験
+  presentation_type: oral
+  presentation_date: '2024-11-28'
+  presentation_end_date: null
+  conference: 第51回量子情報技術研究会(QIT51
+  conference_start: '2024-11-26'
+  conference_end: '2024-11-28'
+  location: （サンポートホール高松 発表日 11/28）
+  url: null
+  note: null
+- id: dom-2024-ae0e921a
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 生田力三
+  title: 量子インターネット実現に向けた光量子技術の開拓
+  presentation_type: invited
+  presentation_date: '2024-11-28'
+  presentation_end_date: null
+  conference: QIT51 サンポートホール高松
+  conference_start: '2024-11-26'
+  conference_end: '2024-11-28'
+  location: null
+  url: null
+  note: null
+- id: dom-2024-fa2e1f8e
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 前田雄也
+  - 柴田健太郎
+  - 小林俊輝
+  - 中島秀太
+  - 山下眞
+  - 生田力三
+  - 山本俊
+  title: 光子検出器を用いた原子アレイ中の単一原子の再充填
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 日本物理学会秋季大会 北海道大学札幌キャンパス
+  conference_start: '2024-09-16'
+  conference_end: '2024-09-19'
+  location: null
+  url: null
+  note: null
+- id: dom-2024-740b4f52
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 柴田健太郎
+  - 前田雄也
+  - 小林俊輝
+  - 山下眞
+  - 中島秀太
+  - 生田力三
+  - 山本俊
+  title: 原子アレイ中の単一原子からの非古典光の評価
+  presentation_type: oral
+  presentation_date: '2024-09-16'
+  presentation_end_date: null
+  conference: 日本物理学会 第79回年次大会（2024年）北海道大学 札幌キャンパス
+  conference_start: '2024-09-16'
+  conference_end: '2024-09-19'
+  location: （現地開催）
+  url: null
+  note: null
+- id: dom-2024-b9739f01
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 竹中真一
+  - 村上翔一
+  - 三木茂人
+  - 知名史博
+  - 寺井弘高
+  - 小林俊輝
+  - 山本俊
+  - 生田力三
+  - B A阪大基礎工
+  title: 偏光無依存な量子周波数変換モジュール
+  presentation_type: oral
+  presentation_date: '2024-09-17'
+  presentation_end_date: null
+  conference: 日本物理学会第79年次大会 (於 北海道大学札幌キャンパス）
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2024-89b1bd88
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 平岡駿佑
+  - 村上翔一
+  - 小林俊輝
+  - 山本俊
+  - 生田力三
+  title: 光周波数ピンセットによる選択的周波数変換
+  presentation_type: oral
+  presentation_date: '2024-09-19'
+  presentation_end_date: null
+  conference: ） 第85回応用物理学会秋季学術講演会（於 朱鷺メッセほか2会場&オンライン）
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2024-b18c9902
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 生田力三
+  title: 共振器からの透過光と反射光の干渉に基づくレーザ周波数安定化
+  presentation_type: oral
+  presentation_date: '2024-09-19'
+  presentation_end_date: null
+  conference: 日本物理学会第79回年次大会, 北海道大学 札幌キャンパス
+  conference_start: '2024-09-16'
+  conference_end: '2024-09-19'
+  location: null
+  url: null
+  note: null
+- id: dom-2024-7b914ffc
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 生田力三
+  title: 量子コンピュータを繋ぐ量子インターネット
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 2024/7/31 大阪大学基礎工学部 第45回大阪大学基礎工学部公開講座 科学･技術と情報の最前線“未来を拓く先端科学技術”オンライン開催
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2024-23a677b3
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 柴田健太郎
+  - 前田雄也
+  - 小林俊輝
+  - 山下眞
+  - 中島秀太
+  - 生田力三
+  - 山本俊
+  title: 原子アレイ中の単一サイトからの非古典光の評価
+  presentation_type: poster
+  presentation_date: '2024-05-28'
+  presentation_end_date: null
+  conference: 第50回量子情報技術研究会（QIT50）産業技術総合研究所 つくば中央 共用講堂
+  conference_start: '2024-05-28'
+  conference_end: '2024-05-30'
+  location: （現地開催）
+  url: null
+  note: null
+- id: dom-2023-9603f91b
+  scope: domestic
+  fiscal_year: 2023
+  authors:
+  - 生田力三
+  title: 分極反転デバイスの量子インターネットへの応用
+  presentation_type: invited
+  presentation_date: '2024-03-23'
+  presentation_end_date: null
+  conference: 第71回応用物理学会春季学術講演会
+  conference_start: '2024-03-22'
+  conference_end: '2024-03-25'
+  location: 東京都市大学
+  url: null
+  note: null
+- id: dom-2023-0bb38e64
+  scope: domestic
+  fiscal_year: 2023
+  authors:
+  - ⼭﨑 友裕
+  - 有薗 友研
+  - 小林 俊輝
+  - 生田 力三
+  - 山本 俊
+  title: 周波数コム量子ビットとパッシブ素子による線形光学量子計算
+  presentation_type: invited
+  presentation_date: '2024-03-25'
+  presentation_end_date: null
+  conference: 第71回応用物理学会春季学術講演会
+  conference_start: '2024-03-22'
+  conference_end: '2024-03-25'
+  location: 東京都市大学
+  url: null
+  note: null
+- id: dom-2023-741178f1
+  scope: domestic
+  fiscal_year: 2023
+  authors:
+  - 村上 翔一
+  - 小林 俊輝
+  - 三木 茂人
+  - 知名 史博
+  - 寺井 弘高
+  - 山本 俊
+  - 生田 力三
+  title: 変換光のみを共振器増強した量子周波数変換実験
+  presentation_type: poster
+  presentation_date: '2023-12-17'
+  presentation_end_date: null
+  conference: 第49回量子情報技術研究会（QIT49） 沖縄科学技術大学院大学 講堂
+  conference_start: '2023-12-17'
+  conference_end: '2023-12-19'
+  location: ハイブリッド開催
+  url: null
+  note: null
+- id: dom-2023-d5232e98
+  scope: domestic
+  fiscal_year: 2023
+  authors:
+  - 原大貴
+  - 村上翔一
+  - 平岡駿佑
+  - 小林俊輝
+  - 知名史博
+  - 三木茂人
+  - 寺井弘高
+  - 小玉剛史
+  - 澤谷恒明
+  - 大友昭彦
+  - 下井英樹
+  - 生田力三
+  - 山本俊
+  title: タンデム型type-II擬似位相整合PPLN導波路を用いた偏光エンタングル光子対生成
+  presentation_type: poster
+  presentation_date: '2023-12-17'
+  presentation_end_date: null
+  conference: 第49回量子情報技術研究会（QIT49） 沖縄科学技術大学院大学 講堂
+  conference_start: '2023-12-17'
+  conference_end: '2023-12-19'
+  location: ハイブリッド開催
+  url: null
+  note: null
+- id: dom-2023-57946cea
+  scope: domestic
+  fiscal_year: 2023
+  authors:
+  - 小林 俊輝
+  - 生田 力三
+  - 山本 俊
+  title: 都市間光ファイバーでの単一光子伝送実験
+  presentation_type: poster
+  presentation_date: '2023-12-17'
+  presentation_end_date: null
+  conference: 第49回量子情報技術研究会（QIT49） 沖縄科学技術大学院大学 講堂
+  conference_start: '2023-12-17'
+  conference_end: '2023-12-19'
+  location: ハイブリッド開催
+  url: null
+  note: null
+- id: dom-2023-edf5c609
+  scope: domestic
+  fiscal_year: 2023
+  authors:
+  - 竹中 真一
+  - 小林 俊輝
+  - 山本 俊
+  - 生田 力三
+  title: マッハツェンダー干渉計型の偏光無依存な量子周波数変換モジュール
+  presentation_type: poster
+  presentation_date: '2023-12-17'
+  presentation_end_date: null
+  conference: 第49回量子情報技術研究会（QIT49） 沖縄科学技術大学院大学 講堂
+  conference_start: '2023-12-17'
+  conference_end: '2023-12-19'
+  location: ハイブリッド開催
+  url: null
+  note: null
+- id: dom-2023-841f128b
+  scope: domestic
+  fiscal_year: 2023
+  authors:
+  - 生田力三
+  - 有薗友研
+  - 小林俊輝
+  - 山本俊
+  title: 周波数多重量子通信のためのチャンネル切替可能な光周波数変換
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: （9/23） 第84回応用物理学会秋季学術講演会（2023年）2023/9/23 熊本城ホール
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2023-0ee9268c
+  scope: domestic
+  fiscal_year: 2023
+  authors:
+  - 生田力三
+  title: 量子インターネットの概要とその実現に向けた取り組み
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: （講義名：電気情報工学特別講義） 2023/6/12 慶應義塾大学 理工学部 矢上キャンパス 14棟204教室
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2023-a395c9ba
+  scope: domestic
+  fiscal_year: 2023
+  authors:
+  - 生田力三
+  title: Photonic State Manipulation Through Nonlinear Optical Waveguide Resonators
+  presentation_type: invited
+  presentation_date: '2023-04-20'
+  presentation_end_date: null
+  conference: 第一回量子化学工学セミナー 主催：大阪大学基礎工学研究科 量子化学工学グループ 2023/4/20 大阪大学 基礎工学研究科 国際棟セミナー室
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2022-07ea3c26
+  scope: domestic
+  fiscal_year: 2022
+  authors:
+  - 小林俊輝
+  - 藤本 倫太朗
+  - 山崎 友裕
+  - 三木 茂人
+  - 知名 史博
+  - 寺井 弘高
+  - 生田 力三
+  - 山本 俊
+  title: DWDM技術に適した共振器増強パラメトリック下方変換による偏光エンタングル光子対配送
+  presentation_type: oral
+  presentation_date: '2023-03-16'
+  presentation_end_date: null
+  conference: 第70回応用物理学会春季学術講演会 2023/3/16 上智大学四ツ谷キャンパス
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2022-5767238c
+  scope: domestic
+  fiscal_year: 2022
+  authors:
+  - 生田力三
+  title: 量子中継最先端
+  presentation_type: invited
+  presentation_date: '2023-02-25'
+  presentation_end_date: null
+  conference: 2022年度NICT若手チャレンジラボ“量子ICT研究会” 2023/2/25 NICT量子ICTセンター・オンライン（ハイブリッド開催）
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2022-8feea867
+  scope: domestic
+  fiscal_year: 2022
+  authors:
+  - 生田力三
+  title: 光で繋がる量子情報ネットワーク
+  presentation_type: invited
+  presentation_date: '2023-01-19'
+  presentation_end_date: null
+  conference: レーザー学会学術講演会第43回年次大会
+  conference_start: '2023-01-18'
+  conference_end: '2023-01-20'
+  location: ウインクあいち
+  url: null
+  note: null
+- id: dom-2022-450f04dc
+  scope: domestic
+  fiscal_year: 2022
+  authors:
+  - 生田力三
+  title: 量子ネットワークのための量子光システムの研究計画概要
+  presentation_type: invited
+  presentation_date: '2023-01-13'
+  presentation_end_date: null
+  conference: 量子インターネットタスクフォース & JSTムーンショット目標6永山PJ“スケーラブルで強靭な統合的量子通信システム”キックオフ 合同シンポジウム 2023/1/13 慶應義塾大学三田キャンパス東館8階ホール ハイブリッド形式
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2022-feb5c714
+  scope: domestic
+  fiscal_year: 2022
+  authors:
+  - 山本俊
+  - 生田力三
+  title: 量子コンピュータや量子ネットワークと超伝導ナノワイア単一光子検出器システム
+  presentation_type: invited
+  presentation_date: '2022-12-14'
+  presentation_end_date: null
+  conference: 浜松ホトニクス量子関連講演会 2022/12/14 13:00～14:30 浜松ホトニクス豊岡製作所 ハイブリッド形式
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2022-71caab8c
+  scope: domestic
+  fiscal_year: 2022
+  authors:
+  - 生田力三
+  title: 量子ネットワーク
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: QEdサマースクール2022
+  conference_start: '2022-09-24'
+  conference_end: '2022-09-30'
+  location: 2022/9/29 リザンシーパークホテル谷茶ベイ
+  url: null
+  note: null
+- id: dom-2022-7698cc30
+  scope: domestic
+  fiscal_year: 2022
+  authors:
+  - 林祥吾
+  - 村上翔一
+  - 小林俊輝
+  - 知名史博
+  - 三木茂人
+  - 寺井弘高
+  - 小玉剛史
+  - 澤谷恒明
+  - 大友昭彦
+  - 下井英樹
+  - 生田力三
+  - 山本俊
+  title: タンデム型type-II 疑似位相整合PPLN 導波路による非縮退光子対生成
+  presentation_type: oral
+  presentation_date: '2022-09-20'
+  presentation_end_date: null
+  conference: ） 第83回応用物理学会秋季学術講演会 (於 東北大学川内キャンパス）
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2022-ae21b829
+  scope: domestic
+  fiscal_year: 2022
+  authors:
+  - 生田力三
+  title: 量子インターネット実現に向けて
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: （講義名：電気情報工学特別講義） 2022/6/13 慶應義塾大学 理工学部 矢上キャンパス 14棟204教室
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2021-6eb98ba9
+  scope: domestic
+  fiscal_year: 2021
+  authors:
+  - 前田雄也
+  - 鈴木泰成
+  - 小林俊輝
+  - 小林史佳
+  - 生田力三
+  - 山下眞
+  - 山本俊
+  - 徳永祐己
+  title: 2次元格子に集積化された量子ビット間におけるエンタングルメント蒸留プロトコルの提案
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第5回量子ソフトウェア研究発表会 セッション9-(32
+  conference_start: '2022-03-24'
+  conference_end: '2022-03-25'
+  location: オンライン開催
+  url: null
+  note: null
+- id: dom-2021-8c8ce5b0
+  scope: domestic
+  fiscal_year: 2021
+  authors:
+  - 生田力三
+  - 横田雅世
+  - 小林俊輝
+  - 井元信之
+  - 山本俊
+  title: 光周波数ピンセット
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 2022年 日本物理学会 第77回年次大会 16pE11-9, 2022/3/16 オンライン開催
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2021-62028717
+  scope: domestic
+  fiscal_year: 2021
+  authors:
+  - 山崎友裕
+  - 生田力三
+  - 山本俊
+  title: スタビライザー形式に基づく線形光学回路の解析
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 2022年 日本物理学会 第77回年次大会 15pE11-6, 2022/3/15 オンライン開催
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2021-bbd0ec94
+  scope: domestic
+  fiscal_year: 2021
+  authors:
+  - 村上翔一
+  - 藤本倫太朗
+  - 小林俊輝
+  - 生田力三
+  - 井上飛鳥
+  - 梅木毅伺
+  - 笠原亮一
+  - 向井哲哉
+  - 三木茂人
+  - 宮嶋茂之
+  - 藪野正裕
+  - 知名史博
+  - 寺井弘高
+  - 井元信之
+  - 山本俊
+  title: 量子インターネットにむけたファイバ結合型PPLNによる量子周波数変換実験
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第１回ムーンショット目標6 QCNQCプロジェクト研究会, 19, January, 2022, ONLINE
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2021-89e5bea9
+  scope: domestic
+  fiscal_year: 2021
+  authors:
+  - 長野時京
+  - 小林俊輝
+  - 生田力三
+  - 向井哲哉
+  - 井元信之
+  - 山本俊
+  title: 高効率な原子-光子エンタングルメント生成のための冷却Rb原子集団の二次元磁気光学トラップ
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第１回ムーンショット目標6 QCNQCプロジェクト研究会, 19, January, 2022, ONLINE
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2021-62028717
+  scope: domestic
+  fiscal_year: 2021
+  authors:
+  - Tomoki Yamazaki
+  - Rikizo Ikuta
+  - Takashi Yamamoto
+  title: スタビライザー形式に基づく線形光学回路の解析
+  presentation_type: oral
+  presentation_date: '2021-12-01'
+  presentation_end_date: null
+  conference: 第45回量子情報技術研究会(QIT45
+  conference_start: '2021-11-30'
+  conference_end: '2021-12-01'
+  location: （オンライン開催 発表日 12/1）
+  url: null
+  note: null
+- id: dom-2021-30d8e92c
+  scope: domestic
+  fiscal_year: 2021
+  authors:
+  - Shoichi Murakami
+  - Rintaro Fujimoto
+  - Toshiki Kobayashi
+  - Rikizo Ikuta
+  - asuka inoue
+  - takeshi umeki
+  - ryoichi kasahara
+  - tetsuya mukai
+  - shigehito miki
+  - Shigeyuki Miyajima
+  - Masahiro Yabuno
+  - Fumihiro China
+  - Hirotaka Terai
+  - Nobuyuki Imoto
+  - Takashi Yamamoto
+  title: A fiber-coupled frequency converter based on a PPLN waveguide for quantum internet
+  presentation_type: oral
+  presentation_date: '2021-12-01'
+  presentation_end_date: null
+  conference: 第45回量子情報技術研究会(QIT45
+  conference_start: '2021-11-30'
+  conference_end: '2021-12-01'
+  location: （オンライン開催 発表日 12/1）
+  url: null
+  note: null
+- id: dom-2021-e9af7e00
+  scope: domestic
+  fiscal_year: 2021
+  authors:
+  - 生田 力三
+  title: 量子波長変換に基づく量子インターネット
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: （講義名：固体物理セミナー（令和3年度 第３回）） 2021/6/17 大阪大学 大学院基礎工学研究科 オンライン開催
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2020-d18f08ed
+  scope: domestic
+  fiscal_year: 2020
+  authors:
+  - 横田 雅世
+  - 生田 力三
+  - 小林 俊輝
+  - 井元 信之
+  - 山本 俊
+  title: 変換光のみ共振器増強したPPLN導波路による差周波発生
+  presentation_type: oral
+  presentation_date: '2021-03-19'
+  presentation_end_date: null
+  conference: 第68回応用物理学会春季学術講演会（19p-Z03-8
+  conference_start: '2021-03-16'
+  conference_end: '2021-03-19'
+  location: オンライン開催
+  url: null
+  note: null
+- id: dom-2020-9850cf06
+  scope: domestic
+  fiscal_year: 2020
+  authors:
+  - 藤本倫太朗
+  - 村上翔一
+  - 生田力三
+  - 小林俊輝
+  - 三木茂人
+  - 宮嶋茂之
+  - 藪野正裕
+  - 寺井弘高
+  - 井元信之
+  - 山本俊
+  title: SFQ回路を搭載したSSPDを用いた量子もつれ光子対の測定
+  presentation_type: oral
+  presentation_date: '2021-03-19'
+  presentation_end_date: null
+  conference: 第68回応用物理学会春季学術講演会（19p-Z03-9
+  conference_start: '2021-03-16'
+  conference_end: '2021-03-19'
+  location: オンライン開催
+  url: null
+  note: null
+- id: dom-2020-2cc54001
+  scope: domestic
+  fiscal_year: 2020
+  authors:
+  - 生田 力三
+  title: 量子インターネットのための量子周波数変換
+  presentation_type: invited
+  presentation_date: '2020-12-15'
+  presentation_end_date: null
+  conference: 量子技術ホライゾンー量子物理から量子インターネットを展望する 2020/12/15 オンライン開催
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2020-8e4780c9
+  scope: domestic
+  fiscal_year: 2020
+  authors:
+  - 村上翔一
+  - 藤本倫太朗
+  - 生田力三
+  - 小林俊輝
+  - 井上飛鳥
+  - 梅木毅伺
+  - 笠原亮一
+  - 向井哲哉
+  - 井元信之
+  - 山本俊
+  title: 量子インターネットのためのファイバ結合型 PPLN 周波数変換器
+  presentation_type: oral
+  presentation_date: '2020-09-10'
+  presentation_end_date: null
+  conference: 第81回応用物理学会秋季学術講演会（10p-Z21-1\~15
+  conference_start: '2020-09-08'
+  conference_end: '2020-09-11'
+  location: オンライン開催
+  url: null
+  note: null
+- id: dom-2019-d698d84f
+  scope: domestic
+  fiscal_year: 2019
+  authors:
+  - 石崎 理裕
+  - 小林 俊輝
+  - 生田 力三
+  - 向井 哲哉
+  - 井元 信之
+  - 山本 俊
+  title: 原子-光子エンタングルメントの長寿命化のための研究
+  presentation_type: poster
+  presentation_date: '2020-02-25'
+  presentation_end_date: null
+  conference: ハイブリッド量子科学第10回領域会議
+  conference_start: '2020-02-25'
+  conference_end: '2020-02-26'
+  location: 理化学研究所 鈴木梅太郎ホール
+  url: null
+  note: null
+- id: dom-2019-960b54b5
+  scope: domestic
+  fiscal_year: 2019
+  authors:
+  - 山崎 友裕
+  - 生田 力三
+  - 小林 俊輝
+  - 三木 茂人
+  - 藪野 正裕
+  - 寺井 弘高
+  - 井元 信之
+  - 山本 俊
+  title: 単共鳴共振器型PPLN導波路による偏光エンタングル光子対生成
+  presentation_type: oral
+  presentation_date: '2019-09-21'
+  presentation_end_date: null
+  conference: 2019年 第80回応用物理学会秋季学術講演会 21a-E207-7
+  conference_start: '2019-09-18'
+  conference_end: '2019-09-21'
+  location: 北海道大学札幌キャンパス
+  url: null
+  note: null
+- id: dom-2019-7541a4db
+  scope: domestic
+  fiscal_year: 2019
+  authors:
+  - 生田 力三
+  - 小林 俊輝
+  - 山崎 友裕
+  - 井元 信之
+  - 山本 俊
+  title: 単共鳴共振器型PPLN導波路による高効率光波長変換
+  presentation_type: oral
+  presentation_date: '2019-09-20'
+  presentation_end_date: null
+  conference: 2019年 第80回応用物理学会秋季学術講演会 20p-E203-3
+  conference_start: '2019-09-18'
+  conference_end: '2019-09-21'
+  location: 北海道大学札幌キャンパス
+  url: null
+  note: null
+- id: dom-2019-c59cf6cc
+  scope: domestic
+  fiscal_year: 2019
+  authors:
+  - 山崎 友裕
+  - 生田 力三
+  - 小林 俊輝
+  - 三木 茂人
+  - 藪野 正裕
+  - 寺井 弘高
+  - 井元 信之
+  - 山本 俊
+  title: 周波数多重化された偏光エンタングル光子対の生成
+  presentation_type: poster
+  presentation_date: '2019-08-08'
+  presentation_end_date: null
+  conference: ハイブリッド量子科学第9回領域会議
+  conference_start: '2019-08-08'
+  conference_end: '2019-08-09'
+  location: 北陸先端科学技術大学院大学 情報科学系大講義室
+  url: null
+  note: null
+- id: dom-2019-7e858dda
+  scope: domestic
+  fiscal_year: 2019
+  authors:
+  - 山田雅貴
+  - 浅野元紀
+  - 生田力三
+  - S. K. Ozdemir
+  - 井元信之
+  - 山本俊
+  title: Optomechanical properties in a microbottle resonator
+  presentation_type: poster
+  presentation_date: '2019-08-08'
+  presentation_end_date: null
+  conference: 発表日8/8) ハイブリッド量子科学第9回領域会議
+  conference_start: '2019-08-08'
+  conference_end: '2019-08-09'
+  location: 北陸先端科学技術大学院大学 情報科学系大講義室
+  url: null
+  note: null
+- id: dom-2019-45b58e3e
+  scope: domestic
+  fiscal_year: 2019
+  authors:
+  - 生田力三
+  title: 量子光中継技術の概要と最新動向
+  presentation_type: invited
+  presentation_date: '2019-06-18'
+  presentation_end_date: null
+  conference: 2019年度第1回光材料・応用技術研究会 2019/6/18 東海大学高輪キャンパス
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2019-c59cf6cc
+  scope: domestic
+  fiscal_year: 2019
+  authors:
+  - 山崎友裕
+  - 生田力三
+  - 小林俊輝
+  - 三木茂人
+  - 藪野正裕
+  - 寺井弘高
+  - 井元信之
+  - 山本俊
+  title: 周波数多重化された偏光エンタングル光子対の生成
+  presentation_type: poster
+  presentation_date: '2019-06-14'
+  presentation_end_date: '2019-06-15'
+  conference: 第16回AMO討論会
+  conference_start: '2019-06-14'
+  conference_end: '2019-06-15'
+  location: 電気通信大学
+  url: null
+  note: null
+- id: dom-2019-657ec643
+  scope: domestic
+  fiscal_year: 2019
+  authors:
+  - 小林俊輝
+  - 生田力三
+  - 川上哲生
+  - 三木茂人
+  - 藪野正裕
+  - 山下太郎
+  - 寺井弘高
+  - 小芦雅斗
+  - 向井哲哉
+  - 山本俊
+  - 井元信之
+  title: 量子周波数変換を用いた冷却Rb原子集団と通信波長光子間のエンタングルメント生成
+  presentation_type: poster
+  presentation_date: '2019-06-14'
+  presentation_end_date: '2019-06-15'
+  conference: 第16回AMO討論会
+  conference_start: '2019-06-14'
+  conference_end: '2019-06-15'
+  location: 電気通信大学
+  url: null
+  note: null
+- id: dom-2019-779fb08f
+  scope: domestic
+  fiscal_year: 2019
+  authors:
+  - 小林俊輝
+  - 山崎大輔
+  - 松木賢一郎
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 山本 俊
+  - 小芦雅斗
+  - 井元信之
+  title: 周波数自由度のマッハツェンダー干渉計
+  presentation_type: oral
+  presentation_date: '2019-05-21'
+  presentation_end_date: null
+  conference: 第40回量子情報技術研究会 (QIT40
+  conference_start: '2019-05-20'
+  conference_end: '2019-05-21'
+  location: 九州大学筑紫キャンパス
+  url: null
+  note: null
+- id: dom-2018-6f62c16d
+  scope: domestic
+  fiscal_year: 2018
+  authors:
+  - 生田力三
+  title: 量子状態を保持した単一光子波長変換に関する研究
+  presentation_type: invited
+  presentation_date: '2019-03-15'
+  presentation_end_date: null
+  conference: 2019年 日本物理学会第74回年次大会 15pK404-3
+  conference_start: '2019-03-14'
+  conference_end: '2019-03-17'
+  location: 九州大学伊都キャンパス
+  url: null
+  note: null
+- id: dom-2018-08186831
+  scope: domestic
+  fiscal_year: 2018
+  authors:
+  - 生田力三
+  - 谷亮矢
+  - 石崎理裕
+  - 三木茂人
+  - 藪野正裕
+  - 寺井弘高
+  - 山本俊
+  - 井元信之
+  title: 単共鳴共振器型PPLN導波路による光子対生成
+  presentation_type: oral
+  presentation_date: '2019-03-10'
+  presentation_end_date: null
+  conference: 2019年 第66回応用物理学会春季学術講演会 10p-S422-5
+  conference_start: '2019-03-09'
+  conference_end: '2019-03-12'
+  location: 東京工業大学大岡山キャンパス
+  url: null
+  note: null
+- id: dom-2018-ae37c65f
+  scope: domestic
+  fiscal_year: 2018
+  authors:
+  - 生田力三
+  - 浅野元紀
+  - 谷亮矢
+  - 山本俊
+  - 井元信之
+  title: PPLN導波路共振器による光周波数コム生成
+  presentation_type: poster
+  presentation_date: '2019-01-09'
+  presentation_end_date: null
+  conference: ハイブリッド量子科学第8回領域会議
+  conference_start: '2019-01-09'
+  conference_end: '2019-01-10'
+  location: 沖縄科学技術大学院大学 OIST
+  url: null
+  note: null
+- id: dom-2018-15c212e6
+  scope: domestic
+  fiscal_year: 2018
+  authors:
+  - 生田力三
+  - 小林俊輝
+  - 川上哲生
+  - 三木茂人
+  - 藪野正裕
+  - 山下太郎
+  - 寺井弘高
+  - 小芦雅斗
+  - 向井哲哉
+  - 山本俊
+  - 井元信之
+  title: 偏光無依存型量子波長変換器による原子と通信波長光子間のエンタングルメント生成
+  presentation_type: poster
+  presentation_date: '2018-08-06'
+  presentation_end_date: null
+  conference: ハイブリッド量子科学第7回領域会議
+  conference_start: '2018-08-06'
+  conference_end: '2018-08-07'
+  location: 名古屋大学ナショナルイノベーションコンプレックス
+  url: null
+  note: null
+- id: dom-2018-b25a477d
+  scope: domestic
+  fiscal_year: 2018
+  authors:
+  - 生田力三
+  - 小林俊輝
+  - 川上哲生
+  - 三木茂人
+  - 藪野正裕
+  - 山下太郎
+  - 寺井弘高
+  - 小芦雅斗
+  - 向井哲哉
+  - 山本俊
+  - 井元信之
+  title: Polarization insensitive frequency conversion for an atom-photon entanglement distribution via a telecom network
+  presentation_type: oral
+  presentation_date: '2018-06-05'
+  presentation_end_date: null
+  conference: 第38回量子情報技術研究会 (QIT38
+  conference_start: '2018-06-04'
+  conference_end: '2018-06-05'
+  location: 広島国際会議場
+  url: null
+  note: null
+- id: dom-2017-1a75e2c5
+  scope: domestic
+  fiscal_year: 2017
+  authors:
+  - 生田力三
+  - 浅野元紀
+  - 谷亮矢
+  - 山本俊
+  - 井元信之
+  title: モノリシック共振器型PPLN導波路による光周波数コム生成実験(口頭、発表日3/25)
+  presentation_type: oral
+  presentation_date: '2018-03-25'
+  presentation_end_date: null
+  conference: 第73回物理学会春季大会
+  conference_start: '2018-03-22'
+  conference_end: '2018-03-25'
+  location: 東京理科大学（野田キャンパス）
+  url: null
+  note: null
+- id: dom-2017-5a8faeec
+  scope: domestic
+  fiscal_year: 2017
+  authors:
+  - 宮西 孝一郎
+  - T. Walker
+  - 生田力三
+  - S. Kashani
+  - 高橋優樹
+  - 逵本吉朗
+  - 早坂和弘
+  - 山本俊
+  - 井元信之
+  - Matthias Keller
+  title: 40Ca+から通信波長帯への単一光子波長変換
+  presentation_type: oral
+  presentation_date: '2018-03-22'
+  presentation_end_date: null
+  conference: 第73回物理学会春季大会
+  conference_start: '2018-03-22'
+  conference_end: '2018-03-25'
+  location: 東京理科大学（野田キャンパス）
+  url: null
+  note: null
+- id: dom-2017-89f2701a
+  scope: domestic
+  fiscal_year: 2017
+  authors:
+  - 山田雅貴
+  - 浅野元紀
+  - 生田力三
+  - S. K. Ozdemir
+  - 井元信之
+  - 山本俊
+  title: 真空環境下におけるボトル型微小光共振器の機械振動モードの評価
+  presentation_type: poster
+  presentation_date: '2017-10-12'
+  presentation_end_date: null
+  conference: 新学術領域“ハイブリッド量子科学”第5回領域会議
+  conference_start: '2017-10-12'
+  conference_end: '2017-10-13'
+  location: 大阪府立大学 I-siteなんば
+  url: null
+  note: null
+- id: dom-2017-319b787a
+  scope: domestic
+  fiscal_year: 2017
+  authors:
+  - 川上哲生
+  - 小林俊輝
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 山本俊
+  - 小芦雅斗
+  - 向井哲哉
+  - 井元信之
+  title: 冷却Rb原子集団と通信波長光子間のエンタングルメント実証
+  presentation_type: oral
+  presentation_date: '2017-09-05'
+  presentation_end_date: null
+  conference: 2017年 第78回応用物理学会秋季学術講演会
+  conference_start: '2017-09-05'
+  conference_end: '2017-09-08'
+  location: 福岡国際会議場
+  url: null
+  note: null
+- id: dom-2017-319b787a
+  scope: domestic
+  fiscal_year: 2017
+  authors:
+  - 川上哲生
+  - 小林俊輝
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 山本俊
+  - 小芦雅斗
+  - 向井哲哉
+  - 井元信之
+  title: 冷却Rb原子集団と通信波長光子間のエンタングルメント実証
+  presentation_type: oral
+  presentation_date: '2017-09-22'
+  presentation_end_date: null
+  conference: 日本物理学会 2017年秋季大会
+  conference_start: '2017-09-21'
+  conference_end: '2017-09-24'
+  location: 岩手大学
+  url: null
+  note: null
+- id: dom-2017-89f2701a
+  scope: domestic
+  fiscal_year: 2017
+  authors:
+  - 山田雅貴
+  - 浅野元紀
+  - 生田力三
+  - S. K. Ozdemir
+  - 井元信之
+  - 山本俊
+  title: 真空環境下におけるボトル型微小光共振器の機械振動モードの評価
+  presentation_type: oral
+  presentation_date: '2017-09-06'
+  presentation_end_date: null
+  conference: 第78回応用物理学会秋季学術講演会
+  conference_start: '2017-09-05'
+  conference_end: '2017-09-08'
+  location: 福岡国際会議場・福岡医療センター・福岡サンパレスホテル
+  url: null
+  note: null
+- id: dom-2017-0a96c36e
+  scope: domestic
+  fiscal_year: 2017
+  authors:
+  - 谷亮矢
+  - 生田力三
+  - 浅野元紀
+  - 山本俊
+  - 井元信之
+  title: モノリシック共振器型PPLN導波路を用いた光周波数コム生成実験(口頭、発表日9/7)
+  presentation_type: oral
+  presentation_date: '2017-09-07'
+  presentation_end_date: null
+  conference: 第78回応用物理学会秋季学術講演会
+  conference_start: '2017-09-05'
+  conference_end: '2017-09-08'
+  location: 福岡国際会議場
+  url: null
+  note: null
+- id: dom-2017-5a6918d6
+  scope: domestic
+  fiscal_year: 2017
+  authors:
+  - 宮西孝一郎
+  - 逵本吉朗
+  - 生田力三
+  - 山本俊
+  - 早坂和弘
+  - 井元信之
+  title: 波長866 nmから通信波長1530 nmへの波長変換実験
+  presentation_type: poster
+  presentation_date: '2017-05-29'
+  presentation_end_date: null
+  conference: 第36回量子情報技術研究会 (QIT36
+  conference_start: '2017-05-29'
+  conference_end: '2017-05-30'
+  location: 立命館大学 朱雀キャンパス
+  url: null
+  note: null
+- id: dom-2016-ced95881
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - 長谷川靖
+  - 生田力三
+  - 東浩司
+  - 松田信幸
+  - 玉木潔
+  - Hoi-Kwong Lo
+  - 山本俊
+  - 井元信之
+  title: 時間反転適応的Bell測定の実証
+  presentation_type: oral
+  presentation_date: '2017-03-19'
+  presentation_end_date: null
+  conference: 日本物理学会2017年春季大会 19pB21-15
+  conference_start: '2017-03-17'
+  conference_end: '2017-03-20'
+  location: 大阪大学 豊中キャンパス
+  url: null
+  note: null
+- id: dom-2016-62af711b
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: モノリシック量子光学回路の実現に向けた導波路結合型SSPD及びオンチップ二光子干渉計の開発
+  presentation_type: invited
+  presentation_date: '2017-01-19'
+  presentation_end_date: null
+  conference: 電子情報通信学会 超伝導エレクトロニクス研究会(SCE) SCE2016-43 2017/1/19 機械振興会館
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2016-a6cdcd22
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - A. Mizutani
+  - M. Curty
+  - H.-K. Lo
+  - R. Ikuta
+  - K. Azuma
+  - T. Yamamoto
+  - N. Imoto
+  - G. Kato
+  - K. Tamaki
+  title: Towards secure QKD with testable assumptions on modulation devices
+  presentation_type: oral
+  presentation_date: '2016-11-24'
+  presentation_end_date: null
+  conference: 第35回量子情報技術研究会 (QIT35
+  conference_start: '2016-11-24'
+  conference_end: '2016-11-25'
+  location: 高エネルギー加速器研究機構(KEK) つくばキャンパス
+  url: null
+  note: null
+- id: dom-2016-8218a02f
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: 導波路結合型SSPDによるオンチップ二光子干渉計の作製
+  presentation_type: oral
+  presentation_date: '2016-10-27'
+  presentation_end_date: null
+  conference: 電子情報通信学会 超伝導エレクトロニクス研究会(SCE) SCE2016-35
+  conference_start: '2016-10-26'
+  conference_end: '2016-10-27'
+  location: 東北大学 電気通信研究所
+  url: null
+  note: null
+- id: dom-2016-72f813fe
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - 山﨑大輔
+  - 小林俊輝
+  - 松木賢一郎
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 周波数領域マッハツェンダー干渉計を用いた光干渉実験
+  presentation_type: oral
+  presentation_date: '2016-09-13'
+  presentation_end_date: null
+  conference: 2016年第77回応用物理学会秋季学術講演会 13p-B2-8
+  conference_start: '2016-09-13'
+  conference_end: '2016-09-16'
+  location: 朱鷺メッセ
+  url: null
+  note: null
+- id: dom-2016-0e047868
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - 小守匠一
+  - 浅野元紀
+  - Sahin Kaya Ozdemir
+  - 生田力三
+  - Lan Yang
+  - 井元信之
+  - 山本俊
+  title: ボトル型微小光共振器を用いた3次高調波発生の観測
+  presentation_type: oral
+  presentation_date: '2016-09-16'
+  presentation_end_date: null
+  conference: 2016年第77回応用物理学会秋季学術講演会 16a-B4-3
+  conference_start: '2016-09-13'
+  conference_end: '2016-09-16'
+  location: 朱鷺メッセ
+  url: null
+  note: null
+- id: dom-2016-6a9ac6d0
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - 浅野元紀
+  - Weijian Chen
+  - Sahin Kaya Ozdemir
+  - 生田力三
+  - Lan Yang
+  - 井元信之
+  - 山本俊
+  title: ボトル型微小光共振器における機械振動子モードの高ｆQ積の実現
+  presentation_type: oral
+  presentation_date: '2016-09-16'
+  presentation_end_date: null
+  conference: 2016年第77回応用物理学会秋季学術講演会 16a-B4-4
+  conference_start: '2016-09-13'
+  conference_end: '2016-09-16'
+  location: 朱鷺メッセ
+  url: null
+  note: null
+- id: dom-2016-0fb8062a
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: 導波路結合型SSPDによるオンチップ二光子干渉計の作製I
+  presentation_type: oral
+  presentation_date: '2016-09-14'
+  presentation_end_date: null
+  conference: 2016年第77回応用物理学会秋季学術講演会 14p-D61-12
+  conference_start: '2016-09-13'
+  conference_end: '2016-09-16'
+  location: 朱鷺メッセ
+  url: null
+  note: null
+- id: dom-2016-9378dd6d
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - Rikizo Ikuta
+  - Toshiki Kobayashi
+  - Kenichiro Matsuki
+  - Shigehito Miki
+  - Taro Yamashita
+  - Hirotaka Terai
+  - Takashi Yamamoto
+  - Masato Koashi
+  - Tetsuya Mukai
+  - Nobuyuki Imoto
+  title: Wavelength conversion of non-classical light from rubidium atoms to the telecom band
+  presentation_type: poster
+  presentation_date: '2016-08-25'
+  presentation_end_date: null
+  conference: 文科省科研費新学術領域“ハイブリッド量子科学”第3回領域会議
+  conference_start: '2016-08-25'
+  conference_end: '2016-08-26'
+  location: 東京理科大学神楽坂キャンパス森戸記念館
+  url: null
+  note: null
+- id: dom-2016-449a90cb
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - Motoki Asano
+  - Masataka Yamada
+  - Sahin Kaya Ozdemir
+  - Rikizo Ikuta
+  - Nobuyuki Imoto
+  - Lan Yang
+  - Takashi Yamamoto
+  title: 'Optomechanics at the exceptional points in microbottles: PT symmetry and beyond'
+  presentation_type: poster
+  presentation_date: '2016-08-25'
+  presentation_end_date: null
+  conference: 文科省科研費新学術領域“ハイブリッド量子科学”第3回領域会議
+  conference_start: '2016-08-25'
+  conference_end: '2016-08-26'
+  location: 東京理科大学神楽坂キャンパス森戸記念館
+  url: null
+  note: null
+- id: dom-2016-be7e1814
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - T. Kobayashi
+  - R. Ikuta
+  - K. Matsuki
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - T. Yamamoto
+  - M. Koashi
+  - T. Mukai
+  - N. Imoto
+  title: Wavelength conversion of non-classical light emitted from rubidium atoms to the telecom band
+  presentation_type: oral
+  presentation_date: '2016-05-31'
+  presentation_end_date: null
+  conference: 第34回量子情報技術研究会 (QIT34
+  conference_start: '2016-05-30'
+  conference_end: '2016-05-31'
+  location: 高知工科大学 永国寺キャンパス
+  url: null
+  note: null
+- id: dom-2016-8dba4305
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - Y. Tsujimoto
+  - M. Tanaka
+  - Y. Sugiura
+  - R. Ikuta
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - T. Yamamoto
+  - M. Koashi
+  - N. Imoto
+  title: High fidelity entanglement swapping via a time-resolved coincidence measurement
+  presentation_type: oral
+  presentation_date: '2016-05-31'
+  presentation_end_date: null
+  conference: 第34回量子情報技術研究会 (QIT34
+  conference_start: '2016-05-30'
+  conference_end: '2016-05-31'
+  location: 高知工科大学 永国寺キャンパス
+  url: null
+  note: null
+- id: dom-2016-c1bc139e
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - R. Ikuta
+  - S. Nozaki
+  - T. Yamamoto
+  - M. Koashi
+  - N. Imoto
+  title: Experimental demonstration of robust entanglement distribution over reciprocal channels assisted by a counter-propagating
+    light
+  presentation_type: oral
+  presentation_date: '2016-05-31'
+  presentation_end_date: null
+  conference: 第34回量子情報技術研究会 (QIT34
+  conference_start: '2016-05-30'
+  conference_end: '2016-05-31'
+  location: 高知工科大学 永国寺キャンパス
+  url: null
+  note: null
+- id: dom-2016-ce392967
+  scope: domestic
+  fiscal_year: 2016
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: オンチップ量子光学回路の実現に向けた導波路結合型SSPDの作製
+  presentation_type: oral
+  presentation_date: '2016-04-20'
+  presentation_end_date: null
+  conference: 電子情報通信学会 超伝導エレクトロニクス研究会 SCE2016-9 2016/4/20 機械振興会館
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2015-e0725ce1
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 永松優一
+  - 水谷明博
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  - 玉木潔
+  title: 独立同一分布に従わない光源を用いた量子鍵配送の安全性に関する研究
+  presentation_type: oral
+  presentation_date: '2016-03-22'
+  presentation_end_date: null
+  conference: 日本物理学会2016年春季大会 22aBJ-4
+  conference_start: '2016-03-19'
+  conference_end: '2016-03-22'
+  location: 東北学院大学 泉キャンパス
+  url: null
+  note: null
+- id: dom-2015-585db11b
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 逵本吉朗
+  - 杉浦幸大
+  - 田中元基
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 時間分解測定による高忠実度なエンタングルメントスワッピング実験
+  presentation_type: oral
+  presentation_date: '2016-03-21'
+  presentation_end_date: null
+  conference: 日本物理学会2016年春季大会 21pBJ-1
+  conference_start: '2016-03-19'
+  conference_end: '2016-03-22'
+  location: 東北学院大学 泉キャンパス
+  url: null
+  note: null
+- id: dom-2015-44712bcc
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: 導波路結合型SSPDの作製プロセスの検討
+  presentation_type: oral
+  presentation_date: '2016-03-21'
+  presentation_end_date: null
+  conference: 2016年第63回応用物理学会春季学術講演会 21a-W833-5
+  conference_start: '2016-03-19'
+  conference_end: '2016-03-22'
+  location: 東京工業大学 大岡山キャンパス
+  url: null
+  note: null
+- id: dom-2015-c4b035ec
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 生田力三
+  - 野崎正太
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 雑音のある reciprocal 通信路を介したエンタンク?ルメント配送実験
+  presentation_type: oral
+  presentation_date: '2016-03-20'
+  presentation_end_date: null
+  conference: 2016年第63回応用物理学会春季学術講演会 20p-W541-4
+  conference_start: '2016-03-19'
+  conference_end: '2016-03-22'
+  location: 東京工業大学 大岡山キャンパス
+  url: null
+  note: null
+- id: dom-2015-4684b7a6
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 小林俊輝
+  - 松木賢一郎
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 山本俊
+  - 小芦雅斗
+  - 向井哲哉
+  - 井元信之
+  title: 冷却Rb原子集団を用いた通信波長光子のアンチバンチングの観測
+  presentation_type: oral
+  presentation_date: '2016-03-20'
+  presentation_end_date: null
+  conference: 2016年第63回応用物理学会春季学術講演会 20a-W833-5
+  conference_start: '2016-03-19'
+  conference_end: '2016-03-22'
+  location: 東京工業大学 大岡山キャンパス
+  url: null
+  note: null
+- id: dom-2015-f3ea1f53
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 浅野元紀
+  - 竹内勇貴
+  - Weijian Chen
+  - Sahin Kaya Ozdemir
+  - 生田力三
+  - Lan Yang
+  - 井元信之
+  - 山本俊
+  title: ボトル型微小光共振器を用いた共振器オプトメカニクス
+  presentation_type: oral
+  presentation_date: '2016-03-20'
+  presentation_end_date: null
+  conference: 日本物理学会2016年春季大会 20pBJ-9
+  conference_start: '2016-03-19'
+  conference_end: '2016-03-22'
+  location: 東北学院大学 泉キャンパス
+  url: null
+  note: null
+- id: dom-2015-75217feb
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: SOI基板を用いた導波路結合型SSPD素子の作製
+  presentation_type: oral
+  presentation_date: '2016-03-15'
+  presentation_end_date: null
+  conference: 2016年電子情報通信学会総合大会 C-8-7
+  conference_start: '2016-03-15'
+  conference_end: '2016-03-18'
+  location: 九州大学 伊都キャンパス
+  url: null
+  note: null
+- id: dom-2015-391adcf7
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 松木賢一郎
+  - 小林俊輝
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 山本俊
+  - 小芦雅斗
+  - 向井哲哉
+  - 井元信之
+  title: 冷却Rb原子集団からの非古典光の通信波長帯への波長変換実験
+  presentation_type: oral
+  presentation_date: '2015-09-17'
+  presentation_end_date: null
+  conference: 日本物理学会2015年秋季大会 17pAC-5
+  conference_start: '2015-09-16'
+  conference_end: '2015-09-19'
+  location: 関西大学 千里山キャンパス
+  url: null
+  note: null
+- id: dom-2015-40708577
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 野﨑正太
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 逆伝搬光を用いたDFSによるエンタングルメント配送実験
+  presentation_type: oral
+  presentation_date: '2015-09-17'
+  presentation_end_date: null
+  conference: 日本物理学会2015年秋季大会 17pAC-6
+  conference_start: '2015-09-16'
+  conference_end: '2015-09-19'
+  location: 関西大学 千里山キャンパス
+  url: null
+  note: null
+- id: dom-2015-98378205
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 竹内勇貴
+  - 藤井啓祐
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: 量子通信路の集団雑音に耐性のあるブラインド量子計算
+  presentation_type: oral
+  presentation_date: '2015-09-16'
+  presentation_end_date: null
+  conference: 日本物理学会2015年秋季大会 16pAC-11
+  conference_start: '2015-09-16'
+  conference_end: '2015-09-19'
+  location: 関西大学 千里山キャンパス
+  url: null
+  note: null
+- id: dom-2015-b3998370
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 浅野元紀
+  - 竹内勇貴
+  - Sahin Kaya Ozdemir
+  - 生田力三
+  - 山本俊
+  - Lan Yang
+  - 井元信之
+  title: ボトル共振器における光力学結合の観測
+  presentation_type: oral
+  presentation_date: '2015-05-26'
+  presentation_end_date: null
+  conference: 第32回量子情報技術研究会 (QIT32
+  conference_start: '2015-05-25'
+  conference_end: '2015-05-26'
+  location: 大阪大学 豊中キャンパス
+  url: null
+  note: null
+- id: dom-2015-c2afa665
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 小林俊輝
+  - 安井崇人
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: Observation of frequency-domain Hong-Ou-Mandel interference by using a partial wavelength converter
+  presentation_type: oral
+  presentation_date: '2015-05-25'
+  presentation_end_date: null
+  conference: 第32回量子情報技術研究会 (QIT32
+  conference_start: '2015-05-25'
+  conference_end: '2015-05-26'
+  location: 大阪大学 豊中キャンパス
+  url: null
+  note: null
+- id: dom-2015-4dcf869d
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 逵本吉朗
+  - 田中元基
+  - 杉浦幸大
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - Zhen Wang
+  - 井元信之
+  title: Observation of a high visibility Hong-Ou-Mandel interference via a time-resolved coincidence measurement
+  presentation_type: oral
+  presentation_date: '2015-05-25'
+  presentation_end_date: null
+  conference: 第32回量子情報技術研究会 (QIT32
+  conference_start: '2015-05-25'
+  conference_end: '2015-05-26'
+  location: 大阪大学 豊中キャンパス
+  url: null
+  note: null
+- id: dom-2015-366c3fa4
+  scope: domestic
+  fiscal_year: 2015
+  authors:
+  - 水谷明博
+  - 玉木潔
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: デコイ状態を用いない測定装置無依存量子鍵配送
+  presentation_type: oral
+  presentation_date: '2015-05-25'
+  presentation_end_date: null
+  conference: 第32回量子情報技術研究会 (QIT32
+  conference_start: '2015-05-25'
+  conference_end: '2015-05-26'
+  location: 大阪大学 豊中キャンパス
+  url: null
+  note: null
+- id: dom-2014-cbaa314b
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 浅野元紀
+  - 竹内勇貴
+  - Sahin Kaya Ozdemir
+  - 生田力三
+  - 山本俊
+  - Lan Yang
+  - 井元信之
+  title: ボトル共振器を用いた光パルスの群速度制御に関する実験
+  presentation_type: oral
+  presentation_date: '2015-03-24'
+  presentation_end_date: null
+  conference: 日本物理学会第70回年次大会 24pAN-5
+  conference_start: '2015-03-21'
+  conference_end: '2015-03-24'
+  location: 早稲田大学 早稲田キャンパス
+  url: null
+  note: null
+- id: dom-2014-b7424936
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 小川拓真
+  - 山本俊
+  - 安藤誠
+  - 生田力三
+  - 北野正雄
+  - 小芦雅斗
+  - 井元信之
+  title: 掌性を伝達する量子プロトコル
+  presentation_type: oral
+  presentation_date: '2015-03-21'
+  presentation_end_date: null
+  conference: 日本物理学会第70回年次大会 21aAN-11
+  conference_start: '2015-03-21'
+  conference_end: '2015-03-24'
+  location: 早稲田大学 早稲田キャンパス
+  url: null
+  note: null
+- id: dom-2014-a10c9457
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: 導波路結合型超伝導ナノワイヤ単一光子検出器の開発III
+  presentation_type: oral
+  presentation_date: '2015-03-12'
+  presentation_end_date: null
+  conference: 2015年第62回応用物理学会春季学術講演会 12p-A3-4
+  conference_start: '2015-03-11'
+  conference_end: '2015-03-14'
+  location: 東海大学 湘南キャンパス
+  url: null
+  note: null
+- id: dom-2014-edfb5d6b
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 浅野元紀
+  - Muriel Bechu
+  - Mark Tame
+  - Sahin Kaya Ozdemir
+  - 生田力三
+  - Durdu O Guney
+  - 山本俊
+  - Lan Yang
+  - Martin Wegener
+  - 井元信之
+  title: フォトニックメタマテリアルを用いたエンタングルメント蒸留実験
+  presentation_type: oral
+  presentation_date: '2015-03-11'
+  presentation_end_date: null
+  conference: 2015年第62回応用物理学会春季学術講演会 11a-A17-4
+  conference_start: '2015-03-11'
+  conference_end: '2015-03-14'
+  location: 東海大学 湘南キャンパス
+  url: null
+  note: null
+- id: dom-2014-5b903004
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 田中元基
+  - 逵本吉郎
+  - 杉浦幸大
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - Zhen Wang
+  - 井元信之
+  title: 時間分解同時測定による高明瞭度のHong-Ou-Mandel干渉実験
+  presentation_type: oral
+  presentation_date: '2015-03-11'
+  presentation_end_date: null
+  conference: 2015年第62回応用物理学会春季学術講演会 11a-A17-2
+  conference_start: '2015-03-11'
+  conference_end: '2015-03-14'
+  location: 東海大学 湘南キャンパス
+  url: null
+  note: null
+- id: dom-2014-d2a6476a
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: 導波路結合型超伝導ナノワイヤ単一光子検出器の作製と評価
+  presentation_type: oral
+  presentation_date: '2014-10-15'
+  presentation_end_date: null
+  conference: 電子情報通信学会 超伝導エレクトロニクス研究会(SCE
+  conference_start: '2014-10-15'
+  conference_end: '2014-10-16'
+  location: 東北大学 電気通信研究所
+  url: null
+  note: null
+- id: dom-2014-6e3836c9
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: 導波路型超伝導ナノワイヤ単一光子検出器の開発II
+  presentation_type: oral
+  presentation_date: '2014-09-19'
+  presentation_end_date: null
+  conference: 2014年第75回応用物理学会秋季学術講演会 19p-A22-4
+  conference_start: '2014-09-17'
+  conference_end: '2014-09-20'
+  location: 北海道大学 札幌キャンパス
+  url: null
+  note: null
+- id: dom-2014-bae9c381
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 杉浦幸大
+  - 逵本吉朗
+  - 勝瀬大祐
+  - 安藤誠
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 可視-通信波長光子対を用いたエンタングルメント抽出実験
+  presentation_type: oral
+  presentation_date: '2014-09-18'
+  presentation_end_date: null
+  conference: 2014年第75回応用物理学会秋季学術講演会 18p-C2-12
+  conference_start: '2014-09-17'
+  conference_end: '2014-09-20'
+  location: 北海道大学 札幌キャンパス
+  url: null
+  note: null
+- id: dom-2014-fcdbe818
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 安井崇人
+  - 生田力三
+  - 小林俊輝
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: ダイヤモンド中のNV中心のための637nmから通信波長帯への波長変換実験
+  presentation_type: oral
+  presentation_date: '2014-09-09'
+  presentation_end_date: null
+  conference: 日本物理学会第68回年次大会 9aAZ-4
+  conference_start: '2014-09-07'
+  conference_end: '2014-09-10'
+  location: 中部大学 春日井キャンパス
+  url: null
+  note: null
+- id: dom-2014-4ce338d9
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 小林俊輝
+  - 安井崇人
+  - 生田力三
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: 波長自由度のビームスプリッターを用いた二光子干渉実験
+  presentation_type: oral
+  presentation_date: '2014-09-09'
+  presentation_end_date: null
+  conference: 日本物理学会第68回年次大会 9aAZ-3
+  conference_start: '2014-09-07'
+  conference_end: '2014-09-10'
+  location: 中部大学 春日井キャンパス
+  url: null
+  note: null
+- id: dom-2014-db447b7c
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 生田力三
+  - 小林俊輝
+  - 加藤大織
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: 微弱コヒーレント光を用いた入力光の位相を保持する部分波長変換器の実証実験
+  presentation_type: oral
+  presentation_date: '2014-09-09'
+  presentation_end_date: null
+  conference: 日本物理学会第68回年次大会 9aAZ-2
+  conference_start: '2014-09-07'
+  conference_end: '2014-09-10'
+  location: 中部大学 春日井キャンパス
+  url: null
+  note: null
+- id: dom-2014-fb682fad
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 水谷明博
+  - 玉木潔
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: Measurement-device-independent quantum key distribution for Scarani-Acin-Ribordy-Gisin 04 protocol
+  presentation_type: poster
+  presentation_date: '2014-06-06'
+  presentation_end_date: '2014-06-07'
+  conference: 第11回AMO討論会
+  conference_start: '2014-06-06'
+  conference_end: '2014-06-07'
+  location: 大阪大学 豊中キャンパス
+  url: null
+  note: null
+- id: dom-2014-5ff5adb2
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 逵本吉朗
+  - 勝瀬大祐
+  - 安藤誠
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 通信波長光子を用いたエンタングルメント抽出実験
+  presentation_type: poster
+  presentation_date: '2014-06-06'
+  presentation_end_date: '2014-06-07'
+  conference: 第11回AMO討論会
+  conference_start: '2014-06-06'
+  conference_end: '2014-06-07'
+  location: 大阪大学 豊中キャンパス
+  url: null
+  note: null
+- id: dom-2014-ee81bee6
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 小林俊輝
+  - 生田力三
+  - 加藤大織
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: 単一光子レベルで入力光のコヒーレンスを保持する部分波長変換器の実証
+  presentation_type: poster
+  presentation_date: '2014-06-06'
+  presentation_end_date: '2014-06-07'
+  conference: 第11回AMO討論会
+  conference_start: '2014-06-06'
+  conference_end: '2014-06-07'
+  location: 大阪大学 豊中キャンパス
+  url: null
+  note: null
+- id: dom-2014-4bc0787b
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 浅野元紀
+  - Sahin Kaya Ozdemir
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  - Lang Young
+  title: トロイド型微小光共振器を用いた光パルスの群遅延の観測
+  presentation_type: poster
+  presentation_date: '2014-06-06'
+  presentation_end_date: '2014-06-07'
+  conference: 第11回AMO討論会
+  conference_start: '2014-06-06'
+  conference_end: '2014-06-07'
+  location: 大阪大学 豊中キャンパス
+  url: null
+  note: null
+- id: dom-2014-b123a8c5
+  scope: domestic
+  fiscal_year: 2014
+  authors:
+  - 水谷明博
+  - 玉木潔
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: Measurement device independent quantum key distribution for SARG04
+  presentation_type: oral
+  presentation_date: '2014-05-12'
+  presentation_end_date: null
+  conference: 第30回量子情報技術研究会 (QIT30
+  conference_start: '2014-05-12'
+  conference_end: '2014-05-13'
+  location: 名古屋大学 東山キャンパス
+  url: null
+  note: null
+- id: dom-2013-3aef4cd9
+  scope: domestic
+  fiscal_year: 2013
+  authors:
+  - 水谷明博
+  - 玉木潔
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: 測定装置無依存量子鍵配送における多光子放出イベントからの鍵抽出の安全性について
+  presentation_type: oral
+  presentation_date: '2014-03-30'
+  presentation_end_date: null
+  conference: 2014年第69回日本物理学会春季大会 30pCC-4
+  conference_start: '2014-03-27'
+  conference_end: '2014-03-30'
+  location: 東海大学 湘南キャンパス
+  url: null
+  note: null
+- id: dom-2013-a9bd3e19
+  scope: domestic
+  fiscal_year: 2013
+  authors:
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 分極反転デバイスの量子中継への応用
+  presentation_type: invited
+  presentation_date: '2014-03-18'
+  presentation_end_date: null
+  conference: 2014年第61回応用物理学会春季学術講演会 18p-F8-6
+  conference_start: '2014-03-17'
+  conference_end: '2014-03-20'
+  location: 青山学院大学 相模原キャンパス
+  url: null
+  note: null
+- id: dom-2013-646a793c
+  scope: domestic
+  fiscal_year: 2013
+  authors:
+  - 和木健太朗
+  - 山下太郎
+  - 井上振一郎
+  - 三木茂人
+  - 寺井弘高
+  - 生田力三
+  - 山本俊
+  - 井元信之
+  title: 導波路型超伝導ナノワイヤ単一光子検出器の開発I
+  presentation_type: oral
+  presentation_date: '2014-03-18'
+  presentation_end_date: null
+  conference: 2014年第61回応用物理学会春季学術講演会 18a-D5-3
+  conference_start: '2014-03-17'
+  conference_end: '2014-03-20'
+  location: 青山学院大学 相模原キャンパス
+  url: null
+  note: null
+- id: dom-2013-86da0ef3
+  scope: domestic
+  fiscal_year: 2013
+  authors:
+  - 逵本吉朗
+  - 勝瀬大祐
+  - 安藤誠
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 可視-通信波長光子対を用いたエンタングルメント抽出実験
+  presentation_type: oral
+  presentation_date: '2013-09-26'
+  presentation_end_date: null
+  conference: 日本物理学会2013年秋季大会 26aBB-2
+  conference_start: '2013-09-25'
+  conference_end: '2013-09-28'
+  location: 徳島大学
+  url: null
+  note: null
+- id: dom-2013-2ea21ce5
+  scope: domestic
+  fiscal_year: 2013
+  authors:
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 単一光子の波長変換を利用した量子操作
+  presentation_type: invited
+  presentation_date: '2013-09-17'
+  presentation_end_date: null
+  conference: 電子通信学会2013年ソサイエティ大会
+  conference_start: '2013-09-17'
+  conference_end: '2013-09-20'
+  location: 福岡工業大学
+  url: null
+  note: null
+- id: dom-2013-b6e4a5a8
+  scope: domestic
+  fiscal_year: 2013
+  authors:
+  - 小林俊輝
+  - 生田力三
+  - 加藤大織
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: 微弱コヒーレント光での差周波発生における変換光および非変換光の位相保持 の観測
+  presentation_type: poster
+  presentation_date: '2013-05-28'
+  presentation_end_date: null
+  conference: 第28回量子情報技術研究会 (QIT28
+  conference_start: '2013-05-27'
+  conference_end: '2013-05-28'
+  location: 北海道大学 札幌キャンパス
+  url: null
+  note: null
+- id: dom-2013-f5537b7a
+  scope: domestic
+  fiscal_year: 2013
+  authors:
+  - 逵本吉朗
+  - 勝瀬大祐
+  - 安藤誠
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 可視-通信波長光子対を用いた非古典的干渉の観測
+  presentation_type: poster
+  presentation_date: '2013-05-28'
+  presentation_end_date: null
+  conference: 第28回量子情報技術研究会 (QIT28
+  conference_start: '2013-05-27'
+  conference_end: '2013-05-28'
+  location: 北海道大学 札幌キャンパス
+  url: null
+  note: null
+- id: dom-2013-464332bb
+  scope: domestic
+  fiscal_year: 2013
+  authors:
+  - 生田力三
+  - Sahin K. Ozdemir
+  - Mark Tame
+  - 田嶌俊之
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: A ferro-spin filter for photonic polarization qubits
+  presentation_type: poster
+  presentation_date: '2013-05-28'
+  presentation_end_date: null
+  conference: 第28回量子情報技術研究会 (QIT28
+  conference_start: '2013-05-27'
+  conference_end: '2013-05-28'
+  location: 北海道大学 札幌キャンパス
+  url: null
+  note: null
+- id: dom-2012-65fab142
+  scope: domestic
+  fiscal_year: 2012
+  authors:
+  - 生田力三
+  - 小林俊輝
+  - 加藤大織
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: 可視域から通信波長帯へ周波数下方変換された二光子の非古典的干渉の観測
+  presentation_type: oral
+  presentation_date: '2013-03-26'
+  presentation_end_date: null
+  conference: 日本物理学会第68回年次大会 26aED-2
+  conference_start: '2013-03-26'
+  conference_end: '2013-03-29'
+  location: 広島大学 東広島キャンパス（東広島市鏡山 2-313）
+  url: null
+  note: null
+- id: dom-2012-dd4e8c45
+  scope: domestic
+  fiscal_year: 2012
+  authors:
+  - 生田力三
+  - 日下良章
+  - 北野剛史
+  - 加藤大織
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: High-fidelity visible-to-telecommunication wavelength conversion with superconducting single-photon detectors and
+    non-classical interference using wavelength-converted two photons
+  presentation_type: poster
+  presentation_date: '2012-12-14'
+  presentation_end_date: null
+  conference: FIRSTプロジェクト全体会議2012
+  conference_start: '2012-12-12'
+  conference_end: '2012-12-15'
+  location: 東京大学小柴ホール
+  url: null
+  note: null
+- id: dom-2012-28482d48
+  scope: domestic
+  fiscal_year: 2012
+  authors:
+  - 加藤大織
+  - 生田力三
+  - 小林俊輝
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: 通信波長帯へ周波数下方変換された二光子における非古典的干渉の観測
+  presentation_type: poster
+  presentation_date: '2012-11-27'
+  presentation_end_date: null
+  conference: 第27回量子情報技術研究会（QIT27
+  conference_start: '2012-11-27'
+  conference_end: '2012-11-28'
+  location: 慶應義塾大学 日吉キャンパス
+  url: null
+  note: null
+- id: dom-2012-b9817d80
+  scope: domestic
+  fiscal_year: 2012
+  authors:
+  - 小林俊輝
+  - 生田力三
+  - シャヒン・カヤ・オズデミル
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: Dicke状態の拡張に必要な局所操作
+  presentation_type: oral
+  presentation_date: '2012-09-18'
+  presentation_end_date: null
+  conference: 日本物理学会2012年秋季大会 18pAK-9
+  conference_start: '2012-09-18'
+  conference_end: '2012-09-21'
+  location: 横浜国立大学
+  url: null
+  note: null
+- id: dom-2012-5f55e9b4
+  scope: domestic
+  fiscal_year: 2012
+  authors:
+  - R. Ikuta
+  - H. Kato
+  - Y. Kusaka
+  - S. Miki
+  - T. Yamashita
+  - H. Terai
+  - M. Fujiwara
+  - T. Yamamoto
+  - M. Koashi
+  - M. Sasaki
+  - Z. Wang
+  - N. Imoto
+  title: High-fidelity wavelength conversion of a quantum state with a superconducting single photon detector
+  presentation_type: poster
+  presentation_date: '2012-06-21'
+  presentation_end_date: null
+  conference: 第７回量子サイバネティクス総括班会議
+  conference_start: '2012-06-21'
+  conference_end: '2012-06-22'
+  location: ハイアットリージェンシー京都
+  url: null
+  note: null
+- id: dom-2011-314f9b89
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 生田力三
+  - 加藤大織
+  - 日下良章
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: 超伝導単一光子検出器を用いた量子状態の高忠実度波長変換実験
+  presentation_type: oral
+  presentation_date: '2012-03-24'
+  presentation_end_date: null
+  conference: 日本物理学会2012年春季大会 24pBE-4
+  conference_start: '2012-03-24'
+  conference_end: '2012-03-27'
+  location: 関西学院大学 上ヶ原キャンパス
+  url: null
+  note: null
+- id: dom-2011-c66512e2
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 勝瀬大佑
+  - 長谷川浩史
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: DFSに保護されたエンタングル光子対を用いたエンタングルメントスワッピング実験
+  presentation_type: oral
+  presentation_date: '2012-03-24'
+  presentation_end_date: null
+  conference: 日本物理学会第67回年次大会 24pBE-11
+  conference_start: '2012-03-24'
+  conference_end: '2012-03-27'
+  location: 関西学院大学 西宮上ヶ原キャンパス
+  url: null
+  note: null
+- id: dom-2011-364d0129
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 加藤大織
+  - 生田力三
+  - 日下良章
+  - 三木茂人
+  - 山下太郎
+  - 寺井弘高
+  - 藤原幹生
+  - 山本俊
+  - 小芦雅斗
+  - 佐々木雅英
+  - 王鎮
+  - 井元信之
+  title: 超伝導単一光子検出器を用いた高忠実度な波長変換量子インターフェイスの実証
+  presentation_type: oral
+  presentation_date: '2012-03-18'
+  presentation_end_date: null
+  conference: 2012年春季 第59回応用物理学関係連合講演会 18a-E3-7
+  conference_start: '2012-03-15'
+  conference_end: '2012-03-18'
+  location: 早稲田大学 早稲田キャンパス
+  url: null
+  note: null
+- id: dom-2011-9680a4e8
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 長谷川浩史
+  - 勝瀬大佑
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: Experimental Entanglement Swapping with Decoherence-Free Subspace
+  presentation_type: poster
+  presentation_date: '2011-12-15'
+  presentation_end_date: null
+  conference: FIRSTプロジェクト全体会議2011
+  conference_start: '2011-12-13'
+  conference_end: '2011-12-16'
+  location: 京都国際ホテル
+  url: null
+  note: null
+- id: dom-2011-c39d95f6
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 生田力三
+  - 日下良章
+  - 北野剛史
+  - 加藤大織
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: Wide-band quantum interface for visible-to-telecommunication wavelength conversion
+  presentation_type: poster
+  presentation_date: '2011-12-15'
+  presentation_end_date: null
+  conference: FIRSTプロジェクト全体会議2011
+  conference_start: '2011-12-13'
+  conference_end: '2011-12-16'
+  location: 京都国際ホテル
+  url: null
+  note: null
+- id: dom-2011-8732f610
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 生田力三
+  - 日下良章
+  - 北野剛史
+  - 加藤大織
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: Photonic quantum interface for visible-to-telecommunication wavelength conversion
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第25回量子情報技術研究会（QIT25
+  conference_start: '2011-11-21'
+  conference_end: '2011-11-22'
+  location: 大阪大学 基礎工学研究科 国際棟 （豊中キャンパス）
+  url: null
+  note: null
+- id: dom-2011-3fd28781
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 生田力三
+  - 北野剛史
+  - 日下良章
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 可視域エンタングルメント光子対の周波数下方変換実験
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 日本物理学会2011年秋季大会 21pED-9
+  conference_start: '2011-09-21'
+  conference_end: '2011-09-24'
+  location: 富山大学 五福キャンパス
+  url: null
+  note: null
+- id: dom-2011-02eaae43
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 山本俊
+  - 生田力三
+  - 北野剛史
+  - 日下良章
+  - 加藤大織
+  - 小芦雅斗
+  - 井元信之
+  title: PPLNを用いた非古典光の周波数下方変換実験
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 2011年秋季 第72回応用物理学会学術講演会 30a-ZR-7
+  conference_start: '2011-08-29'
+  conference_end: '2011-09-02'
+  location: 山形大学 小白川キャンパス
+  url: null
+  note: null
+- id: dom-2011-90c4de77
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 加藤大織
+  - 生田力三
+  - 日下良章
+  - 北野剛史
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 可視域から通信波長域への非古典光の周波数下方変換
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第8回原子・分子・光科学（AMO）討論会
+  conference_start: '2011-06-17'
+  conference_end: '2011-06-18'
+  location: 東京大学 本郷キャンパス 理学部化学本館5階講堂
+  url: null
+  note: null
+- id: dom-2011-c0af3bf1
+  scope: domestic
+  fiscal_year: 2011
+  authors:
+  - 日下良章
+  - 生田力三
+  - 北野剛史
+  - 加藤大織
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 可視域から通信波長域への非古典光の周波数下方変換実験
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第24回量子情報技術研究会（QIT24
+  conference_start: '2011-05-12'
+  conference_end: '2011-05-13'
+  location: 東京工業大学 大岡山キャンパス 西９号館 ディジタル多目的ホール
+  url: null
+  note: null
+- id: dom-2010-ff21add1
+  scope: domestic
+  fiscal_year: 2010
+  authors:
+  - 生田力三
+  - 北野剛史
+  - 日下良章
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 可視域から通信波長域への非古典光の周波数下方変換実験
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 日本物理学会2011年春季大会26pRB-5
+  conference_start: '2011-03-25'
+  conference_end: '2011-03-28'
+  location: 新潟大学
+  url: null
+  note: null
+- id: dom-2010-efdeba4e
+  scope: domestic
+  fiscal_year: 2010
+  authors:
+  - 生田力三
+  - 小野陽平
+  - 田嶌俊之
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: Efficiency improvement of faithful entanglement distribution using decoherence-free subspace
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: 量子情報処理プロジェクト全体会議2010
+  conference_start: '2010-12-08'
+  conference_end: '2010-12-11'
+  location: ホテルニューフジヤ熱海
+  url: null
+  note: null
+- id: dom-2010-6490f5b2
+  scope: domestic
+  fiscal_year: 2010
+  authors:
+  - 北野剛史
+  - 生田力三
+  - 日下良章
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: Frequency down-conversion of non-classical light from visible wavelength to telecom wavelength
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: 量子情報処理プロジェクト全体会議2010
+  conference_start: '2010-12-08'
+  conference_end: '2010-12-11'
+  location: ホテルニューフジヤ熱海
+  url: null
+  note: null
+- id: dom-2010-4f307749
+  scope: domestic
+  fiscal_year: 2010
+  authors:
+  - 小野陽平
+  - 生田力三
+  - 田嶌俊之
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: DFSによるエンタングルメント配送の高効率化
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第19回量子情報技術研究会(QIT23
+  conference_start: '2010-11-15'
+  conference_end: '2010-11-16'
+  location: 東京大学小柴ホール
+  url: null
+  note: null
+- id: dom-2010-3d88ddc6
+  scope: domestic
+  fiscal_year: 2010
+  authors:
+  - 生田力三
+  title: Efficient and robust photonic entanglement distribution using decoherence-free subspace
+  presentation_type: oral
+  presentation_date: null
+  presentation_end_date: null
+  conference: 平成22年度 G－COE若手秋の学校“量子物性の解明と新機能”
+  conference_start: '2010-10-28'
+  conference_end: '2010-10-30'
+  location: 岡山いこいの村（岡山県瀬戸内市）
+  url: null
+  note: null
+- id: dom-2010-91f8b8bc
+  scope: domestic
+  fiscal_year: 2010
+  authors:
+  - 生田力三
+  - 北野剛史
+  - 日下良章
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 可視域から通信波長域への非古典光の周波数下方変換の実現
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第5回 KARC－Σ連携セミナー 2010/9/28 情報通信研究機構神戸研究所
+  conference_start: null
+  conference_end: null
+  location: null
+  url: null
+  note: null
+- id: dom-2010-4780996b
+  scope: domestic
+  fiscal_year: 2010
+  authors:
+  - 生田力三
+  - 小野陽平
+  - 田嶌俊之
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: DFSを用いたエンタングルメント配送の高効率化
+  presentation_type: oral
+  presentation_date: null
+  presentation_end_date: null
+  conference: 日本物理学会2010年秋季大会
+  conference_start: '2010-09-23'
+  conference_end: null
+  location: 大阪府立大学
+  url: null
+  note: null
+- id: dom-2010-4780996b
+  scope: domestic
+  fiscal_year: 2010
+  authors:
+  - 生田力三
+  - 小野陽平
+  - 田嶌俊之
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: DFSを用いたエンタングルメント配送の高効率化
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: 最先端研究開発支援プログラム“量子情報処理プロジェクト”夏期研修会（第１回
+  conference_start: '2010-09-23'
+  conference_end: null
+  location: ホテルサンライズ知念
+  url: null
+  note: null
+- id: dom-2009-cc317d0c
+  scope: domestic
+  fiscal_year: 2009
+  authors:
+  - 生田力三
+  - 田嶌俊之
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: Optimal local expansion of W states using linear optics and Fock states
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第20回量子情報技術研究会（QIT21
+  conference_start: '2009-11-04'
+  conference_end: '2009-11-05'
+  location: 電気通信大学
+  url: null
+  note: null
+- id: dom-2009-b08f3063
+  scope: domestic
+  fiscal_year: 2009
+  authors:
+  - 生田力三
+  - 田嶌俊之
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 線形光学素子を用いた局所操作によるW状態拡張ゲートの効率化
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 日本物理学会2009年秋季大会25aZF-4
+  conference_start: '2009-09-25'
+  conference_end: null
+  location: 熊本大学黒髪キャンパス
+  url: null
+  note: null
+- id: dom-2009-7e854076
+  scope: domestic
+  fiscal_year: 2009
+  authors:
+  - 岡本覚
+  - 徳永裕己
+  - 生田力三
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: ４光子クラスター状態を用いた一方向量子計算の量子プロセストモグラフィー測定
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 日本物理学会2009年秋季大会26aZF-4
+  conference_start: '2009-09-25'
+  conference_end: '2009-09-28'
+  location: 熊本大学黒髪キャンパス
+  url: null
+  note: null
+- id: dom-2009-b08f3063
+  scope: domestic
+  fiscal_year: 2009
+  authors:
+  - 生田力三
+  title: 線形光学素子を用いた局所操作によるW状態拡張ゲートの効率化
+  presentation_type: poster
+  presentation_date: null
+  presentation_end_date: null
+  conference: 平成21年度 G-COE若手秋の学校“新しい量子物質・物性・機能の研究”
+  conference_start: '2009-09-25'
+  conference_end: null
+  location: 休暇村 近江八幡（滋賀県）
+  url: null
+  note: null
+- id: dom-2009-b08f3063
+  scope: domestic
+  fiscal_year: 2009
+  authors:
+  - 生田力三
+  - 田嶌俊之
+  - 山本俊
+  - 小芦雅斗
+  - 井元信之
+  title: 線形光学素子を用いた局所操作によるW状態拡張ゲートの効率化
+  presentation_type: null
+  presentation_date: null
+  presentation_end_date: null
+  conference: 第６回 原子・分子・光化学（AMO）討論会
+  conference_start: '2009-09-25'
+  conference_end: null
+  location: 大阪大学 豊中キャンパス Σホール
+  url: null
+  note: null

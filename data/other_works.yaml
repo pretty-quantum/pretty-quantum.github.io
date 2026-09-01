@@ -1,0 +1,11 @@
+# Commentary/review articles, book chapters, outreach articles, etc.
+# Add entries under works. Dates/years should be written explicitly rather than inferred.
+schema_version: 1
+person:
+  canonical_name: Rikizo Ikuta
+  aliases:
+    - Rikizo Ikuta
+    - R. Ikuta
+    - 生田力三
+    - 生田 力三
+works: []
