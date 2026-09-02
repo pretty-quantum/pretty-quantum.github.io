@@ -84,7 +84,6 @@ def render_content(data: dict) -> str:
     return f'''<div class="qja-root">
   <main class="qja-page">
     <header class="qja-header">
-      <h1>{esc(page.get("title"))}</h1>
       <p class="qja-author">{esc(page.get("author"))} <span class="qja-author-sep">·</span> <a class="qja-pdf-link" href="qjapanimation.pdf">{esc(page.get("pdf_label") or "PDF")}</a></p>
     </header>
 
@@ -117,7 +116,7 @@ def main() -> None:
     template = TEMPLATE_PATH.read_text(encoding="utf-8")
     output = (template
               .replace("{{META_DESCRIPTION}}", esc(page.get("description")))
-              .replace("{{SITE_TITLE}}", esc(page.get("site_title") or "Qjapanimation"))
+              .replace("{{SITE_TITLE}}", esc(page.get("title") or page.get("site_title") or "Qjapanimation"))
               .replace("{{QJA_CONTENT}}", render_content(data)))
     OUTPUT_PATH.write_text(output, encoding="utf-8")
     total = sum(len(s.get("entries", []) or []) for s in data.get("sections", []) or [])
