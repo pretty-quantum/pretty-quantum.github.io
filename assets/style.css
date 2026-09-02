@@ -1038,53 +1038,32 @@ body:has(.publication-page) .hero {
 .memories-intro {
   margin: 18px 0 30px;
   line-height: 1.75;
-}
-.memory-year {
-  margin-top: 34px;
-}
-.memory-year > h2 {
-  margin: 0 0 14px;
-  font-size: 22px;
-  font-weight: 500;
-}
-.memory-card {
-  margin: 0 0 28px;
-  padding: 0 0 24px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
-}
-.memory-card:last-child {
-  margin-bottom: 0;
-}
-.memory-formal {
-  margin-bottom: 10px;
-}
-.memory-comment {
-  margin: 10px 0 12px;
-  line-height: 1.75;
-}
-.memory-event {
-  margin-bottom: 10px;
-}
-.memory-event-title {
   font-size: 16px;
-  line-height: 1.6;
 }
-.memory-event-meta {
-  margin-top: 3px;
-  font-size: 14px;
-  opacity: 0.72;
+
+.memory-extra {
+  margin: 9px 0 4px;
 }
+
+.memory-comment {
+  margin: 0 0 10px;
+  line-height: 1.7;
+  color: #555;
+}
+
 .memory-photos {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 12px;
+  margin: 10px 0 4px;
   align-items: flex-start;
 }
+
 .memory-photo-link {
   display: block;
   line-height: 0;
 }
+
 .memory-photo-link img {
   display: block;
   width: auto;
@@ -1093,6 +1072,16 @@ body:has(.publication-page) .hero {
   max-height: 260px;
   object-fit: contain;
 }
+
+ol.entries li.memory-augmented,
+ol.entries li.memory-standalone {
+  margin-bottom: 18px;
+}
+
+ol.entries li.memory-standalone {
+  color: var(--text);
+}
+
 @media (max-width: 640px) {
   .memory-photo-link,
   .memory-photo-link img {

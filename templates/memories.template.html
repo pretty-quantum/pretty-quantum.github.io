@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="学会・研究会・出張の個人的な思い出と写真。発表情報はPresentationsのデータベースと共通です。">
+  <meta name="description" content="発表一覧に、学会・研究会・出張などの個人的な感想と写真を加えたMemoriesページです。">
   <title>Memories - Rikizo Ikuta</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -14,15 +14,33 @@
   </header>
   <section class="hero"><h1>Memories</h1></section>
   <main class="page presentations-page memories-page">
-    <nav class="presentation-jump" aria-label="Presentation sections">
-      <a href="presentations.html#international">International presentations</a>
+    <nav class="presentation-jump" aria-label="Memories sections">
+      <a href="#international">International presentations</a>
       <span aria-hidden="true">/</span>
-      <a href="presentations.html#domestic">Domestic presentations</a>
+      <a href="#domestic">Domestic presentations</a>
       <span aria-hidden="true">/</span>
       <a href="memories.html" aria-current="page">Memories</a>
     </nav>
-    <p class="memories-intro">学会・研究会・出張などの個人的な思い出です。発表に対応する項目は Presentations と同じ情報を表示し、その下に当時の感想と写真を添えています。</p>
-    {{MEMORIES}}
+
+    <p class="memories-intro">Presentations の全項目をそのまま表示し、記録があるものには当時の感想や写真を添えています。発表一覧にはない研究会や出張なども一部含まれます。</p>
+
+    <section id="international" class="presentation-scope">
+      <h2 class="scope-title">International presentations</h2>
+      {{INTERNATIONAL_MEMORIES}}
+    </section>
+
+    <nav class="presentation-jump" aria-label="Memories sections">
+      <a href="#international">International presentations</a>
+      <span aria-hidden="true">/</span>
+      <a href="#domestic">Domestic presentations</a>
+      <span aria-hidden="true">/</span>
+      <a href="memories.html" aria-current="page">Memories</a>
+    </nav>
+
+    <section id="domestic" class="presentation-scope">
+      <h2 class="scope-title">Domestic presentations</h2>
+      {{DOMESTIC_MEMORIES}}
+    </section>
   </main>
 </body>
 </html>
