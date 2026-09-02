@@ -44,16 +44,18 @@ def tex_url(value) -> str:
     return str(value).replace("%", r"\%").replace("#", r"\#")
 
 
-def render_intro(item: dict) -> str:
+def render_intro_body(item: dict) -> str:
     if "text" in item:
-        body = tex(item.get("text"))
-    else:
-        body = (
-            tex(item.get("prefix"))
-            + r"\href{" + tex_url(item.get("url")) + "}{" + tex(item.get("link_text")) + "}"
-            + tex(item.get("suffix"))
-        )
-    return "  \\item " + body
+        return tex(item.get("text"))
+    return (
+        tex(item.get("prefix"))
+        + r"\href{" + tex_url(item.get("url")) + "}{" + tex(item.get("link_text")) + "}"
+        + tex(item.get("suffix"))
+    )
+
+
+def render_intro(item: dict) -> str:
+    return "  \\item " + render_intro_body(item)
 
 
 def values(entry: dict, key: str) -> list[str]:
@@ -101,7 +103,9 @@ def main() -> None:
     page = data.get("page", {})
     template = TEMPLATE_PATH.read_text(encoding="utf-8")
 
-    intro = "\n".join(render_intro(item) for item in (data.get("intro") or []))
+    intro_items = data.get("intro") or []
+    intro_lead = render_intro_body(intro_items[0]) if intro_items else ""
+    intro = "\n".join(render_intro(item) for item in intro_items[1:])
     sections = "\n\n".join(
         render_section(section, i)
         for i, section in enumerate(data.get("sections") or [])
@@ -114,6 +118,7 @@ def main() -> None:
         .replace("{{TITLE}}", tex(page.get("title")))
         .replace("{{AUTHOR}}", tex(page.get("author")))
         .replace("{{UPDATED}}", tex(format_date(page.get("updated"))))
+        .replace("{{INTRO_LEAD}}", intro_lead)
         .replace("{{INTRO}}", intro)
         .replace("{{SECTIONS}}", sections)
         .replace("{{FOOTNOTE}}", tex(page.get("footnote")))

@@ -19,14 +19,18 @@ def esc(value) -> str:
     return html.escape(str(value), quote=True) if value not in (None, "") else ""
 
 
-def render_intro_item(item: dict) -> str:
+def render_intro_body(item: dict) -> str:
     if "text" in item:
-        return f"<li>{esc(item['text'])}</li>"
+        return esc(item["text"])
     return (
-        f'<li>{esc(item.get("prefix"))}'
+        f'{esc(item.get("prefix"))}'
         f'<a href="{esc(item.get("url"))}" target="_blank" rel="noopener noreferrer">'
-        f'{esc(item.get("link_text"))}</a>{esc(item.get("suffix"))}</li>'
+        f'{esc(item.get("link_text"))}</a>{esc(item.get("suffix"))}'
     )
+
+
+def render_intro_item(item: dict) -> str:
+    return f"<li>{render_intro_body(item)}</li>"
 
 
 def render_lines(lines: list[str], muted_if_empty: bool = False) -> str:
@@ -79,7 +83,9 @@ def render_section(section: dict) -> str:
 
 def render_content(data: dict) -> str:
     page = data.get("page", {})
-    intro = "\n".join(render_intro_item(x) for x in data.get("intro", []) or [])
+    intro_items = data.get("intro", []) or []
+    intro_lead = render_intro_body(intro_items[0]) if intro_items else ""
+    intro = "\n".join(render_intro_item(x) for x in intro_items[1:])
     sections = "\n\n".join(render_section(s) for s in data.get("sections", []) or [])
     total = sum(len(s.get("entries", []) or []) for s in data.get("sections", []) or [])
     return f'''<div class="qja-root">
@@ -88,7 +94,7 @@ def render_content(data: dict) -> str:
       <p class="qja-author">{esc(page.get("author"))} <span class="qja-author-sep">·</span> <a class="qja-pdf-link" href="qjapanimation.pdf">{esc(page.get("pdf_label") or "PDF")}</a></p>
     </header>
 
-    <p class="qja-lead">{esc(page.get("lead"))}</p>
+    <p class="qja-lead">{intro_lead}</p>
 
     <aside class="qja-intro"><ul>
 {intro}
