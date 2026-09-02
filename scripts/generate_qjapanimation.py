@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import html
+import json
 from pathlib import Path
 import unicodedata
 import yaml
@@ -87,6 +88,8 @@ def render_content(data: dict) -> str:
       <p class="qja-author">{esc(page.get("author"))} <span class="qja-author-sep">·</span> <a class="qja-pdf-link" href="qjapanimation.pdf">{esc(page.get("pdf_label") or "PDF")}</a></p>
     </header>
 
+    <p class="qja-lead">{esc(page.get("lead"))}</p>
+
     <aside class="qja-intro"><ul>
 {intro}
     </ul></aside>
@@ -110,13 +113,74 @@ def render_content(data: dict) -> str:
 </div>'''
 
 
+
+def structured_data(data: dict) -> str:
+    page = data.get("page", {})
+    canonical = page.get("canonical_url") or "https://pretty-quantum.github.io/qjapanimation.html"
+
+    items = []
+    position = 1
+    for section in data.get("sections", []) or []:
+        for entry in section.get("entries", []) or []:
+            title = entry.get("title")
+            if not title:
+                continue
+            items.append({
+                "@type": "ListItem",
+                "position": position,
+                "item": {
+                    "@type": "CreativeWork",
+                    "name": str(title),
+                },
+            })
+            position += 1
+
+    payload = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": page.get("title"),
+        "headline": page.get("title"),
+        "description": page.get("description"),
+        "url": canonical,
+        "inLanguage": "ja",
+        "dateModified": str(page.get("updated") or ""),
+        "author": {
+            "@type": "Person",
+            "name": page.get("author") or "生田力三",
+        },
+        "keywords": [
+            "量子情報",
+            "量子通信",
+            "量子コンピュータ",
+            "量子もつれ",
+            "量子テレポーテーション",
+            "量子暗号",
+            "量子アルゴリズム",
+            "量子力学",
+            "多世界解釈",
+            "シュレーディンガーの猫",
+            "アニメ",
+            "漫画",
+        ],
+        "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": len(items),
+            "itemListElement": items,
+        },
+    }
+    return json.dumps(payload, ensure_ascii=False, indent=2)
+
+
 def main() -> None:
     data = yaml.safe_load(DATA_PATH.read_text(encoding="utf-8")) or {}
     page = data.get("page", {})
     template = TEMPLATE_PATH.read_text(encoding="utf-8")
     output = (template
               .replace("{{META_DESCRIPTION}}", esc(page.get("description")))
+              .replace("{{CANONICAL_URL}}", esc(page.get("canonical_url") or "https://pretty-quantum.github.io/qjapanimation.html"))
+              .replace("{{HTML_TITLE}}", esc(page.get("html_title") or page.get("title") or "Qjapanimation"))
               .replace("{{SITE_TITLE}}", esc(page.get("title") or page.get("site_title") or "Qjapanimation"))
+              .replace("{{STRUCTURED_DATA}}", structured_data(data))
               .replace("{{QJA_CONTENT}}", render_content(data)))
     OUTPUT_PATH.write_text(output, encoding="utf-8")
     total = sum(len(s.get("entries", []) or []) for s in data.get("sections", []) or [])
