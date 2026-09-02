@@ -946,3 +946,16 @@ body:has(.publication-page) .hero {
     height: 130px;
   }
 }
+
+
+/* =========================================================
+   Home green-band links: same scale as body text
+   ========================================================= */
+.green-band a,
+.green-band .feature-title,
+.green-band h2,
+.green-band h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.55;
+}
