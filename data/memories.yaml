@@ -197,20 +197,10 @@ memories:
   - 20240916-1.jpg
   - 20240916-2.jpg
 - id: memory-a73385cb
-  event:
-    scope: domestic
-    authors:
-    - 生田力三
-    presentation_title: 非線形量子光学に基づく量子ネットワーク
-    presentation_type: ポスター
-    presentation_date: '2024-07-19'
-    conference: 第3回融合の場
-    date_start: '2024-07-18'
-    date_end: '2024-07-19'
-    location: 京都大学百周年時計台記念館
   comment: ポスター発表しました。いろんな話が聞けて大変よい会議でした。久々にふたばの豆餅を食べる良い機会になりました。あとは文の助茶屋の祥緑を食べました。どちらも至福の味わいでした。帰りに高島屋に入ったら巨大なマリオがいて大変驚きました。
   photos:
   - 20240719.png
+  presentation_id: dom-2024-b4863a4d
 - id: memory-4c47279f
   event:
     scope: domestic
@@ -313,18 +303,6 @@ memories:
   comment: ''
   photos: []
 - id: memory-62fd2f8a
-  event:
-    scope: domestic
-    authors:
-    - 生田力三
-    - 北野正雄
-    - 杉山和彦
-    presentation_title: Yb+時計遷移用半導体レーザの開発
-    presentation_type: 口頭
-    presentation_date: '2005-05-19'
-    conference: 電子情報通信学会
-    date_start: '2005-05-19'
-    date_end: null
-    location: 金沢大学
   comment: 21世紀美術館は面白い。朝市も楽しい。あと、駅がなかなか美しい。とてもいい街。
   photos: []
+  presentation_id: dom-2005-479fb8b7

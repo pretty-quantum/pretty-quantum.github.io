@@ -60,8 +60,7 @@ presentations:
   presentation_type: null
   presentation_date: null
   presentation_end_date: null
-  conference: 15th Advanced Lasers and Photon Sources Conference (ALPS2026) in the framework of the OPTICS & PHOTONICS International Congress
-    2026 (OPIC2026)
+  conference: 15th Advanced Lasers and Photon Sources Conference (ALPS2026) in the framework of the OPTICS & PHOTONICS International Congress 2026 (OPIC2026)
   conference_start: null
   conference_end: null
   location: PACIFICO Yokohamam, Yokohama, Japan
@@ -469,8 +468,8 @@ presentations:
   presentation_type: poster
   presentation_date: null
   presentation_end_date: null
-  conference: ALPS The 13th Advanced Lasers and Photon Sources Apr. 22(Mon.)-26(Fri.), 2024 Optics & Photonics International Congress 2024 at
-    PACIFICO Yokohama, Yokohama, Japan
+  conference: ALPS The 13th Advanced Lasers and Photon Sources Apr. 22(Mon.)-26(Fri.), 2024 Optics & Photonics International Congress 2024 at PACIFICO Yokohama, Yokohama,
+    Japan
   conference_start: null
   conference_end: null
   location: null
@@ -1692,8 +1691,8 @@ presentations:
   - M. Sasaki
   - Z. Wang
   - N. Imoto
-  title: Observation of converted and unconverted lights preserving phase information via difference frequency generation by using coherent light
-    pulse at a single photon level
+  title: Observation of converted and unconverted lights preserving phase information via difference frequency generation by using coherent light pulse at a single
+    photon level
   presentation_type: poster
   presentation_date: '2013-07-08'
   presentation_end_date: null
@@ -1723,8 +1722,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2013-07-04'
   presentation_end_date: null
-  conference: The 10th Conference on Lasers and Electro-Optics Pacific Rim, and The 18th OptoElectronics and Communications Conference / Photonics
-    in Switching 2013
+  conference: The 10th Conference on Lasers and Electro-Optics Pacific Rim, and The 18th OptoElectronics and Communications Conference / Photonics in Switching 2013
   conference_start: '2013-06-30'
   conference_end: '2013-07-04'
   location: Kyoto International Conference Center, Kyoto, Japan
@@ -1765,8 +1763,7 @@ presentations:
   presentation_type: poster
   presentation_date: '2013-04-06'
   presentation_end_date: '2013-04-09'
-  conference: The 11th US-Japan Joint Seminar on Quantum Electronics and Laser Spectroscopy “Ultimate Quantum Systems of Light and Matter- Control
-    and Applications”
+  conference: The 11th US-Japan Joint Seminar on Quantum Electronics and Laser Spectroscopy “Ultimate Quantum Systems of Light and Matter- Control and Applications”
   conference_start: '2013-04-04'
   conference_end: '2013-04-12'
   location: Nara Prefectural New Public Hall, Japan
@@ -1891,8 +1888,8 @@ presentations:
   presentation_type: poster
   presentation_date: null
   presentation_end_date: null
-  conference: International Conference on Core Research and Engineering Science of Advanced Materials (Global COE Program) Third International
-    Conference on Nanospintronics Design and Realization (3rd-ICNDR
+  conference: International Conference on Core Research and Engineering Science of Advanced Materials (Global COE Program) Third International Conference on Nanospintronics
+    Design and Realization (3rd-ICNDR
   conference_start: '2010-05-30'
   conference_end: '2010-06-04'
   location: Osaka University, Convention Center, Osaka, Japan
@@ -2172,6 +2169,21 @@ presentations:
   conference_start: null
   conference_end: null
   location: null
+  url: null
+  note: null
+- id: dom-2024-b4863a4d
+  scope: domestic
+  fiscal_year: 2024
+  authors:
+  - 生田力三
+  title: 非線形量子光学に基づく量子ネットワーク
+  presentation_type: poster
+  presentation_date: '2024-07-19'
+  presentation_end_date: null
+  conference: 第3回融合の場
+  conference_start: '2024-07-18'
+  conference_end: '2024-07-19'
+  location: 京都大学百周年時計台記念館
   url: null
   note: null
 - id: dom-2024-23a677b3
@@ -4397,8 +4409,8 @@ presentations:
   - 山本俊
   - 小芦雅斗
   - 井元信之
-  title: High-fidelity visible-to-telecommunication wavelength conversion with superconducting single-photon detectors and non-classical interference
-    using wavelength-converted two photons
+  title: High-fidelity visible-to-telecommunication wavelength conversion with superconducting single-photon detectors and non-classical interference using wavelength-converted
+    two photons
   presentation_type: poster
   presentation_date: '2012-12-14'
   presentation_end_date: null
@@ -4942,5 +4954,22 @@ presentations:
   conference_start: '2009-09-25'
   conference_end: null
   location: 大阪大学 豊中キャンパス Σホール
+  url: null
+  note: null
+- id: dom-2005-479fb8b7
+  scope: domestic
+  fiscal_year: 2005
+  authors:
+  - 生田力三
+  - 北野正雄
+  - 杉山和彦
+  title: Yb+時計遷移用半導体レーザの開発
+  presentation_type: oral
+  presentation_date: '2005-05-19'
+  presentation_end_date: null
+  conference: 電子情報通信学会
+  conference_start: '2005-05-19'
+  conference_end: null
+  location: 金沢大学
   url: null
   note: null
