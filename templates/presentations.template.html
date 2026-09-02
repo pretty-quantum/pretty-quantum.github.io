@@ -12,8 +12,22 @@
     {{NAVIGATION}}
   </header>
   <section class="hero"><h1>{{PAGE_TITLE}}</h1></section>
-  <main class="page">
-{{PRESENTATIONS}}
+  <main class="page presentations-page">
+    <nav class="presentation-jump" aria-label="Presentation sections">
+      <a href="#international">International presentations</a>
+      <span aria-hidden="true">/</span>
+      <a href="#domestic">Domestic presentations</a>
+    </nav>
+
+    <section id="international" class="presentation-scope">
+      <h2 class="scope-title">International presentations</h2>
+      {{INTERNATIONAL_PRESENTATIONS}}
+    </section>
+
+    <section id="domestic" class="presentation-scope">
+      <h2 class="scope-title">Domestic presentations</h2>
+      {{DOMESTIC_PRESENTATIONS}}
+    </section>
   </main>
 </body>
 </html>
