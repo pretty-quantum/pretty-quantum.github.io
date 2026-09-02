@@ -949,13 +949,10 @@ body:has(.publication-page) .hero {
 
 
 /* =========================================================
-   Home green-band links: same scale as body text
+   Home green-band links: match publication-list text
    ========================================================= */
-.green-band a,
-.green-band .feature-title,
-.green-band h2,
-.green-band h3 {
+.green-band a {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.55;
 }
