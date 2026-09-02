@@ -48,11 +48,11 @@ presentations:
   scope: international
   fiscal_year: 2026
   authors:
+  - Shinichi Takenaka
   - Yuya Maeda
   - Toshiki Kobayashi
   - Takuma Ueno
   - Kentaro Shibata
-  - Shinichi Takenaka
   - Kazuki Ito
   - Yuma Fujiwara
   - Shigehito Miki
@@ -63,14 +63,14 @@ presentations:
   - Makoto Yamashita
   - Shuta Nakajima
   - Takashi Yamamoto
-  title: null
-  presentation_type: null
-  presentation_date: null
+  title: Multiplexed photonic interface between atom array and waveguide array
+  presentation_type: oral
+  presentation_date: '2026-04-21'
   presentation_end_date: null
   conference: 15th Advanced Lasers and Photon Sources Conference (ALPS2026) in the framework of the OPTICS & PHOTONICS International
     Congress 2026 (OPIC2026)
-  conference_start: null
-  conference_end: null
+  conference_start: '2026-04-20'
+  conference_end: '2026-04-24'
   location: PACIFICO Yokohamam, Yokohama, Japan
   url: null
   note: null
