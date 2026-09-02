@@ -434,6 +434,13 @@ body:has(.publication-page) .hero {
     font-size: 14px;
   }
 
+  .qja-lead {
+    margin: 18px 0 20px;
+    max-width: 980px;
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
   .qja-intro {
     margin: 18px 0;
     padding: 15px 18px;
