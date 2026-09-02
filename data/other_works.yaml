@@ -1,11 +1,163 @@
-# Commentary/review articles, book chapters, outreach articles, etc.
-# Add entries under works. Dates/years should be written explicitly rather than inferred.
 schema_version: 1
+source_url: http://qi.mp.es.osaka-u.ac.jp/main/%e8%a7%a3%e8%aa%ac%e8%a8%98%e4%ba%8b%e7%ad%89/
 person:
   canonical_name: Rikizo Ikuta
   aliases:
-    - Rikizo Ikuta
-    - R. Ikuta
-    - 生田力三
-    - 生田 力三
-works: []
+  - Rikizo Ikuta
+  - R. Ikuta
+  - 生田力三
+  - 生田 力三
+works:
+- year: 2025
+  date: 2025-10
+  authors:
+  - 山本 俊
+  - 小林 俊輝
+  - 中島 秀太
+  - 生田 力三
+  - 小玉 剛史
+  - 下井 英樹
+  - 三木 茂人
+  title: 量子ネットワーク実現に向けた研究開発
+  publication: 月刊OPTRONICS
+  number: 2025年10月号
+  pages: 109–115
+  type: Review
+  url: https://optronics-media.com/monthly-post/103743/
+- year: 2025
+  date: '2025-09-10'
+  authors:
+  - 生田 力三
+  title: 量子インターネットにつながる量子通信の基礎
+  publication: 光学
+  volume: '54'
+  number: '9'
+  pages: 346–353
+  type: Review
+  url: https://myosj.or.jp/kogaku/backnumber/54-09/
+- year: 2023
+  date: 2023-04
+  authors:
+  - 生田 力三
+  title: 量子インターネットの概要とその実現に向けた光量子技術
+  publication: 光アライアンス
+  volume: '34'
+  number: '4'
+  pages: 55–59
+  type: Review
+- year: 2022
+  date: '2022-09-25'
+  authors:
+  - 山本 俊
+  - 生田 力三
+  title: 研究室探訪 vol. 29 大阪大学 山本・生田研究室
+  publication: O plus E
+  volume: '44'
+  number: '487'
+  type: Lab profile
+  url: https://www.adcom-media.co.jp/laboratory/2022/09/25/103913/
+- year: 2022
+  date: 2022-07
+  authors:
+  - 蓑輪 陽介
+  - 藤原 秀紀
+  - 大戸 達彦
+  - 山田 亮
+  - 後藤 穣
+  - 細井 優
+  - 生田 力三
+  - 鶴田 篤史
+  - 横山 知大
+  - 夛田 博一
+  title: 物性物理学に関する学生実験のオンライン化の試み
+  publication: 大学の物理教育
+  volume: '28'
+  number: '2'
+  pages: 83–87
+  type: Education article
+  doi: 10.11316/peu.28.2_83
+- year: 2022
+  date: 2022-09
+  authors:
+  - 生田 力三
+  title: 量子インターネット実現に向けた光量子技術
+  publication: O plus E
+  volume: '44'
+  number: '487'
+  pages: 494–498
+  type: Review
+  url: https://www.adcom-media.co.jp/opluse/contents/y2022/
+- year: 2022
+  authors:
+  - Toshiki Kobayashi
+  - Motoki Asano
+  - Rikizo Ikuta
+  - Sahin K. Ozdemir
+  - Takashi Yamamoto
+  title: Photonic Quantum Interfaces Among Different Physical Systems
+  publication: Hybrid Quantum Systems
+  pages: 197–218
+  type: Book chapter
+  doi: 10.1007/978-981-16-6679-7_9
+- year: 2021
+  date: 2021-02
+  authors:
+  - 永山 翔太
+  - 生田 力三
+  - 小坂 英男
+  - 佐々木 寿彦
+  - 高橋 優樹
+  - 根本 香絵
+  - 堀切 智之
+  - 山崎 歴舟
+  - 山本 俊
+  - Rodney Van Meter
+  title: “The” 量子インターネット―この宇宙の物理法則に許されるサイバー空間の極致―
+  publication: Quantum Internet Task Force (QITF)
+  type: White paper
+  url: https://qitf.org/files/20210222_qitf_whitepaper.pdf
+- year: 2021
+  date: 2021-07
+  authors:
+  - 山本 俊
+  - 生田 力三
+  - 小林 俊輝
+  - 井元 信之
+  title: 量子ネットワーク技術
+  publication: 応用物理
+  volume: '90'
+  number: '7'
+  pages: 433–437
+  type: Review
+  url: https://ndlsearch.ndl.go.jp/books/R000000004-I031601562
+- year: 2019
+  date: 2019-06
+  authors:
+  - 生田 力三
+  title: 波長変換による通信波長光子と原子間の量子もつれ生成
+  publication: 光学
+  volume: '48'
+  number: '6'
+  pages: '228'
+  type: Review
+  url: https://myosj.or.jp/kogaku/backnumber/48-6/
+- year: 2018
+  authors:
+  - 生田 力三
+  title: 高密度に周波数多重化された光子対の生成実験
+  publication: 村田学術振興財団年報
+  number: '32'
+  type: Research report
+  url: https://corporate.murata.com/~/media/corporate/group/zaidan/report/study/201812/h29_011.ashx?la=ja-jp
+- year: 2016
+  date: 2016-06
+  authors:
+  - 山本 俊
+  - 生田 力三
+  - 井元 信之
+  title: 大阪大学 基礎工学研究科 物質創成専攻 井元研究室：物性物理工学領域ナノ量子物理講座
+  publication: 光アライアンス
+  volume: '27'
+  number: '6'
+  pages: 57–61
+  type: Lab profile
