@@ -26,13 +26,8 @@ def is_me(name: str, alias_set: set[str]) -> bool:
 
 
 def format_authors(authors: list[str], alias_set: set[str]) -> str:
-    out = []
-    for name in authors or []:
-        text = esc(name)
-        if is_me(name, alias_set):
-            text = f"<strong>{text}</strong>"
-        out.append(text)
-    return ", ".join(out)
+    # Preserve author order without special emphasis.
+    return ", ".join(esc(name) for name in (authors or []))
 
 
 def period_text(e: dict) -> str:
@@ -63,9 +58,6 @@ def render_entry(e: dict, alias_set: set[str]) -> str:
     if url:
         conference = f'<a class="item-link" href="{esc(url)}">{conference}</a>'
 
-    first_author_is_me = bool(e.get("authors")) and is_me(e["authors"][0], alias_set)
-    presenter_badge = '<span class="badge">Presenter</span>' if first_author_is_me else ""
-
     pieces = [f'{authors}, &quot;{title}&quot;']
     meta = []
     if ptype:
@@ -82,7 +74,7 @@ def render_entry(e: dict, alias_set: set[str]) -> str:
     if note:
         pieces.append(f". {note}")
     pieces.append(".")
-    return f"<li>{''.join(pieces)} {presenter_badge}</li>"
+    return f"<li>{''.join(pieces)}</li>"
 
 
 def render_scope(entries: list[dict], scope: str, alias_set: set[str]) -> str:
