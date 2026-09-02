@@ -41,11 +41,11 @@ presentations:
   scope: international
   fiscal_year: 2026
   authors:
+  - Shinichi Takenaka
   - Yuya Maeda
   - Toshiki Kobayashi
   - Takuma Ueno
   - Kentaro Shibata
-  - Shinichi Takenaka
   - Kazuki Ito
   - Yuma Fujiwara
   - Shigehito Miki
@@ -56,13 +56,13 @@ presentations:
   - Makoto Yamashita
   - Shuta Nakajima
   - Takashi Yamamoto
-  title: null
-  presentation_type: null
-  presentation_date: null
+  title: Multiplexed photonic interface between atom array and waveguide array
+  presentation_type: oral
+  presentation_date: '2026-04-21'
   presentation_end_date: null
   conference: 15th Advanced Lasers and Photon Sources Conference (ALPS2026) in the framework of the OPTICS & PHOTONICS International Congress 2026 (OPIC2026)
-  conference_start: null
-  conference_end: null
+  conference_start: '2026-04-20'
+  conference_end: '2026-04-24'
   location: PACIFICO Yokohamam, Yokohama, Japan
   url: null
   note: null
@@ -4781,9 +4781,9 @@ presentations:
   - 井元信之
   title: DFSによるエンタングルメント配送の高効率化
   presentation_type: poster
-  presentation_date: null
+  presentation_date: '2010-11-15'
   presentation_end_date: null
-  conference: 第19回量子情報技術研究会(QIT23
+  conference: 第23回量子情報技術研究会(QIT23）
   conference_start: '2010-11-15'
   conference_end: '2010-11-16'
   location: 東京大学小柴ホール
@@ -4836,11 +4836,11 @@ presentations:
   - 井元信之
   title: DFSを用いたエンタングルメント配送の高効率化
   presentation_type: oral
-  presentation_date: null
+  presentation_date: '2010-09-25'
   presentation_end_date: null
   conference: 日本物理学会2010年秋季大会
   conference_start: '2010-09-23'
-  conference_end: null
+  conference_end: '2010-09-26'
   location: 大阪府立大学
   url: null
   note: null
@@ -4875,9 +4875,9 @@ presentations:
   - 井元信之
   title: Optimal local expansion of W states using linear optics and Fock states
   presentation_type: poster
-  presentation_date: null
+  presentation_date: '2009-11-04'
   presentation_end_date: null
-  conference: 第20回量子情報技術研究会（QIT21
+  conference: 第21回量子情報技術研究会（QIT21）
   conference_start: '2009-11-04'
   conference_end: '2009-11-05'
   location: 電気通信大学
@@ -4893,12 +4893,12 @@ presentations:
   - 小芦雅斗
   - 井元信之
   title: 線形光学素子を用いた局所操作によるW状態拡張ゲートの効率化
-  presentation_type: null
-  presentation_date: null
+  presentation_type: oral
+  presentation_date: '2009-09-25'
   presentation_end_date: null
   conference: 日本物理学会2009年秋季大会25aZF-4
   conference_start: '2009-09-25'
-  conference_end: null
+  conference_end: '2009-09-28'
   location: 熊本大学黒髪キャンパス
   url: null
   note: null
