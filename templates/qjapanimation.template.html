@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <title>{{SITE_TITLE}} - Rikizo Ikuta</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="site-name"><a href="index.html" class="site-link">Rikizo Ikuta's website</a></div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="international.html">International</a>
+      <a href="domestic.html">Domestic</a>
+      <a href="other-works.html">Other works</a>
+      <a href="guide.html">Guide</a>
+      <a href="qjapanimation.html" class="active">Qjapanimation</a>
+    </nav>
+  </header>
+  <section class="hero"><h1>{{SITE_TITLE}}</h1></section>
+  <main class="special-page">
+{{QJA_CONTENT}}
+  </main>
+<script>
+(function () {
+  const root = document.querySelector(".qja-root");
+  const searchInput = root.querySelector("#qja-search");
+  const yearFilter = root.querySelector("#qja-year-filter");
+  const resetButton = root.querySelector("#qja-reset");
+  const count = root.querySelector("#qja-count");
+  const empty = root.querySelector("#qja-empty");
+  const sections = Array.from(root.querySelectorAll(".qja-section"));
+  const rows = Array.from(root.querySelectorAll("tbody tr"));
+  const years = [...new Set(rows.map(row => row.dataset.year).filter(Boolean))]
+    .sort((a, b) => Number(a) - Number(b));
+
+  years.forEach(year => {
+    const option = document.createElement("option");
+    option.value = year;
+    option.textContent = year + "年";
+    yearFilter.appendChild(option);
+  });
+
+  function normalize(value) {
+    return value.normalize("NFKC").toLowerCase().trim();
+  }
+
+  function applyFilter() {
+    const query = normalize(searchInput.value);
+    const selectedYear = yearFilter.value;
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+      const rowYear = row.dataset.year;
+      const yearMatches = !selectedYear ||
+        (selectedYear === "unknown" ? !rowYear : rowYear === selectedYear);
+      const textMatches = !query || normalize(row.dataset.search).includes(query);
+      const visible = yearMatches && textMatches;
+      row.style.display = visible ? "" : "none";
+      if (visible) visibleCount += 1;
+    });
+
+    sections.forEach(section => {
+      const hasVisibleRow = Array.from(section.querySelectorAll("tbody tr"))
+        .some(row => row.style.display !== "none");
+      section.style.display = hasVisibleRow ? "" : "none";
+    });
+
+    count.textContent = visibleCount + "件を表示";
+    empty.style.display = visibleCount ? "none" : "block";
+  }
+
+  searchInput.addEventListener("input", applyFilter);
+  yearFilter.addEventListener("change", applyFilter);
+  resetButton.addEventListener("click", function () {
+    searchInput.value = "";
+    yearFilter.value = "";
+    applyFilter();
+    searchInput.focus();
+  });
+})();
+</script>
+</body>
+</html>
