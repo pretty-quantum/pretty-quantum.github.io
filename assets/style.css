@@ -1004,59 +1004,23 @@ body:has(.publication-page) .hero {
   color: #999;
 }
 
-/* Old-school hidden Memories link.
-   Always invisible: normal, visited, hover, focus, and active states. */
-.presentation-jump .memory-secret {
-  margin: 0;
+/* Hidden Memories link: keep exactly the same spacing as the visible separator. */
+.presentation-jump .memory-secret-separator {
   color: #fff !important;
 }
 
-.presentation-jump .memory-secret a,
-.presentation-jump .memory-secret a:link,
-.presentation-jump .memory-secret a:visited,
-.presentation-jump .memory-secret a:hover,
-.presentation-jump .memory-secret a:focus,
-.presentation-jump .memory-secret a:focus-visible,
-.presentation-jump .memory-secret a:active {
+.presentation-jump .memory-secret-link,
+.presentation-jump .memory-secret-link:link,
+.presentation-jump .memory-secret-link:visited,
+.presentation-jump .memory-secret-link:hover,
+.presentation-jump .memory-secret-link:focus,
+.presentation-jump .memory-secret-link:focus-visible,
+.presentation-jump .memory-secret-link:active {
   color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
   text-decoration: none !important;
-  border-color: transparent !important;
   outline: none !important;
-  box-shadow: none !important;
-  background: transparent !important;
 }
-
-
-
-.presentation-scope {
-  scroll-margin-top: 90px;
-}
-
-.presentation-scope + .presentation-scope {
-  margin-top: 52px;
-}
-
-.scope-title {
-  margin: 0 0 20px;
-  color: var(--green);
-  font-size: 26px;
-  font-weight: 400;
-}
-
-.presentation-scope .year-section:first-of-type {
-  border-top: 1px solid #dedede;
-}
-
-@media (max-width: 760px) {
-  .scope-title {
-    font-size: 23px;
-  }
-
-  .presentation-jump span {
-    margin: 0 6px;
-  }
-}
-
 
 /* Memories --------------------------------------------------------- */
 .memory-extra {
