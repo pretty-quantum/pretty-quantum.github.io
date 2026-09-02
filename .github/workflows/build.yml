@@ -31,24 +31,26 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Install YAML support
-        run: python -m pip install --disable-pip-version-check PyYAML
+      - name: Install generator dependencies
+        run: python -m pip install --disable-pip-version-check PyYAML reportlab
 
       - name: Generate pages
         run: |
           python scripts/generate_publications.py
           python scripts/generate_presentations.py
           python scripts/generate_other_works.py
+          python scripts/generate_qjapanimation.py
+          python scripts/generate_qjapanimation_pdf.py
 
       - name: Commit generated pages if changed
         shell: bash
         run: |
-          if git diff --quiet -- publications.html international.html domestic.html other-works.html; then
+          if [ -z "$(git status --porcelain -- publications.html presentations.html international.html domestic.html other-works.html qjapanimation.html qjapanimation.pdf)" ]; then
             echo "Generated pages are already up to date."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add publications.html international.html domestic.html other-works.html
+            git add publications.html presentations.html international.html domestic.html other-works.html qjapanimation.html qjapanimation.pdf
             git commit -m "Update generated website pages"
             git push
           fi
