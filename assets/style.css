@@ -1004,29 +1004,22 @@ body:has(.publication-page) .hero {
   color: #999;
 }
 
-/* Memories is intentionally a hidden/secret link.
-   It occupies its normal place, but blends into the page until hovered or focused. */
-.presentation-jump .memory-secret-separator {
-  color: transparent;
-}
-
-.presentation-jump .memory-secret-link {
-  color: transparent;
-  text-decoration: none;
-  border: 1px solid transparent;
-  border-radius: 3px;
-  padding: 1px 4px;
-  margin-left: -4px;
-}
-
-.presentation-jump .memory-secret-link:hover,
-.presentation-jump .memory-secret-link:focus,
-.presentation-jump .memory-secret-link:focus-visible {
-  color: var(--green);
-  border-color: var(--green);
-  outline: none;
+/* Old-school hidden Memories link: the literal " / Memories" remains in
+   the text flow, but its text is simply the same color as the page background. */
+.presentation-jump .memory-secret,
+.presentation-jump .memory-secret a,
+.presentation-jump .memory-secret a:hover,
+.presentation-jump .memory-secret a:focus,
+.presentation-jump .memory-secret a:visited {
+  color: var(--bg);
   text-decoration: none;
 }
+
+.presentation-jump .memory-secret {
+  margin: 0;
+}
+
+
 
 .presentation-scope {
   scroll-margin-top: 90px;
@@ -1059,12 +1052,6 @@ body:has(.publication-page) .hero {
 
 
 /* Memories --------------------------------------------------------- */
-.memories-intro {
-  margin: 18px 0 30px;
-  line-height: 1.75;
-  font-size: 16px;
-}
-
 .memory-extra {
   margin: 9px 0 4px;
 }
@@ -1090,10 +1077,9 @@ body:has(.publication-page) .hero {
 
 .memory-photo-link img {
   display: block;
+  height: 220px;
   width: auto;
-  height: auto;
-  max-width: min(260px, 100%);
-  max-height: 260px;
+  max-width: 100%;
   object-fit: contain;
 }
 
@@ -1107,8 +1093,12 @@ ol.entries li.memory-standalone {
 }
 
 @media (max-width: 640px) {
-  .memory-photo-link,
+  .memory-photo-link {
+    max-width: 100%;
+  }
+
   .memory-photo-link img {
+    height: 180px;
     max-width: 100%;
   }
 }
