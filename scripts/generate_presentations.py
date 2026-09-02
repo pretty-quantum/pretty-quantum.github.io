@@ -115,8 +115,7 @@ def nav(active: str) -> str:
     links = [
         ("index.html", "Home", "home"),
         ("publications.html", "Publications", "publications"),
-        ("international.html", "International", "international"),
-        ("domestic.html", "Domestic", "domestic"),
+        ("presentations.html", "Presentations", "presentations"),
         ("other-works.html", "Other works", "other"),
         ("guide.html", "Guide", "guide"),
         ("qjapanimation.html", "Qjapanimation", "qja"),
@@ -126,24 +125,52 @@ def nav(active: str) -> str:
         for href, label, key in links
     ) + '</nav>'
 
+
+def redirect_page(target: str) -> str:
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url={target}">
+  <link rel="canonical" href="{target}">
+  <title>Redirecting…</title>
+</head>
+<body>
+  <p><a href="{target}">Continue to presentations</a></p>
+</body>
+</html>
+"""
+
+
 def main() -> None:
     data = yaml.safe_load(DATA_PATH.read_text(encoding="utf-8")) or {}
     entries = data.get("presentations", [])
     alias_set = aliases(data)
     template = TEMPLATE_PATH.read_text(encoding="utf-8")
 
-    for scope, filename, title in [
-        ("international", "international.html", "International presentations"),
-        ("domestic", "domestic.html", "Domestic presentations"),
-    ]:
-        body = render_scope(entries, scope, alias_set)
-        output = (template
-                  .replace("{{PAGE_TITLE}}", title)
-                  .replace("{{NAVIGATION}}", nav(scope))
-                  .replace("{{PRESENTATIONS}}", body))
-        (ROOT / filename).write_text(output, encoding="utf-8")
-        count = sum(e.get("scope") == scope for e in entries)
-        print(f"Generated {filename}: {count} entries")
+    international = render_scope(entries, "international", alias_set)
+    domestic = render_scope(entries, "domestic", alias_set)
+
+    output = (template
+              .replace("{{PAGE_TITLE}}", "Presentations")
+              .replace("{{NAVIGATION}}", nav("presentations"))
+              .replace("{{INTERNATIONAL_PRESENTATIONS}}", international)
+              .replace("{{DOMESTIC_PRESENTATIONS}}", domestic))
+
+    (ROOT / "presentations.html").write_text(output, encoding="utf-8")
+
+    # Backward compatibility for old URLs/bookmarks.
+    (ROOT / "international.html").write_text(
+        redirect_page("presentations.html#international"), encoding="utf-8")
+    (ROOT / "domestic.html").write_text(
+        redirect_page("presentations.html#domestic"), encoding="utf-8")
+
+    international_count = sum(e.get("scope") == "international" for e in entries)
+    domestic_count = sum(e.get("scope") == "domestic" for e in entries)
+    print(
+        f"Generated presentations.html: "
+        f"{international_count} international + {domestic_count} domestic entries"
+    )
 
 
 if __name__ == "__main__":
