@@ -1004,6 +1004,30 @@ body:has(.publication-page) .hero {
   color: #999;
 }
 
+/* Memories is intentionally a hidden/secret link.
+   It occupies its normal place, but blends into the page until hovered or focused. */
+.presentation-jump .memory-secret-separator {
+  color: transparent;
+}
+
+.presentation-jump .memory-secret-link {
+  color: transparent;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 1px 4px;
+  margin-left: -4px;
+}
+
+.presentation-jump .memory-secret-link:hover,
+.presentation-jump .memory-secret-link:focus,
+.presentation-jump .memory-secret-link:focus-visible {
+  color: var(--green);
+  border-color: var(--green);
+  outline: none;
+  text-decoration: none;
+}
+
 .presentation-scope {
   scroll-margin-top: 90px;
 }
