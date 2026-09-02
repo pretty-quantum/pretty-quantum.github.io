@@ -33,7 +33,6 @@ def render_entry(e: dict) -> str:
     publication = esc(e.get("publication"))
     volume = esc(e.get("volume"))
     pages = esc(e.get("pages"))
-    kind = esc(e.get("type"))
     note = esc(e.get("note"))
     link = link_for(e)
 
@@ -51,8 +50,6 @@ def render_entry(e: dict) -> str:
     bits.append(f'&quot;{title}&quot;')
     if venue:
         bits.append(', ' + venue)
-    if kind:
-        bits.append(f' <span class="badge">{kind}</span>')
     if note:
         bits.append('. ' + note)
     bits.append('.')
