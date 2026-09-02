@@ -129,7 +129,7 @@ sections:
     content:
     - 世界線、タイムマシン、並行世界
     note:
-    - TVアニメ
+    - 一応
   - year: 2012
     title: ヨルムンガンド
     content:
@@ -341,7 +341,7 @@ sections:
     content:
     - 量子コンピュータ
     note:
-    - TVアニメ。原作漫画第1巻は2015年
+    - 漫画第1巻は2015年
   - year: 2022
     title: アカデミックSOS
     content:
@@ -351,9 +351,9 @@ sections:
   - year: 2022
     title: code：ノストラ
     content:
-    - 未来を予測できる量子コンピュータ「ノストラ」
+    - 未来を予測できる量子コンピュータ「ノストラ」「ファティマ」
     note:
-    - 原作：安童夕馬、漫画：明石英之
+    - 出だし読むとキョドッてしまうので注意が必要
   - year: 2022
     title: 異世界薬局
     content:
