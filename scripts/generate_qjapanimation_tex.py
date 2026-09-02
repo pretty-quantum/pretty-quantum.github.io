@@ -27,6 +27,16 @@ def tex(value) -> str:
     return s
 
 
+def format_date(value) -> str:
+    """Format an ISO-like date for PDF display."""
+    if value in (None, ""):
+        return ""
+    text = str(value)
+    if len(text) in (7, 10) and text[4] == "-" and (len(text) == 7 or text[7] == "-"):
+        return text.replace("-", "/")
+    return text
+
+
 def tex_url(value) -> str:
     """Escape a URL used as the first argument of \\href."""
     if value in (None, ""):
@@ -103,6 +113,7 @@ def main() -> None:
         .replace("{{PDF_AUTHOR}}", tex(page.get("author")))
         .replace("{{TITLE}}", tex(page.get("title")))
         .replace("{{AUTHOR}}", tex(page.get("author")))
+        .replace("{{UPDATED}}", tex(format_date(page.get("updated"))))
         .replace("{{INTRO}}", intro)
         .replace("{{SECTIONS}}", sections)
         .replace("{{FOOTNOTE}}", tex(page.get("footnote")))

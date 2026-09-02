@@ -1,127 +1,126 @@
 #!/usr/bin/env python3
-"""Generate qjapanimation.tex from data/qjapanimation.yaml."""
+"""Generate qjapanimation.html from data/qjapanimation.yaml."""
 from __future__ import annotations
 
+import html
 from pathlib import Path
-import re
+import unicodedata
 import yaml
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT = SCRIPT_DIR.parent
 DATA_PATH = ROOT / "data" / "qjapanimation.yaml"
-TEMPLATE_PATH = ROOT / "templates" / "qjapanimation.template.tex"
-OUTPUT_PATH = ROOT / "qjapanimation.tex"
-
-_LATEX_SPECIAL = re.compile(r"([#$%&_{}])")
+TEMPLATE_PATH = ROOT / "templates" / "qjapanimation.template.html"
+OUTPUT_PATH = ROOT / "qjapanimation.html"
 
 
-def tex(value) -> str:
-    """Escape plain YAML text for LuaLaTeX."""
-    if value in (None, ""):
-        return ""
-    s = str(value)
-    s = s.replace("\\", r"\textbackslash{}")
-    s = _LATEX_SPECIAL.sub(r"\\\1", s)
-    s = s.replace("~", r"\textasciitilde{}")
-    s = s.replace("^", r"\textasciicircum{}")
-    return s
+def esc(value) -> str:
+    return html.escape(str(value), quote=True) if value not in (None, "") else ""
 
 
-def format_date(value) -> str:
-    """Format an ISO-like date for PDF display."""
-    if value in (None, ""):
-        return ""
-    text = str(value)
-    if len(text) in (7, 10) and text[4] == "-" and (len(text) == 7 or text[7] == "-"):
-        return text.replace("-", "/")
-    return text
-
-
-def tex_url(value) -> str:
-    """Escape a URL used as the first argument of \\href."""
-    if value in (None, ""):
-        return ""
-    return str(value).replace("%", r"\%").replace("#", r"\#")
-
-
-def render_intro(item: dict) -> str:
+def render_intro_item(item: dict) -> str:
     if "text" in item:
-        body = tex(item.get("text"))
-    else:
-        body = (
-            tex(item.get("prefix"))
-            + r"\href{" + tex_url(item.get("url")) + "}{" + tex(item.get("link_text")) + "}"
-            + tex(item.get("suffix"))
-        )
-    return "  \\item " + body
+        return f"<li>{esc(item['text'])}</li>"
+    return (
+        f'<li>{esc(item.get("prefix"))}'
+        f'<a href="{esc(item.get("url"))}" target="_blank" rel="noopener noreferrer">'
+        f'{esc(item.get("link_text"))}</a>{esc(item.get("suffix"))}</li>'
+    )
 
 
-def values(entry: dict, key: str) -> list[str]:
-    return [str(x) for x in (entry.get(key) or []) if x not in (None, "")]
+def render_lines(lines: list[str], muted_if_empty: bool = False) -> str:
+    values = [str(x) for x in (lines or []) if x not in (None, "")]
+    if not values and muted_if_empty:
+        return '<div class="qja-cell-line"><span class="qja-muted">—</span></div>'
+    return "".join(f'<div class="qja-cell-line">{esc(x)}</div>' for x in values)
+
+
+def search_text(entry: dict) -> str:
+    pieces = [
+        str(entry.get("year") or "-"),
+        str(entry.get("title") or ""),
+        *(str(x) for x in entry.get("content", []) or []),
+        *(str(x) for x in entry.get("note", []) or []),
+    ]
+    return unicodedata.normalize("NFKC", " ".join(pieces)).casefold().strip()
 
 
 def render_entry(entry: dict) -> str:
-    year = tex(entry.get("year") if entry.get("year") else "--")
-    title = tex(entry.get("title"))
-    content = values(entry, "content")
-    note = values(entry, "note")
-    n_rows = max(1, len(content), len(note))
-
-    rows = []
-    for i in range(n_rows):
-        c = tex(content[i]) if i < len(content) else ""
-        n = tex(note[i]) if i < len(note) else ""
-        y = year if i == 0 else ""
-        t = title if i == 0 else ""
-        rows.append(f"  {y} & {t} & {c} & {n} \\\\")
-    rows.append(r"  \hline")
-    return "\n".join(rows)
-
-
-def render_section(section: dict, index: int) -> str:
-    title = tex(section.get("title"))
-    body = "\n".join(render_entry(entry) for entry in (section.get("entries") or []))
-    table = (
-        f"\\section*{{{title}}}\n"
-        r"\small" "\n"
-        r"\begin{longtable}{C{13mm}|Y{46mm}|Y{106mm}|Y{99.5mm}}" "\n"
-        r"\QJATableHeader" "\n"
-        r"\endfirsthead" "\n"
-        r"\QJATableHeader" "\n"
-        r"\endhead" "\n"
-        + body + "\n"
-        r"\end{longtable}" "\n"
-        r"\normalsize"
+    year = entry.get("year")
+    year_attr = str(year) if year else ""
+    year_text = str(year) if year else "—"
+    return (
+        f'<tr data-year="{esc(year_attr)}" data-search="{esc(search_text(entry))}">\n'
+        f'  <td class="qja-year"><span>{esc(year_text)}</span></td>\n'
+        f'  <td class="qja-title">{esc(entry.get("title"))}</td>\n'
+        f'  <td>{render_lines(entry.get("content", []))}</td>\n'
+        f'  <td class="qja-note">{render_lines(entry.get("note", []), muted_if_empty=True)}</td>\n'
+        f'</tr>'
     )
-    return (r"\clearpage" + "\n" + table) if index else table
+
+
+def render_section(section: dict) -> str:
+    rows = "\n".join(render_entry(e) for e in section.get("entries", []) or [])
+    sec_id = esc(section.get("id") or "section")
+    return f'''<section id="qja-{sec_id}-section" class="qja-section">
+  <h2>{esc(section.get("title"))}</h2>
+  <div class="qja-table-frame">
+    <table class="qja-table">
+      <caption>{esc(section.get("caption"))}</caption>
+      <thead><tr><th>年</th><th>タイトル</th><th>内容</th><th>備考</th></tr></thead>
+      <tbody>
+{rows}
+      </tbody>
+    </table>
+  </div>
+</section>'''
+
+
+def render_content(data: dict) -> str:
+    page = data.get("page", {})
+    intro = "\n".join(render_intro_item(x) for x in data.get("intro", []) or [])
+    sections = "\n\n".join(render_section(s) for s in data.get("sections", []) or [])
+    total = sum(len(s.get("entries", []) or []) for s in data.get("sections", []) or [])
+    return f'''<div class="qja-root">
+  <main class="qja-page">
+    <header class="qja-header">
+      <p class="qja-author">{esc(page.get("author"))} <span class="qja-author-sep">·</span> <a class="qja-pdf-link" href="qjapanimation.pdf">{esc(page.get("pdf_label") or "PDF")}</a></p>
+    </header>
+
+    <aside class="qja-intro"><ul>
+{intro}
+    </ul></aside>
+
+    <div class="qja-controls" aria-label="表の検索と絞り込み">
+      <input id="qja-search" class="qja-input" type="search" placeholder="タイトル・内容・備考を検索" aria-label="タイトル・内容・備考を検索">
+      <select id="qja-year-filter" class="qja-select" aria-label="年で絞り込む">
+        <option value="">すべての年</option>
+        <option value="unknown">年不明</option>
+      </select>
+      <button id="qja-reset" class="qja-button" type="button">リセット</button>
+    </div>
+
+    <p id="qja-count" class="qja-count">{total}件を表示</p>
+
+{sections}
+
+    <div id="qja-empty" class="qja-empty">該当する項目はありません。</div>
+    <p class="qja-footnote">{esc(page.get("footnote"))}</p>
+  </main>
+</div>'''
 
 
 def main() -> None:
     data = yaml.safe_load(DATA_PATH.read_text(encoding="utf-8")) or {}
     page = data.get("page", {})
     template = TEMPLATE_PATH.read_text(encoding="utf-8")
-
-    intro = "\n".join(render_intro(item) for item in (data.get("intro") or []))
-    sections = "\n\n".join(
-        render_section(section, i)
-        for i, section in enumerate(data.get("sections") or [])
-    )
-
-    output = (
-        template
-        .replace("{{PDF_TITLE}}", tex(page.get("title")))
-        .replace("{{PDF_AUTHOR}}", tex(page.get("author")))
-        .replace("{{TITLE}}", tex(page.get("title")))
-        .replace("{{AUTHOR}}", tex(page.get("author")))
-        .replace("{{UPDATED}}", tex(format_date(page.get("updated"))))
-        .replace("{{INTRO}}", intro)
-        .replace("{{SECTIONS}}", sections)
-        .replace("{{FOOTNOTE}}", tex(page.get("footnote")))
-    )
-
+    output = (template
+              .replace("{{META_DESCRIPTION}}", esc(page.get("description")))
+              .replace("{{SITE_TITLE}}", esc(page.get("title") or page.get("site_title") or "Qjapanimation"))
+              .replace("{{QJA_CONTENT}}", render_content(data)))
     OUTPUT_PATH.write_text(output, encoding="utf-8")
-    total = sum(len(section.get("entries") or []) for section in (data.get("sections") or []))
-    print(f"Generated qjapanimation.tex: {total} entries")
+    total = sum(len(s.get("entries", []) or []) for s in data.get("sections", []) or [])
+    print(f"Generated qjapanimation.html: {total} entries")
 
 
 if __name__ == "__main__":
