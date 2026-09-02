@@ -1,1 +1,66 @@
+name: Build and deploy website
 
+"on":
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install YAML support
+        run: python -m pip install --disable-pip-version-check PyYAML
+
+      - name: Generate pages
+        run: |
+          python scripts/generate_publications.py
+          python scripts/generate_presentations.py
+          python scripts/generate_other_works.py
+
+      - name: Commit generated pages if changed
+        shell: bash
+        run: |
+          if git diff --quiet -- publications.html international.html domestic.html other-works.html; then
+            echo "Generated pages are already up to date."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add publications.html international.html domestic.html other-works.html
+            git commit -m "Update generated website pages"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
