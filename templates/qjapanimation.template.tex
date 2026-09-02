@@ -1,0 +1,60 @@
+% Generated from data/qjapanimation.yaml via scripts/generate_qjapanimation_tex.py.
+% Edit the YAML data or this template, not qjapanimation.tex directly.
+\documentclass[10pt,a4paper,landscape]{ltjsarticle}
+
+\usepackage[
+  top=10mm,
+  bottom=12mm,
+  left=10mm,
+  right=10mm
+]{geometry}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue!55!black,
+  linkcolor=black,
+  pdftitle={{{PDF_TITLE}}},
+  pdfauthor={{{PDF_AUTHOR}}}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{4mm}
+\setlength{\tabcolsep}{1.5mm}
+\renewcommand{\arraystretch}{1.18}
+\arrayrulecolor{black!25}
+
+\newcolumntype{Y}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\newcommand{\QJATableHeader}{%
+  \hline
+  \rowcolor{black!6}
+  \textbf{年} & \textbf{タイトル} & \textbf{内容} & \textbf{備考} \\
+  \hline
+}
+
+\begin{document}
+
+\begin{center}
+  {\Large\bfseries {{TITLE}}\par}
+  \vspace{1.5mm}
+  {{AUTHOR}}
+\end{center}
+\vspace{1mm}
+
+\begin{itemize}[leftmargin=5mm,itemsep=1mm,topsep=1mm]
+{{INTRO}}
+\end{itemize}
+
+{{SECTIONS}}
+
+\vfill
+{\footnotesize\color{black!55}{{FOOTNOTE}}}
+
+\end{document}
