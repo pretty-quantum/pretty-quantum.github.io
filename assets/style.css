@@ -1068,7 +1068,7 @@ ol.entries li.memory-standalone {
 .memories-page ol.entries li.memory-plain,
 .memories-page ol.entries li.memory-plain a,
 .memories-page ol.entries li.memory-plain a:visited {
-  color: #aaa;
+  color: #bbb;
 }
 
 @media (max-width: 640px) {
