@@ -882,3 +882,67 @@ body:has(.publication-page) .hero {
   }
 
 .site-link { color: inherit; text-decoration: none; }
+
+
+/* =========================================================
+   Typography refinement: quieter headings
+   ========================================================= */
+
+/* Site name in the top-left header */
+.site-name {
+  font-size: 22px;
+}
+
+/* Large page title: Home, Publications, International, etc. */
+.hero {
+  height: 195px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  letter-spacing: 0.8px;
+}
+
+/* Year headings such as 2026 */
+.year-section h2,
+.pub-year h2 {
+  font-size: 24px;
+}
+
+/* Publications already used a shorter hero; keep it compact. */
+body:has(.publication-page) .hero {
+  height: 175px;
+}
+
+@media (max-width: 1050px) {
+  .site-name {
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-name {
+    font-size: 19px;
+  }
+
+  .hero {
+    height: 155px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .year-section h2,
+  .pub-year h2 {
+    font-size: 22px;
+  }
+
+  body:has(.publication-page) .hero {
+    height: 140px;
+  }
+}
