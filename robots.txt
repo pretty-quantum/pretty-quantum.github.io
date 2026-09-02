@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pretty-quantum.github.io/sitemap.xml
