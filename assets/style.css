@@ -1004,19 +1004,26 @@ body:has(.publication-page) .hero {
   color: #999;
 }
 
-/* Old-school hidden Memories link: the literal " / Memories" remains in
-   the text flow, but its text is simply the same color as the page background. */
-.presentation-jump .memory-secret,
-.presentation-jump .memory-secret a,
-.presentation-jump .memory-secret a:hover,
-.presentation-jump .memory-secret a:focus,
-.presentation-jump .memory-secret a:visited {
-  color: var(--bg);
-  text-decoration: none;
-}
-
+/* Old-school hidden Memories link.
+   Always invisible: normal, visited, hover, focus, and active states. */
 .presentation-jump .memory-secret {
   margin: 0;
+  color: #fff !important;
+}
+
+.presentation-jump .memory-secret a,
+.presentation-jump .memory-secret a:link,
+.presentation-jump .memory-secret a:visited,
+.presentation-jump .memory-secret a:hover,
+.presentation-jump .memory-secret a:focus,
+.presentation-jump .memory-secret a:focus-visible,
+.presentation-jump .memory-secret a:active {
+  color: #fff !important;
+  text-decoration: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
 }
 
 
