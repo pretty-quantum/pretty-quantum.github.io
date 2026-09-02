@@ -30,18 +30,31 @@ def format_authors(authors: list[str], alias_set: set[str]) -> str:
     return ", ".join(esc(name) for name in (authors or []))
 
 
+def format_date(value) -> str:
+    """Format ISO-like YAML dates for HTML display."""
+    if value in (None, ""):
+        return ""
+    text = str(value)
+    # YYYY-MM-DD -> YYYY/MM/DD, and YYYY-MM -> YYYY/MM.
+    if len(text) in (7, 10) and text[4] == "-" and (len(text) == 7 or text[7] == "-"):
+        return text.replace("-", "/")
+    return text
+
+
 def period_text(e: dict) -> str:
     start, end = e.get("conference_start"), e.get("conference_end")
-    if start and end:
-        return str(start) if start == end else f"{start}–{end}"
-    return str(start or end or "")
+    start_text, end_text = format_date(start), format_date(end)
+    if start_text and end_text:
+        return start_text if start_text == end_text else f"{start_text}–{end_text}"
+    return start_text or end_text
 
 
 def presentation_date_text(e: dict) -> str:
     start, end = e.get("presentation_date"), e.get("presentation_end_date")
-    if start and end:
-        return str(start) if start == end else f"{start}–{end}"
-    return str(start or end or "")
+    start_text, end_text = format_date(start), format_date(end)
+    if start_text and end_text:
+        return start_text if start_text == end_text else f"{start_text}–{end_text}"
+    return start_text or end_text
 
 
 def render_entry(e: dict, alias_set: set[str]) -> str:
