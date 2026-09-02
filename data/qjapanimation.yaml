@@ -121,6 +121,12 @@ sections:
     - シュレーディンガーの猫、並行世界、ヒルベルト空間、波動関数のΦ、経路積分、不確定性原理、など
     note:
     - キーワードてんこ盛り、あいんしゅたいんP、唄：初音ミク
+  - year: 2011
+    title: STEINS;GATE
+    content:
+    - 世界線、タイムマシン、並行世界
+    note:
+    - 一応
   - year: 2012
     title: ヨルムンガンド
     content:
@@ -321,12 +327,30 @@ sections:
     - 量子テレポート
     note:
     - すごくよかったです
+  - year: 2021
+    title: EX-ARM
+    content:
+    - 量子コンピュータ
+    note:
+    - 漫画第1巻は2015年
   - year: 2022
     title: アカデミックSOS
     content:
     - 「スパコンも量子コンピュータもあって使いたい放題らしいです」
     note:
     - 1話、闇すぎて読んでるとなぜか動悸が……
+  - year: 2022
+    title: code：ノストラ
+    content:
+    - 未来を予測できる量子コンピュータ「ノストラ」「ファティマ」
+    note:
+    - 
+  - year: 2023
+    title: Q.E.D. iff ―証明終了―
+    content:
+    - 量子コンピュータ、量子ゲート
+    note:
+    - 第25巻「第四のゲート」
   - year: 2024
     title: Electricity
     content:
