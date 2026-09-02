@@ -198,7 +198,13 @@ def render_scope(
                 memory = memory_by_pid.get(pid)
                 body = presentation_body(obj, alias_set)
                 extra = render_extra(memory, photo_dir)
-                cls = ' class="memory-augmented"' if extra else ""
+                has_memory = bool(
+                    memory and (
+                        str(memory.get("comment") or "").strip()
+                        or (memory.get("photos") or [])
+                    )
+                )
+                cls = ' class="memory-augmented"' if has_memory else ' class="memory-plain"'
                 items.append(f"<li{cls}>{body}{extra}</li>")
             else:
                 event = obj.get("event") or {}

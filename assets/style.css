@@ -1063,6 +1063,14 @@ ol.entries li.memory-standalone {
   color: var(--text);
 }
 
+
+/* On Memories, ordinary presentation entries recede into the background. */
+.memories-page ol.entries li.memory-plain,
+.memories-page ol.entries li.memory-plain a,
+.memories-page ol.entries li.memory-plain a:visited {
+  color: #999;
+}
+
 @media (max-width: 640px) {
   .memory-photo-link {
     max-width: 100%;

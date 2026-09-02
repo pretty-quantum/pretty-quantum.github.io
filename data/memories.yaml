@@ -17,13 +17,7 @@ memories:
   photos:
   - 20251001.jpg
   - 20251002.png
-- id: memory-f32bba1c
-  event:
-    scope: international
-    title: ALPS
-    date_start: '2025-04-21'
-    date_end: '2025-04-22'
-    location: パシフィコ横浜
+- presentation_id: int-2025-b2c55c35
   comment: ALPSに参加しました。プログラム委員として参加しました。大変よい会議でした。 残念ながら量子のセッションはランチが出る日とも懇親会の日とも被っておらず、感情は無でした。
   photos:
   - 20250421.jpg
