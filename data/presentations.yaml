@@ -1,10 +1,3 @@
-# Presentations involving Rikizo Ikuta / R. Ikuta / 生田力三
-# First author is treated as the presenter.
-# Dates are stored only in ISO format: YYYY-MM-DD.
-# presentation_date: actual presentation date
-# presentation_end_date: end date only when the presentation itself spans multiple days
-# conference_start / conference_end: conference or event period
-# null means that the supplied source did not determine the value unambiguously.
 schema_version: 1
 person:
   canonical_name: Rikizo Ikuta
@@ -48,11 +41,11 @@ presentations:
   scope: international
   fiscal_year: 2026
   authors:
-  - Shinichi Takenaka
   - Yuya Maeda
   - Toshiki Kobayashi
   - Takuma Ueno
   - Kentaro Shibata
+  - Shinichi Takenaka
   - Kazuki Ito
   - Yuma Fujiwara
   - Shigehito Miki
@@ -63,14 +56,14 @@ presentations:
   - Makoto Yamashita
   - Shuta Nakajima
   - Takashi Yamamoto
-  title: Multiplexed photonic interface between atom array and waveguide array
-  presentation_type: oral
-  presentation_date: '2026-04-21'
+  title: null
+  presentation_type: null
+  presentation_date: null
   presentation_end_date: null
-  conference: 15th Advanced Lasers and Photon Sources Conference (ALPS2026) in the framework of the OPTICS & PHOTONICS International
-    Congress 2026 (OPIC2026)
-  conference_start: '2026-04-20'
-  conference_end: '2026-04-24'
+  conference: 15th Advanced Lasers and Photon Sources Conference (ALPS2026) in the framework of the OPTICS & PHOTONICS International Congress
+    2026 (OPIC2026)
+  conference_start: null
+  conference_end: null
   location: PACIFICO Yokohamam, Yokohama, Japan
   url: null
   note: null
@@ -476,8 +469,8 @@ presentations:
   presentation_type: poster
   presentation_date: null
   presentation_end_date: null
-  conference: ALPS The 13th Advanced Lasers and Photon Sources Apr. 22(Mon.)-26(Fri.), 2024 Optics & Photonics International
-    Congress 2024 at PACIFICO Yokohama, Yokohama, Japan
+  conference: ALPS The 13th Advanced Lasers and Photon Sources Apr. 22(Mon.)-26(Fri.), 2024 Optics & Photonics International Congress 2024 at
+    PACIFICO Yokohama, Yokohama, Japan
   conference_start: null
   conference_end: null
   location: null
@@ -809,7 +802,7 @@ presentations:
   location: NTT Atsugi R&D Center, Japan
   url: http://www.brl.ntt.co.jp/event/isntt2019/index.html
   note: null
-- id: int-2019-7e10639c
+- id: int-2019-7e10639c-06b25c
   scope: international
   fiscal_year: 2019
   authors:
@@ -831,7 +824,7 @@ presentations:
   location: UQAM Coeur des Sciences Conference Centre, Montreal, Canada
   url: http://2019.qcrypt.net/
   note: null
-- id: int-2019-7e10639c
+- id: int-2019-7e10639c-89d997
   scope: international
   fiscal_year: 2019
   authors:
@@ -1527,7 +1520,7 @@ presentations:
   location: Sigma Hall (Engineering Science Int. Bldg.), Osaka University, Japan
   url: null
   note: null
-- id: int-2014-32e5fd63
+- id: int-2014-32e5fd63-d1ec82
   scope: international
   fiscal_year: 2014
   authors:
@@ -1539,8 +1532,7 @@ presentations:
   - R. Ikuta
   - T. Yamamoto
   - N. Imoto
-  title: Fabrication and characterization of waveguide-coupled superconducting nanowire single-photon detectors on silicon-on-insulator
-    substrates
+  title: Fabrication and characterization of waveguide-coupled superconducting nanowire single-photon detectors on silicon-on-insulator substrates
   presentation_type: poster
   presentation_date: '2014-08-25'
   presentation_end_date: '2014-08-26'
@@ -1569,7 +1561,7 @@ presentations:
   location: Shirankaikan, Kyoto, Japan
   url: null
   note: null
-- id: int-2014-32e5fd63
+- id: int-2014-32e5fd63-309028
   scope: international
   fiscal_year: 2014
   authors:
@@ -1581,8 +1573,7 @@ presentations:
   - R. Ikuta
   - T. Yamamoto
   - N. Imoto
-  title: Fabrication and characterization of waveguide-coupled superconducting nanowire single-photon detectors on silicon-on-insulator
-    substrates
+  title: Fabrication and characterization of waveguide-coupled superconducting nanowire single-photon detectors on silicon-on-insulator substrates
   presentation_type: poster
   presentation_date: '2014-08-14'
   presentation_end_date: null
@@ -1701,8 +1692,8 @@ presentations:
   - M. Sasaki
   - Z. Wang
   - N. Imoto
-  title: Observation of converted and unconverted lights preserving phase information via difference frequency generation
-    by using coherent light pulse at a single photon level
+  title: Observation of converted and unconverted lights preserving phase information via difference frequency generation by using coherent light
+    pulse at a single photon level
   presentation_type: poster
   presentation_date: '2013-07-08'
   presentation_end_date: null
@@ -1732,8 +1723,8 @@ presentations:
   presentation_type: oral
   presentation_date: '2013-07-04'
   presentation_end_date: null
-  conference: The 10th Conference on Lasers and Electro-Optics Pacific Rim, and The 18th OptoElectronics and Communications
-    Conference / Photonics in Switching 2013
+  conference: The 10th Conference on Lasers and Electro-Optics Pacific Rim, and The 18th OptoElectronics and Communications Conference / Photonics
+    in Switching 2013
   conference_start: '2013-06-30'
   conference_end: '2013-07-04'
   location: Kyoto International Conference Center, Kyoto, Japan
@@ -1774,8 +1765,8 @@ presentations:
   presentation_type: poster
   presentation_date: '2013-04-06'
   presentation_end_date: '2013-04-09'
-  conference: The 11th US-Japan Joint Seminar on Quantum Electronics and Laser Spectroscopy “Ultimate Quantum Systems of Light
-    and Matter- Control and Applications”
+  conference: The 11th US-Japan Joint Seminar on Quantum Electronics and Laser Spectroscopy “Ultimate Quantum Systems of Light and Matter- Control
+    and Applications”
   conference_start: '2013-04-04'
   conference_end: '2013-04-12'
   location: Nara Prefectural New Public Hall, Japan
@@ -1856,8 +1847,7 @@ presentations:
   - Takashi Yamamoto
   - Masato Koashi
   - Nobuyuki Imoto
-  title: Frequency down-conversion of non-classical light from visible wavelength to telecom wavelength using difference-frequency
-    generation
+  title: Frequency down-conversion of non-classical light from visible wavelength to telecom wavelength using difference-frequency generation
   presentation_type: poster
   presentation_date: '2011-05-06'
   presentation_end_date: null
@@ -1867,7 +1857,7 @@ presentations:
   location: Baltimore Convention Center, Baltimore, Maryland, USA
   url: null
   note: null
-- id: int-2010-f54dafe5
+- id: int-2010-f54dafe5-2aa4a0
   scope: international
   fiscal_year: 2010
   authors:
@@ -1887,7 +1877,7 @@ presentations:
   location: University of Queensland, Brisbane, Queensland, Australia
   url: null
   note: null
-- id: int-2010-f54dafe5
+- id: int-2010-f54dafe5-d2eab8
   scope: international
   fiscal_year: 2010
   authors:
@@ -1901,8 +1891,8 @@ presentations:
   presentation_type: poster
   presentation_date: null
   presentation_end_date: null
-  conference: International Conference on Core Research and Engineering Science of Advanced Materials (Global COE Program)
-    Third International Conference on Nanospintronics Design and Realization (3rd-ICNDR
+  conference: International Conference on Core Research and Engineering Science of Advanced Materials (Global COE Program) Third International
+    Conference on Nanospintronics Design and Realization (3rd-ICNDR
   conference_start: '2010-05-30'
   conference_end: '2010-06-04'
   location: Osaka University, Convention Center, Osaka, Japan
@@ -2052,7 +2042,7 @@ presentations:
   conference: 第51回量子情報技術研究会(QIT51
   conference_start: '2024-11-26'
   conference_end: '2024-11-28'
-  location: サンポートホール高松
+  location: （サンポートホール高松 発表日 11/28）
   url: null
   note: null
 - id: dom-2024-ae0e921a
@@ -2550,7 +2540,7 @@ presentations:
   location: null
   url: null
   note: null
-- id: dom-2021-62028717
+- id: dom-2021-62028717-6d4eca
   scope: domestic
   fiscal_year: 2021
   authors:
@@ -2616,7 +2606,7 @@ presentations:
   location: null
   url: null
   note: null
-- id: dom-2021-62028717
+- id: dom-2021-62028717-5ec5e2
   scope: domestic
   fiscal_year: 2021
   authors:
@@ -2820,7 +2810,7 @@ presentations:
   location: 北海道大学札幌キャンパス
   url: null
   note: null
-- id: dom-2019-c59cf6cc
+- id: dom-2019-c59cf6cc-2c3995
   scope: domestic
   fiscal_year: 2019
   authors:
@@ -2877,7 +2867,7 @@ presentations:
   location: null
   url: null
   note: null
-- id: dom-2019-c59cf6cc
+- id: dom-2019-c59cf6cc-bc40b6
   scope: domestic
   fiscal_year: 2019
   authors:
@@ -3097,7 +3087,7 @@ presentations:
   location: 東京理科大学（野田キャンパス）
   url: null
   note: null
-- id: dom-2017-89f2701a
+- id: dom-2017-89f2701a-9e8931
   scope: domestic
   fiscal_year: 2017
   authors:
@@ -3117,7 +3107,7 @@ presentations:
   location: 大阪府立大学 I-siteなんば
   url: null
   note: null
-- id: dom-2017-319b787a
+- id: dom-2017-319b787a-a59074
   scope: domestic
   fiscal_year: 2017
   authors:
@@ -3141,7 +3131,7 @@ presentations:
   location: 福岡国際会議場
   url: null
   note: null
-- id: dom-2017-319b787a
+- id: dom-2017-319b787a-247682
   scope: domestic
   fiscal_year: 2017
   authors:
@@ -3165,7 +3155,7 @@ presentations:
   location: 岩手大学
   url: null
   note: null
-- id: dom-2017-89f2701a
+- id: dom-2017-89f2701a-d3ece7
   scope: domestic
   fiscal_year: 2017
   authors:
@@ -3500,8 +3490,7 @@ presentations:
   - T. Yamamoto
   - M. Koashi
   - N. Imoto
-  title: Experimental demonstration of robust entanglement distribution over reciprocal channels assisted by a counter-propagating
-    light
+  title: Experimental demonstration of robust entanglement distribution over reciprocal channels assisted by a counter-propagating light
   presentation_type: oral
   presentation_date: '2016-05-31'
   presentation_end_date: null
@@ -4408,8 +4397,8 @@ presentations:
   - 山本俊
   - 小芦雅斗
   - 井元信之
-  title: High-fidelity visible-to-telecommunication wavelength conversion with superconducting single-photon detectors and
-    non-classical interference using wavelength-converted two photons
+  title: High-fidelity visible-to-telecommunication wavelength conversion with superconducting single-photon detectors and non-classical interference
+    using wavelength-converted two photons
   presentation_type: poster
   presentation_date: '2012-12-14'
   presentation_end_date: null
@@ -4815,15 +4804,15 @@ presentations:
   - 井元信之
   title: 可視域から通信波長域への非古典光の周波数下方変換の実現
   presentation_type: poster
-  presentation_date: '2010-09-28'
+  presentation_date: null
   presentation_end_date: null
   conference: 第5回 KARC－Σ連携セミナー 2010/9/28 情報通信研究機構神戸研究所
-  conference_start: '2010-09-28'
+  conference_start: null
   conference_end: null
   location: null
   url: null
   note: null
-- id: dom-2010-4780996b
+- id: dom-2010-4780996b-c2b187
   scope: domestic
   fiscal_year: 2010
   authors:
@@ -4835,15 +4824,15 @@ presentations:
   - 井元信之
   title: DFSを用いたエンタングルメント配送の高効率化
   presentation_type: oral
-  presentation_date: '2010-09-25'
+  presentation_date: null
   presentation_end_date: null
   conference: 日本物理学会2010年秋季大会
   conference_start: '2010-09-23'
-  conference_end: '2010-09-26'
+  conference_end: null
   location: 大阪府立大学
   url: null
   note: null
-- id: dom-2010-4780996b
+- id: dom-2010-4780996b-8b4136
   scope: domestic
   fiscal_year: 2010
   authors:
@@ -4855,7 +4844,7 @@ presentations:
   - 井元信之
   title: DFSを用いたエンタングルメント配送の高効率化
   presentation_type: poster
-  presentation_date: '2010-09-23'
+  presentation_date: null
   presentation_end_date: null
   conference: 最先端研究開発支援プログラム“量子情報処理プロジェクト”夏期研修会（第１回
   conference_start: '2010-09-23'
@@ -4882,7 +4871,7 @@ presentations:
   location: 電気通信大学
   url: null
   note: null
-- id: dom-2009-b08f3063
+- id: dom-2009-b08f3063-e96b3f
   scope: domestic
   fiscal_year: 2009
   authors:
@@ -4892,12 +4881,12 @@ presentations:
   - 小芦雅斗
   - 井元信之
   title: 線形光学素子を用いた局所操作によるW状態拡張ゲートの効率化
-  presentation_type: oral
-  presentation_date: '2009-09-25'
+  presentation_type: null
+  presentation_date: null
   presentation_end_date: null
   conference: 日本物理学会2009年秋季大会25aZF-4
   conference_start: '2009-09-25'
-  conference_end: '2009-09-28'
+  conference_end: null
   location: 熊本大学黒髪キャンパス
   url: null
   note: null
@@ -4921,7 +4910,7 @@ presentations:
   location: 熊本大学黒髪キャンパス
   url: null
   note: null
-- id: dom-2009-b08f3063
+- id: dom-2009-b08f3063-21eb8d
   scope: domestic
   fiscal_year: 2009
   authors:
@@ -4936,7 +4925,7 @@ presentations:
   location: 休暇村 近江八幡（滋賀県）
   url: null
   note: null
-- id: dom-2009-b08f3063
+- id: dom-2009-b08f3063-09f105
   scope: domestic
   fiscal_year: 2009
   authors:

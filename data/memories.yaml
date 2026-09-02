@@ -1,0 +1,330 @@
+schema_version: 1
+photo_dir: assets/memories
+memories:
+- id: memory-8185c93b
+  event:
+    scope: international
+    title: Quantum Internet Seminar
+    date_start: '2025-10-20'
+    date_end: '2025-10-21'
+    location: Nihonbashi Innovation Center
+  comment: 大変よい会議でした。最近の進捗について報告しました。 帰りに丸善カフェで檸檬ケーキをいただきました。
+  photos:
+  - 20251020.jpg
+  - 20251021.jpg
+- presentation_id: int-2025-25c6279d
+  comment: OSPなるセミナーで講師をさせていただき大変良い経験になりました。 プール付きのホテルで時間がないのが残念な気もしましたが、 よく考えたら自分は時間があってもプールで楽しむような人間ではなかったなと思い物悲しい気持ちになりました。
+  photos:
+  - 20251001.jpg
+  - 20251002.png
+- id: memory-f32bba1c
+  event:
+    scope: international
+    title: ALPS
+    date_start: '2025-04-21'
+    date_end: '2025-04-22'
+    location: パシフィコ横浜
+  comment: ALPSに参加しました。プログラム委員として参加しました。大変よい会議でした。 残念ながら量子のセッションはランチが出る日とも懇親会の日とも被っておらず、感情は無でした。
+  photos:
+  - 20250421.jpg
+- presentation_id: int-2024-738548c1
+  comment: WQRN2024でポスター発表しました。大変よい会議でした。 空港からジュネーブへの電車があっという間で、到着したのに気づかず遥か遠くまで行ってしまった時はどうなることかと思いました。食事はわりと普通でしたがなぜか毎回限界まで食べ続けてました。
+  photos:
+  - 20240911-1.jpg
+  - 20240911-2.png
+- presentation_id: int-2023-23227ee0
+  comment: CLEO-EUROに参加しました。大変よい会議でした。口頭発表とポスター発表をしました。 相変わらずビール尽くしの退屈な街でしたが、なにせ食べ物はうまいので連日こわいくらい食べてしまいました。
+  photos:
+  - 20230625-1.jpg
+  - 20230625-2.jpg
+  - 20230625-3.jpg
+- presentation_id: int-2023-2af7063e
+  comment: ALPSに参加しました。大変よい会議でした。口頭発表しました。 ジュース1本とパン1個程度に交換できる昼食券と、 まともに講演聞いてたら交換不可能な時間でのみ有効なおやつ交換券が自動的に与えられてやや混乱しました。 バンケットはまあまあ普通でおなかは満たされました。
+  photos: []
+- presentation_id: int-2022-f9b60778
+  comment: 謎会議で招待講演()しました。希望をもって参加したが、おそらくもうこの手の？会議に関わることはないでしょう。
+  photos:
+  - 20230208.jpg
+- presentation_id: int-2022-cd4409e3
+  comment: Quantum Innovation 2022 に参加しました。大変よい会議でした。 謎の座談会で話したけど正直（以下自粛）。
+  photos: []
+- presentation_id: int-2022-00b09548
+  comment: CLEO-PRに参加しました。大変よい会議でした。口頭発表しました。 会場には北海道土産の定番のおやつがずらりと並べられていてホクホク。 宿が偶然にも北菓楼本店の近くで、せっかくなので夢不思議やちぎりシューピスコットを食べました。美味。
+  photos:
+  - 20220731-1.jpg
+  - 20220731-2.jpg
+  - 20220731-3.jpg
+  - 20220731-4.jpg
+  - 20220731-5.jpg
+- presentation_id: int-2020-28c79d11
+  comment: CLEO-PR2020に参加しました。大変よい会議でした。口頭発表しました。 バーチャル会議は、話すのも聞くのも基本退屈だなという感想。
+  photos: []
+- presentation_id: int-2019-7e10639c-06b25c
+  comment: QCrypt2019に参加しました。大変よい会議でした。ポスター発表しました。 Schwartz's Deli のサンドイッチおいしかったです。ベーグルも楽しめました。が、正直退屈な街ではあったと思います。
+  photos:
+  - 20190825.jpg
+- presentation_id: int-2019-7e10639c-89d997
+  comment: AQIS2019に参加しました。大変よい会議でした。口頭発表しました。 治安が心配されたけれど全く問題なく楽しめました。ソルビンでスイカかき氷を食べました。随分と美味しかったです。チーズダッカルビも満足度高めでした。
+  photos:
+  - 20190821.jpg
+- presentation_id: int-2019-4c170e73
+  comment: CLEO Europe に参加しました。大変よい会議でした。ポスター発表しました。 ビアガーデンか何か知らないけれど、ビールを浴びない人間としてはまるで食指が動きません。シュヴァイネハクセとかソーセージとかチーズとか食べ物は全て美味しすぎて食べまくりました。
+  photos:
+  - 20190623.jpg
+- presentation_id: int-2018-18369c47
+  comment: SPIE Photonic West に参加しました。大変よい会議でした。口頭発表しました。 バーゲンセールの割引率が半端なくてかなりのお得感を味わえました。実際お得かどうかは知らない。食事の味は普通。
+  photos:
+  - 20190207.jpg
+- presentation_id: int-2018-c0ea55bb
+  comment: Hybrid Approaches to Quantum-Information Processing というワークショップに参加しました。大変よい会議でした。ポスター発表しました。 La Glace のおやつはとても美味。あとデンマーク料理も全体的においしい。
+  photos:
+  - 20180915.jpg
+- presentation_id: int-2016-85af29c9
+  comment: QCMC2016。大変よい会議でした。ポスター発表しました。 街が思ったよりけっこう汚くてちょっと残念でした。食事もまあ普通。OCBCガーデンラプソディはけっこう良かったかなと。
+  photos:
+  - 20160703.jpg
+- presentation_id: int-2013-edecce6f
+  comment: AQIS2013。大変よい会議でした。口頭発表しました。 まだ薄もやがかかりひっそりと静まり返った明け方に、怒りモードの野犬数匹に吠えられ追いかけられるという悲惨な目に遭いました。きゃつらの前で走ってはいけないという重要なことを学びました。
+  photos:
+  - 20130824.jpg
+- presentation_id: int-2013-d1c0e1df
+  comment: US-Japanジョイントセミナーに参加しました。大変よい会議でした。ポスター発表しました。 広々とした公園、満開の桜、雲ひとつない快晴のお天気。とても気持ちよく散歩ができて大変楽しかったです。また行きたい。
+  photos: []
+- presentation_id: int-2012-47f00da5
+  comment: QCMCに参加しました。大変よい会議でした。ポスター発表しました。 いかにもヨーロッパ風の町並みで散歩しているだけで楽しい。ザッハトルテおいしい。シュニッツェルもおいしい。料理は全般においしかったです。
+  photos: []
+- presentation_id: int-2011-6e2994a7
+  comment: AQISに参加しました。大変よい会議でした。口頭発表しました。 とりあえず量が多すぎるので、勿体無いと思わずに思い切って残すようにした方が無難。 最初それがわからなくて全部食べてた結果、宿で盛大に吐き戻しました。そして味はごく普通。
+  photos: []
+- presentation_id: int-2011-3ada2233
+  comment: CLEOに参加しました。大変よい会議でした。ポスター発表しました。 クラブケーキおいしかった。
+  photos: []
+- presentation_id: int-2010-f54dafe5-2aa4a0
+  comment: QCMCに参加しました。大変よい会議でした。ポスター発表しました。 エクスカージョンでコアラやカンガルーと戯れるなどしました。
+  photos: []
+- presentation_id: int-2010-f54dafe5-d2eab8
+  comment: 全く記憶にry
+  photos: []
+- presentation_id: int-2009-64d4dca6
+  comment: 全く記憶に残ってません。
+  photos: []
+- presentation_id: int-2009-c5f38e06
+  comment: CQIQCに参加しました。大変よい会議でした。ポスター発表しました。 慣れた味の食事を採る事ができて夜も比較的安全で、海外不慣れな人間にはとてもいい街。とても楽しめました。
+  photos: []
+- id: memory-232e15ba
+  event:
+    scope: domestic
+    title: QUATUO
+    date_start: '2026-01-10'
+    date_end: '2026-01-11'
+    location: 高知工科大学 永国寺キャンパス
+  comment: 今年も神会議が無事に終わりました。今回、龍馬パスポートなる存在を教えてもらいました。ますます高知行きが捗りますね。
+  photos:
+  - 20260109-1.jpg
+  - 20260109-2.jpg
+  - 20260109-3.jpg
+- id: memory-7f772b62
+  event:
+    scope: domestic
+    title: 第1回量子通信・ネットワーク研究ワークショップ
+    date_start: '2025-10-17'
+    date_end: null
+    location: 成蹊大学
+  comment: 大変よい会議でした。座談会で話しました。 最寄り駅を降りたところで偶然にもアトレとりぼんのコラボ企画に出会うという幸運に恵まれました。
+  photos:
+  - 20251017.png
+- id: memory-278f99d5
+  event:
+    scope: domestic
+    title: 電子情報通信学会 ソサイエティ大会
+    date_start: '2025-09-10'
+    date_end: '2025-09-12'
+    location: 岡山大学 津島キャンパス
+  comment: 普段聞かない話ばかりで大変よい会議でした。 「えびめし」なる食べ物を初めて食べましたが、とてもおいしくて、来てよかったと思いました。 きびだんごはいつも通りおいしく、みづゑのせせらぎ、天任堂のゆべしも上品でとても良い味わいでした。
+  photos:
+  - 20250911.jpg
+  - 20250912-1.jpg
+  - 20250912-2.jpg
+- id: memory-474eff78
+  event:
+    scope: domestic
+    title: ムーンショット目標6 公開シンポジウム・内部全体会議
+    date_start: '2025-03-04'
+    date_end: '2025-03-05'
+    location: ベルサール秋葉原
+  comment: 新しい話題に触れたり久々に会う方々と交流できたり大変よい会議でした。 お昼は甘味処の竹むらでおやつを楽しみました。
+  photos:
+  - 20250305-1.jpg
+  - 20250305-2.jpg
+- id: memory-e6736ebc
+  event:
+    scope: domestic
+    title: 第11回QUATUO研究会
+    date_start: '2025-01-11'
+    date_end: '2025-01-13'
+    location: 岡山大学 津島キャンパス
+  comment: 一年で最も楽しい研究会が今年も終わりました。桃太郎にちなんだマンホールがそこかしこにありました。きびだんごがおいしいのはいつものことですが、山珍の豚まんがとてもおいしかったです。
+  photos:
+  - 20250111-1.jpg
+  - 20250111-2.jpg
+- presentation_id: dom-2024-ae0e921a
+  comment: QIT51に招待講演で呼んでいただきました。大変良い会議でした。 うどん三昧で大変すばらしかったです。
+  photos: []
+- id: memory-9842c74e
+  event:
+    scope: domestic
+    title: 富山大学出張
+    date_start: '2024-10-17'
+    date_end: '2024-10-18'
+    location: 富山大学 五福キャンパス
+  comment: 大変実りある議論ができました。そして久々の富山ブラック。
+  photos:
+  - 20241017.jpg
+- id: memory-498cf21f
+  event:
+    scope: domestic
+    title: 香川大学出張
+    date_start: '2024-10-08'
+    date_end: '2024-10-09'
+    location: 香川大学 林町キャンパス
+  comment: 大変実りある議論ができました。うどんとても美味しかったです。
+  photos:
+  - 20241008-1.jpg
+  - 20241008-2.jpg
+- presentation_id: dom-2024-b18c9902
+  comment: 物理学会に参加しました。大変よい会議でした。 発表に世話人的な仕事に他諸々にと、大変忙しくとても疲れました。
+  photos:
+  - 20240916-1.jpg
+  - 20240916-2.jpg
+- id: memory-a73385cb
+  event:
+    scope: domestic
+    authors:
+    - 生田力三
+    presentation_title: 非線形量子光学に基づく量子ネットワーク
+    presentation_type: ポスター
+    presentation_date: '2024-07-19'
+    conference: 第3回融合の場
+    date_start: '2024-07-18'
+    date_end: '2024-07-19'
+    location: 京都大学百周年時計台記念館
+  comment: ポスター発表しました。いろんな話が聞けて大変よい会議でした。久々にふたばの豆餅を食べる良い機会になりました。あとは文の助茶屋の祥緑を食べました。どちらも至福の味わいでした。帰りに高島屋に入ったら巨大なマリオがいて大変驚きました。
+  photos:
+  - 20240719.png
+- id: memory-4c47279f
+  event:
+    scope: domestic
+    title: MS全体会議
+    date_start: '2024-07-02'
+    date_end: '2024-07-04'
+    location: ザキューブホテル千葉
+  comment: いろんな話が聞けて大変よい会議でした。食事を頼むのを忘れていてどうしようと思っていたところ、たまたま評判のとんかつ屋さんが近くにあると知って行きました。大変美味でした。
+  photos:
+  - 20240703.jpg
+- presentation_id: dom-2022-8feea867
+  comment: レーザー学会で招待講演してきました。大変よい会議でした。移動時に赤福の白餅黒餅を食べました。美味。
+  photos:
+  - 20230118.jpg
+- presentation_id: dom-2018-6f62c16d
+  comment: 川端ぜんざい、あまおう美味。食事系では、水炊き、モツ、海鮮もの、明太子、ゴボ天うどん、ラーメンなどいろいろ食べました。どれもおいしいには違いないが、中でもやはりモツが一番満足度高かったかなと。
+  photos: []
+- presentation_id: dom-2018-08186831
+  comment: 恥ずかしながら、とらやにあずき茶とかいうのが売ってるのを今頃知りました。高い。が、また買ってもいいなと思える程度には美味しかったです。
+  photos: []
+- presentation_id: dom-2018-ae37c65f
+  comment: 人生で2度目の沖縄上陸。沖縄ぜんざいを食べました。あと、なぜかハンガリーの伝統菓子とかいうクルトシュなるものを食べました。どっちもうまし。
+  photos: []
+- presentation_id: dom-2018-15c212e6
+  comment: 水ういろなるものを食べました。
+  photos: []
+- presentation_id: dom-2018-b25a477d
+  comment: 広島のお好み焼きを食べると大阪のがいかに（以下自粛）
+  photos: []
+- presentation_id: dom-2017-1a75e2c5
+  comment: 関東の桜餅は関西のそれとは違うということを知りました。そして関西の桜餅がいかに優れた存在であるかということを知るに至りました。
+  photos: []
+- presentation_id: dom-2016-c1bc139e
+  comment: 神会議。あらゆる食事がおいしすぎて力が漲る。
+  photos: []
+- presentation_id: dom-2015-c4b035ec
+  comment: 初めての東工大。とてもいい場所だった。うちとは大違い。 Kaila、すごくおいしかった。
+  photos: []
+- presentation_id: dom-2014-db447b7c
+  comment: 名古屋名物三昧な食事で非常に満足。
+  photos: []
+- presentation_id: dom-2013-a9bd3e19
+  comment: 大学の建物の中にエスカレーターがあった。
+  photos: []
+- presentation_id: dom-2013-2ea21ce5
+  comment: もつ鍋がおいしい。
+  photos: []
+- presentation_id: dom-2013-464332bb
+  comment: ミルク村は神。
+  photos: []
+- presentation_id: dom-2012-65fab142
+  comment: 駅から遠すぎて大変だった。もみじまんじゅうはいつ食べてもおいしい。
+  photos: []
+- presentation_id: dom-2012-dd4e8c45
+  comment: 何一つ記憶にない。
+  photos: []
+- presentation_id: dom-2012-5f55e9b4
+  comment: 朝食のバイキングがおいしくて、おかげで快適に一日が始められる。
+  photos: []
+- presentation_id: dom-2011-314f9b89
+  comment: ここのキャンパスはとても綺麗で癒される。あと、甲東園は、甲子園、昭和園、甲風園、甲陽園、苦楽園、香櫨園、と並んで西宮七園と呼ばれ、七英雄みたいでかっこいい。
+  photos: []
+- presentation_id: dom-2011-c39d95f6
+  comment: とり安の親子丼うまかった。
+  photos: []
+- presentation_id: dom-2011-8732f610
+  comment: 何の面白味もない土地。
+  photos: []
+- presentation_id: dom-2011-3fd28781
+  comment: 富山駅付近は居酒屋ばっかり。居酒屋だいの食事は非常においしかった。
+  photos: []
+- presentation_id: dom-2010-ff21add1
+  comment: 震災のため、現地入りせず。
+  photos: []
+- presentation_id: dom-2010-efdeba4e
+  comment: 特定の人を除いて何度も来るような場所ではない。
+  photos: []
+- presentation_id: dom-2010-3d88ddc6
+  comment: 食事がとても残念。初日昼に出た、具なしで少量のカレーの手抜き具合は衝撃の域。
+  photos: []
+- presentation_id: dom-2010-91f8b8bc
+  comment: 懇親会で出た食事が思いのほか豪華だった。
+  photos: []
+- presentation_id: dom-2010-4780996b-c2b187
+  comment: 駅から大学に行く途中にあるたこやき屋が安い。
+  photos: []
+- presentation_id: dom-2010-4780996b-8b4136
+  comment: 生まれて初めて海水浴なるものをした。沖縄の海は実にきれい。街にも優良な店が多くて楽しい。
+  photos: []
+- presentation_id: dom-2009-cc317d0c
+  comment: 関東出身の偉い人曰く、「くずもち」といえば、葛餅ではなく久寿餅が普通らしい。
+  photos: []
+- presentation_id: dom-2009-b08f3063-e96b3f
+  comment: 馬肉はおいしい。
+  photos: []
+- presentation_id: dom-2009-b08f3063-21eb8d
+  comment: 実は琵琶湖をちゃんと見たのは初めてで、まあまあ良かった。
+  photos: []
+- presentation_id: dom-2009-b08f3063-09f105
+  comment: ''
+  photos: []
+- id: memory-62fd2f8a
+  event:
+    scope: domestic
+    authors:
+    - 生田力三
+    - 北野正雄
+    - 杉山和彦
+    presentation_title: Yb+時計遷移用半導体レーザの開発
+    presentation_type: 口頭
+    presentation_date: '2005-05-19'
+    conference: 電子情報通信学会
+    date_start: '2005-05-19'
+    date_end: null
+    location: 金沢大学
+  comment: 21世紀美術館は面白い。朝市も楽しい。あと、駅がなかなか美しい。とてもいい街。
+  photos: []
