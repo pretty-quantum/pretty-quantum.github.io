@@ -890,59 +890,59 @@ body:has(.publication-page) .hero {
 
 /* Site name in the top-left header */
 .site-name {
-  font-size: 22px;
+  font-size: 20px;
 }
 
-/* Large page title: Home, Publications, International, etc. */
+/* Main page title: Home, Publications, International, etc. */
 .hero {
-  height: 195px;
+  height: 175px;
 }
 
 .hero h1 {
-  font-size: 42px;
-  letter-spacing: 0.8px;
+  font-size: 36px;
+  letter-spacing: 0.5px;
 }
 
 /* Year headings such as 2026 */
 .year-section h2,
 .pub-year h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
-/* Publications already used a shorter hero; keep it compact. */
+/* Publications uses a slightly shorter title area. */
 body:has(.publication-page) .hero {
-  height: 175px;
+  height: 160px;
 }
 
 @media (max-width: 1050px) {
   .site-name {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .hero h1 {
-    font-size: 38px;
+    font-size: 33px;
   }
 }
 
 @media (max-width: 760px) {
   .site-name {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .hero {
-    height: 155px;
+    height: 140px;
   }
 
   .hero h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .year-section h2,
   .pub-year h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   body:has(.publication-page) .hero {
-    height: 140px;
+    height: 130px;
   }
 }
