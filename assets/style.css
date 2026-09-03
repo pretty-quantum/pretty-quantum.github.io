@@ -334,6 +334,38 @@ a.item-link {
   padding: 20px 0 100px;
 }
 
+.publication-jump {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 10px 0 24px;
+  font-size: 17px;
+}
+
+.publication-jump a {
+  color: var(--green, #1e5440);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.publication-jump-between {
+  border-top: 1px solid #dedede;
+  padding-top: 28px;
+}
+
+.publication-section {
+  scroll-margin-top: 24px;
+}
+
+.publication-section-title {
+  margin: 0;
+  padding: 0 0 18px;
+  color: var(--text);
+  font-size: 34px;
+  font-weight: 400;
+}
+
 .pub-year {
   border-top: 1px solid #dedede;
   padding: 28px 0 34px;
@@ -380,6 +412,10 @@ body:has(.publication-page) .hero {
 
   .publication-list li {
     font-size: 15px;
+  }
+
+  .publication-section-title {
+    font-size: 29px;
   }
 
   body:has(.publication-page) .hero {
