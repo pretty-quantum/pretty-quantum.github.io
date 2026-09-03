@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate publications.html from ikuta.bib.
+"""Generate publications.html from ikuta.bib and other_works.yaml.
 
 No third-party packages are required.
 
@@ -23,13 +23,16 @@ import re
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
+import yaml
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT = SCRIPT_DIR.parent
 BIB_PATH = ROOT / "data" / "ikuta.bib"
+OTHER_WORKS_PATH = ROOT / "data" / "other_works.yaml"
 TEMPLATE_PATH = ROOT / "templates" / "publications.template.html"
 OUTPUT_PATH = ROOT / "publications.html"
-PLACEHOLDER = "{{PUBLICATIONS}}"
+PAPERS_PLACEHOLDER = "{{PAPERS}}"
+REVIEWS_PLACEHOLDER = "{{REVIEWS}}"
 
 STRING_MACROS = {
     "pra": "Phys. Rev. A",
@@ -368,15 +371,86 @@ def render_publications(entries: list[dict[str, str]]) -> str:
     return "\n".join(sections)
 
 
+def review_link_for(entry: dict) -> str:
+    doi = entry.get("doi")
+    if doi:
+        doi = str(doi)
+        return doi if doi.startswith(("http://", "https://")) else f"https://doi.org/{doi}"
+    return str(entry.get("url") or "")
+
+
+def render_review_entry(entry: dict) -> str:
+    authors = ", ".join(
+        html.escape(str(author), quote=True) for author in (entry.get("authors") or [])
+    )
+    title = html.escape(str(entry.get("title") or "[title to be added]"), quote=True)
+    publication = html.escape(str(entry.get("publication") or ""), quote=True)
+    volume = html.escape(str(entry.get("volume") or ""), quote=True)
+    pages = html.escape(str(entry.get("pages") or ""), quote=True)
+    note = html.escape(str(entry.get("note") or ""), quote=True)
+    link = review_link_for(entry)
+
+    venue = publication
+    if volume:
+        venue += (" " if venue else "") + volume
+    if pages:
+        venue += (", " if venue else "") + pages
+    if link and venue:
+        venue = (
+            f'<a class="journal-link" href="{html.escape(link, quote=True)}">'
+            f"{venue}</a>"
+        )
+
+    parts = []
+    if authors:
+        parts.append(authors + ", ")
+    parts.append(f'&quot;{title}&quot;')
+    if venue:
+        parts.append(", " + venue)
+    if note:
+        parts.append(". " + note)
+    parts.append(".")
+    return "<li>" + "".join(parts) + "</li>"
+
+
+def render_reviews(entries: list[dict]) -> str:
+    if not entries:
+        return '<p class="empty">No entries yet.</p>'
+
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for entry in entries:
+        grouped[str(entry.get("year") or "Other")].append(entry)
+    years = sorted(
+        grouped,
+        key=lambda year: int(year) if year.isdigit() else -1,
+        reverse=True,
+    )
+    return "\n".join(
+        f'<section class="pub-year"><h2>{html.escape(year)}</h2>'
+        f'<ol class="publication-list">'
+        + "".join(render_review_entry(entry) for entry in grouped[year])
+        + "</ol></section>"
+        for year in years
+    )
+
+
 def main() -> None:
     bib_text = BIB_PATH.read_text(encoding="utf-8")
+    other_works_data = yaml.safe_load(OTHER_WORKS_PATH.read_text(encoding="utf-8")) or {}
+    reviews = other_works_data.get("works", []) or []
     template = TEMPLATE_PATH.read_text(encoding="utf-8")
-    if PLACEHOLDER not in template:
-        raise SystemExit(f"Missing placeholder {PLACEHOLDER!r} in {TEMPLATE_PATH.name}")
+    for placeholder in (PAPERS_PLACEHOLDER, REVIEWS_PLACEHOLDER):
+        if placeholder not in template:
+            raise SystemExit(f"Missing placeholder {placeholder!r} in {TEMPLATE_PATH.name}")
 
     entries = parse_bibtex(bib_text)
-    body = render_publications(entries)
-    output = template.replace(PLACEHOLDER, body)
+    papers_body = render_publications(entries)
+    reviews_body = render_reviews(reviews)
+    output = (
+        template
+        .replace(PAPERS_PLACEHOLDER, papers_body)
+        .replace(REVIEWS_PLACEHOLDER, reviews_body)
+    )
     OUTPUT_PATH.write_text(output, encoding="utf-8")
 
     without_proceedings = remove_proceedings(entries)
@@ -391,7 +465,7 @@ def main() -> None:
     print(
         f"Generated {OUTPUT_PATH.name}: {len(kept_entries)} publications "
         f"from {len(entries)} BibTeX entries "
-        f"({', '.join(details)})"
+        f"and {len(reviews)} reviews ({', '.join(details)})"
     )
 
 

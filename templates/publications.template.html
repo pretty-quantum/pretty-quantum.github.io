@@ -13,14 +13,33 @@
       <a href="index.html">Home</a>
       <a href="publications.html" class="active">Publications</a>
       <a href="presentations.html">Presentations</a>
-      <a href="other-works.html">Other works</a>
       <a href="guide.html">Guide</a>
       <a href="qjapanimation.html">Qjapanimation</a>
     </nav>
   </header>
   <section class="hero"><h1>Publications</h1></section>
   <main class="publication-page">
-{{PUBLICATIONS}}
+    <nav class="publication-jump" aria-label="Publication sections">
+      <a href="#papers">Papers</a>
+      <span aria-hidden="true">/</span>
+      <a href="#reviews">Reviews</a>
+    </nav>
+
+    <section id="papers" class="publication-section">
+      <h2 class="publication-section-title">Papers</h2>
+{{PAPERS}}
+    </section>
+
+    <nav class="publication-jump publication-jump-between" aria-label="Publication sections">
+      <a href="#papers">Papers</a>
+      <span aria-hidden="true">/</span>
+      <a href="#reviews">Reviews</a>
+    </nav>
+
+    <section id="reviews" class="publication-section">
+      <h2 class="publication-section-title">Reviews</h2>
+{{REVIEWS}}
+    </section>
   </main>
 </body>
 </html>

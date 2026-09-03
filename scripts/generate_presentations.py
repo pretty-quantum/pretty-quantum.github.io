@@ -116,7 +116,6 @@ def nav(active: str) -> str:
         ("index.html", "Home", "home"),
         ("publications.html", "Publications", "publications"),
         ("presentations.html", "Presentations", "presentations"),
-        ("other-works.html", "Other works", "other"),
         ("guide.html", "Guide", "guide"),
         ("qjapanimation.html", "Qjapanimation", "qja"),
     ]
