@@ -63,8 +63,8 @@ body {
 }
 
 .site-logo {
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   flex: 0 0 auto;
 }
 
@@ -986,8 +986,8 @@ body:has(.publication-page) .hero {
   }
 
   .site-logo {
-    width: 28px;
-    height: 28px;
+    width: 36px;
+    height: 36px;
   }
 
   .hero {
