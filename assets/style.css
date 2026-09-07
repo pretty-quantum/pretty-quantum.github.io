@@ -54,6 +54,20 @@ body {
   white-space: nowrap;
 }
 
+.site-home-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-logo {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -969,6 +983,11 @@ body:has(.publication-page) .hero {
 @media (max-width: 760px) {
   .site-name {
     font-size: 18px;
+  }
+
+  .site-logo {
+    width: 28px;
+    height: 28px;
   }
 
   .hero {
