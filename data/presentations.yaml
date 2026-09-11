@@ -2449,10 +2449,10 @@ presentations:
   presentation_type: invited
   presentation_date: '2022-12-14'
   presentation_end_date: null
-  conference: 浜松ホトニクス量子関連講演会 2022/12/14 13:00～14:30 浜松ホトニクス豊岡製作所 ハイブリッド形式
+  conference: 浜松ホトニクス量子関連講演会
   conference_start: null
   conference_end: null
-  location: null
+  location: 浜松ホトニクス豊岡製作所 ハイブリッド形式
   url: null
   note: null
 - id: dom-2022-71caab8c
@@ -2461,13 +2461,13 @@ presentations:
   authors:
   - 生田力三
   title: 量子ネットワーク
-  presentation_type: null
-  presentation_date: null
+  presentation_type: invited
+  presentation_date: '2022-09-29'
   presentation_end_date: null
   conference: QEdサマースクール2022
   conference_start: '2022-09-24'
   conference_end: '2022-09-30'
-  location: 2022/9/29 リザンシーパークホテル谷茶ベイ
+  location: リザンシーパークホテル谷茶ベイ
   url: null
   note: null
 - id: dom-2022-7698cc30
@@ -2502,13 +2502,13 @@ presentations:
   authors:
   - 生田力三
   title: 量子インターネット実現に向けて
-  presentation_type: null
-  presentation_date: null
+  presentation_type: invited
+  presentation_date: '2022-06-13'
   presentation_end_date: null
-  conference: （講義名：電気情報工学特別講義） 2022/6/13 慶應義塾大学 理工学部 矢上キャンパス 14棟204教室
-  conference_start: null
+  conference: 電気情報工学特別講義
+  conference_start: '2022-06-13'
   conference_end: null
-  location: null
+  location: 慶應義塾大学 理工学部 矢上キャンパス 14棟204教室
   url: null
   note: null
 - id: dom-2021-6eb98ba9
@@ -2543,13 +2543,13 @@ presentations:
   - 井元信之
   - 山本俊
   title: 光周波数ピンセット
-  presentation_type: null
-  presentation_date: null
+  presentation_type: oral
+  presentation_date: '2022-03-16'
   presentation_end_date: null
-  conference: 2022年 日本物理学会 第77回年次大会 16pE11-9, 2022/3/16 オンライン開催
-  conference_start: null
-  conference_end: null
-  location: null
+  conference: 2022年 日本物理学会 第77回年次大会 16pE11-9
+  conference_start: '2022-03-15'
+  conference_end: '2022-03-19'
+  location: オンライン
   url: null
   note: null
 - id: dom-2021-62028717-6d4eca
@@ -2560,13 +2560,13 @@ presentations:
   - 生田力三
   - 山本俊
   title: スタビライザー形式に基づく線形光学回路の解析
-  presentation_type: null
-  presentation_date: null
+  presentation_type: oral
+  presentation_date: '2022-03-15'
   presentation_end_date: null
-  conference: 2022年 日本物理学会 第77回年次大会 15pE11-6, 2022/3/15 オンライン開催
-  conference_start: null
-  conference_end: null
-  location: null
+  conference: 2022年 日本物理学会 第77回年次大会 15pE11-6
+  conference_start: '2022-03-15'
+  conference_end: '2022-03-19'
+  location: オンライン
   url: null
   note: null
 - id: dom-2021-bbd0ec94
@@ -2589,13 +2589,13 @@ presentations:
   - 井元信之
   - 山本俊
   title: 量子インターネットにむけたファイバ結合型PPLNによる量子周波数変換実験
-  presentation_type: null
-  presentation_date: null
+  presentation_type: oral
+  presentation_date: '2022-01-19'
   presentation_end_date: null
-  conference: 第１回ムーンショット目標6 QCNQCプロジェクト研究会, 19, January, 2022, ONLINE
-  conference_start: null
+  conference: 第１回ムーンショット目標6 QCNQCプロジェクト研究会
+  conference_start: '2022-01-19'
   conference_end: null
-  location: null
+  location: オンライン
   url: null
   note: null
 - id: dom-2021-89e5bea9
@@ -2609,13 +2609,13 @@ presentations:
   - 井元信之
   - 山本俊
   title: 高効率な原子-光子エンタングルメント生成のための冷却Rb原子集団の二次元磁気光学トラップ
-  presentation_type: null
-  presentation_date: null
+  presentation_type: oral
+  presentation_date: '2022-01-19'
   presentation_end_date: null
-  conference: 第１回ムーンショット目標6 QCNQCプロジェクト研究会, 19, January, 2022, ONLINE
-  conference_start: null
+  conference: 第１回ムーンショット目標6 QCNQCプロジェクト研究会
+  conference_start: '2022-01-19'
   conference_end: null
-  location: null
+  location: オンライン
   url: null
   note: null
 - id: dom-2021-62028717-5ec5e2
@@ -2629,10 +2629,10 @@ presentations:
   presentation_type: oral
   presentation_date: '2021-12-01'
   presentation_end_date: null
-  conference: 第45回量子情報技術研究会(QIT45
+  conference: 第45回量子情報技術研究会(QIT45)
   conference_start: '2021-11-30'
   conference_end: '2021-12-01'
-  location: （オンライン開催 発表日 12/1）
+  location: オンライン
   url: null
   note: null
 - id: dom-2021-30d8e92c
@@ -2658,10 +2658,10 @@ presentations:
   presentation_type: oral
   presentation_date: '2021-12-01'
   presentation_end_date: null
-  conference: 第45回量子情報技術研究会(QIT45
+  conference: 第45回量子情報技術研究会(QIT45)
   conference_start: '2021-11-30'
   conference_end: '2021-12-01'
-  location: （オンライン開催 発表日 12/1）
+  location: オンライン
   url: null
   note: null
 - id: dom-2021-e9af7e00
@@ -2670,13 +2670,13 @@ presentations:
   authors:
   - 生田 力三
   title: 量子波長変換に基づく量子インターネット
-  presentation_type: null
-  presentation_date: null
+  presentation_type: invited
+  presentation_date: '2021-06-17'
   presentation_end_date: null
-  conference: （講義名：固体物理セミナー（令和3年度 第３回）） 2021/6/17 大阪大学 大学院基礎工学研究科 オンライン開催
-  conference_start: null
+  conference: 大阪大学 大学院基礎工学研究科 固体物理セミナー（令和3年度 第3回）
+  conference_start: '2021-06-17'
   conference_end: null
-  location: null
+  location: オンライン
   url: null
   note: null
 - id: dom-2020-d18f08ed
@@ -2692,10 +2692,10 @@ presentations:
   presentation_type: oral
   presentation_date: '2021-03-19'
   presentation_end_date: null
-  conference: 第68回応用物理学会春季学術講演会（19p-Z03-8
+  conference: 第68回応用物理学会春季学術講演会（19p-Z03-8）
   conference_start: '2021-03-16'
   conference_end: '2021-03-19'
-  location: オンライン開催
+  location: オンライン
   url: null
   note: null
 - id: dom-2020-9850cf06
@@ -2716,10 +2716,10 @@ presentations:
   presentation_type: oral
   presentation_date: '2021-03-19'
   presentation_end_date: null
-  conference: 第68回応用物理学会春季学術講演会（19p-Z03-9
+  conference: 第68回応用物理学会春季学術講演会（19p-Z03-9）
   conference_start: '2021-03-16'
   conference_end: '2021-03-19'
-  location: オンライン開催
+  location: オンライン
   url: null
   note: null
 - id: dom-2020-2cc54001
@@ -2731,10 +2731,10 @@ presentations:
   presentation_type: invited
   presentation_date: '2020-12-15'
   presentation_end_date: null
-  conference: 量子技術ホライゾンー量子物理から量子インターネットを展望する 2020/12/15 オンライン開催
-  conference_start: null
+  conference: 量子技術ホライゾンー量子物理から量子インターネットを展望する
+  conference_start: '2020-12-15'
   conference_end: null
-  location: null
+  location: オンライン
   url: null
   note: null
 - id: dom-2020-8e4780c9
@@ -2755,10 +2755,10 @@ presentations:
   presentation_type: oral
   presentation_date: '2020-09-10'
   presentation_end_date: null
-  conference: 第81回応用物理学会秋季学術講演会（10p-Z21-1\~15
+  conference: 第81回応用物理学会秋季学術講演会
   conference_start: '2020-09-08'
   conference_end: '2020-09-11'
-  location: オンライン開催
+  location: オンライン
   url: null
   note: null
 - id: dom-2019-d698d84f
@@ -2858,7 +2858,7 @@ presentations:
   presentation_type: poster
   presentation_date: '2019-08-08'
   presentation_end_date: null
-  conference: 発表日8/8) ハイブリッド量子科学第9回領域会議
+  conference: ハイブリッド量子科学第9回領域会議
   conference_start: '2019-08-08'
   conference_end: '2019-08-09'
   location: 北陸先端科学技術大学院大学 情報科学系大講義室
@@ -2873,10 +2873,10 @@ presentations:
   presentation_type: invited
   presentation_date: '2019-06-18'
   presentation_end_date: null
-  conference: 2019年度第1回光材料・応用技術研究会 2019/6/18 東海大学高輪キャンパス
-  conference_start: null
+  conference: 2019年度第1回光材料・応用技術研究会
+  conference_start: '2019-06-18'
   conference_end: null
-  location: null
+  location: 東海大学高輪キャンパス
   url: null
   note: null
 - id: dom-2019-c59cf6cc-bc40b6
@@ -2944,7 +2944,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2019-05-21'
   presentation_end_date: null
-  conference: 第40回量子情報技術研究会 (QIT40
+  conference: 第40回量子情報技術研究会 (QIT40）
   conference_start: '2019-05-20'
   conference_end: '2019-05-21'
   location: 九州大学筑紫キャンパス
@@ -3003,7 +3003,7 @@ presentations:
   conference: ハイブリッド量子科学第8回領域会議
   conference_start: '2019-01-09'
   conference_end: '2019-01-10'
-  location: 沖縄科学技術大学院大学 OIST
+  location: 沖縄科学技術大学院大学
   url: null
   note: null
 - id: dom-2018-15c212e6
@@ -3050,7 +3050,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2018-06-05'
   presentation_end_date: null
-  conference: 第38回量子情報技術研究会 (QIT38
+  conference: 第38回量子情報技術研究会 (QIT38）
   conference_start: '2018-06-04'
   conference_end: '2018-06-05'
   location: 広島国際会議場
@@ -3065,14 +3065,14 @@ presentations:
   - 谷亮矢
   - 山本俊
   - 井元信之
-  title: モノリシック共振器型PPLN導波路による光周波数コム生成実験(口頭、発表日3/25)
+  title: モノリシック共振器型PPLN導波路による光周波数コム生成実験
   presentation_type: oral
   presentation_date: '2018-03-25'
   presentation_end_date: null
   conference: 第73回物理学会春季大会
   conference_start: '2018-03-22'
   conference_end: '2018-03-25'
-  location: 東京理科大学（野田キャンパス）
+  location: 東京理科大学 野田キャンパス
   url: null
   note: null
 - id: dom-2017-5a8faeec
@@ -3196,7 +3196,7 @@ presentations:
   - 浅野元紀
   - 山本俊
   - 井元信之
-  title: モノリシック共振器型PPLN導波路を用いた光周波数コム生成実験(口頭、発表日9/7)
+  title: モノリシック共振器型PPLN導波路を用いた光周波数コム生成実験
   presentation_type: oral
   presentation_date: '2017-09-07'
   presentation_end_date: null
@@ -3264,10 +3264,10 @@ presentations:
   presentation_type: invited
   presentation_date: '2017-01-19'
   presentation_end_date: null
-  conference: 電子情報通信学会 超伝導エレクトロニクス研究会(SCE) SCE2016-43 2017/1/19 機械振興会館
+  conference: 電子情報通信学会 超伝導エレクトロニクス研究会(SCE) SCE2016-43
   conference_start: null
   conference_end: null
-  location: null
+  location: 機械振興会館
   url: null
   note: null
 - id: dom-2016-a6cdcd22
@@ -3287,7 +3287,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2016-11-24'
   presentation_end_date: null
-  conference: 第35回量子情報技術研究会 (QIT35
+  conference: 第35回量子情報技術研究会 (QIT35）
   conference_start: '2016-11-24'
   conference_end: '2016-11-25'
   location: 高エネルギー加速器研究機構(KEK) つくばキャンパス
@@ -3435,7 +3435,7 @@ presentations:
   - Nobuyuki Imoto
   - Lan Yang
   - Takashi Yamamoto
-  title: 'Optomechanics at the exceptional points in microbottles: PT symmetry and beyond'
+  title: Optomechanics at the exceptional points in microbottles: PT symmetry and beyond
   presentation_type: poster
   presentation_date: '2016-08-25'
   presentation_end_date: null
@@ -3463,7 +3463,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2016-05-31'
   presentation_end_date: null
-  conference: 第34回量子情報技術研究会 (QIT34
+  conference: 第34回量子情報技術研究会 (QIT34）
   conference_start: '2016-05-30'
   conference_end: '2016-05-31'
   location: 高知工科大学 永国寺キャンパス
@@ -3487,7 +3487,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2016-05-31'
   presentation_end_date: null
-  conference: 第34回量子情報技術研究会 (QIT34
+  conference: 第34回量子情報技術研究会 (QIT34）
   conference_start: '2016-05-30'
   conference_end: '2016-05-31'
   location: 高知工科大学 永国寺キャンパス
@@ -3506,7 +3506,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2016-05-31'
   presentation_end_date: null
-  conference: 第34回量子情報技術研究会 (QIT34
+  conference: 第34回量子情報技術研究会 (QIT34）
   conference_start: '2016-05-30'
   conference_end: '2016-05-31'
   location: 高知工科大学 永国寺キャンパス
@@ -3528,10 +3528,10 @@ presentations:
   presentation_type: oral
   presentation_date: '2016-04-20'
   presentation_end_date: null
-  conference: 電子情報通信学会 超伝導エレクトロニクス研究会 SCE2016-9 2016/4/20 機械振興会館
+  conference: 電子情報通信学会 超伝導エレクトロニクス研究会 SCE2016-9
   conference_start: null
   conference_end: null
-  location: null
+  location: 機械振興会館
   url: null
   note: null
 - id: dom-2015-e0725ce1
@@ -3609,7 +3609,7 @@ presentations:
   - 山本俊
   - 小芦雅斗
   - 井元信之
-  title: 雑音のある reciprocal 通信路を介したエンタンク?ルメント配送実験
+  title: 雑音のある reciprocal 通信路を介したエンタングルメント配送実験
   presentation_type: oral
   presentation_date: '2016-03-20'
   presentation_end_date: null
@@ -3764,7 +3764,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2015-05-26'
   presentation_end_date: null
-  conference: 第32回量子情報技術研究会 (QIT32
+  conference: 第32回量子情報技術研究会 (QIT32）
   conference_start: '2015-05-25'
   conference_end: '2015-05-26'
   location: 大阪大学 豊中キャンパス
@@ -3790,7 +3790,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2015-05-25'
   presentation_end_date: null
-  conference: 第32回量子情報技術研究会 (QIT32
+  conference: 第32回量子情報技術研究会 (QIT32）
   conference_start: '2015-05-25'
   conference_end: '2015-05-26'
   location: 大阪大学 豊中キャンパス
@@ -3817,7 +3817,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2015-05-25'
   presentation_end_date: null
-  conference: 第32回量子情報技術研究会 (QIT32
+  conference: 第32回量子情報技術研究会 (QIT32）
   conference_start: '2015-05-25'
   conference_end: '2015-05-26'
   location: 大阪大学 豊中キャンパス
@@ -3836,7 +3836,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2015-05-25'
   presentation_end_date: null
-  conference: 第32回量子情報技術研究会 (QIT32
+  conference: 第32回量子情報技術研究会 (QIT32）
   conference_start: '2015-05-25'
   conference_end: '2015-05-26'
   location: 大阪大学 豊中キャンパス
@@ -3973,7 +3973,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2014-10-15'
   presentation_end_date: null
-  conference: 電子情報通信学会 超伝導エレクトロニクス研究会(SCE
+  conference: 電子情報通信学会 超伝導エレクトロニクス研究会(SCE)
   conference_start: '2014-10-15'
   conference_end: '2014-10-16'
   location: 東北大学 電気通信研究所
@@ -4200,7 +4200,7 @@ presentations:
   presentation_type: oral
   presentation_date: '2014-05-12'
   presentation_end_date: null
-  conference: 第30回量子情報技術研究会 (QIT30
+  conference: 第30回量子情報技術研究会 (QIT30）
   conference_start: '2014-05-12'
   conference_end: '2014-05-13'
   location: 名古屋大学 東山キャンパス
@@ -4320,11 +4320,11 @@ presentations:
   - 佐々木雅英
   - 王鎮
   - 井元信之
-  title: 微弱コヒーレント光での差周波発生における変換光および非変換光の位相保持 の観測
+  title: 微弱コヒーレント光での差周波発生における変換光および非変換光の位相保持の観測
   presentation_type: poster
   presentation_date: '2013-05-28'
   presentation_end_date: null
-  conference: 第28回量子情報技術研究会 (QIT28
+  conference: 第28回量子情報技術研究会 (QIT28）
   conference_start: '2013-05-27'
   conference_end: '2013-05-28'
   location: 北海道大学 札幌キャンパス
@@ -4345,7 +4345,7 @@ presentations:
   presentation_type: poster
   presentation_date: '2013-05-28'
   presentation_end_date: null
-  conference: 第28回量子情報技術研究会 (QIT28
+  conference: 第28回量子情報技術研究会 (QIT28）
   conference_start: '2013-05-27'
   conference_end: '2013-05-28'
   location: 北海道大学 札幌キャンパス
@@ -4366,7 +4366,7 @@ presentations:
   presentation_type: poster
   presentation_date: '2013-05-28'
   presentation_end_date: null
-  conference: 第28回量子情報技術研究会 (QIT28
+  conference: 第28回量子情報技術研究会 (QIT28）
   conference_start: '2013-05-27'
   conference_end: '2013-05-28'
   location: 北海道大学 札幌キャンパス
@@ -4395,7 +4395,7 @@ presentations:
   conference: 日本物理学会第68回年次大会 26aED-2
   conference_start: '2013-03-26'
   conference_end: '2013-03-29'
-  location: 広島大学 東広島キャンパス（東広島市鏡山 2-313）
+  location: 広島大学 東広島キャンパス
   url: null
   note: null
 - id: dom-2012-dd4e8c45
@@ -4440,7 +4440,7 @@ presentations:
   presentation_type: poster
   presentation_date: '2012-11-27'
   presentation_end_date: null
-  conference: 第27回量子情報技術研究会（QIT27
+  conference: 第27回量子情報技術研究会（QIT27）
   conference_start: '2012-11-27'
   conference_end: '2012-11-28'
   location: 慶應義塾大学 日吉キャンパス
@@ -4617,10 +4617,10 @@ presentations:
   - 小芦雅斗
   - 井元信之
   title: Photonic quantum interface for visible-to-telecommunication wavelength conversion
-  presentation_type: null
+  presentation_type: oral
   presentation_date: null
   presentation_end_date: null
-  conference: 第25回量子情報技術研究会（QIT25
+  conference: 第25回量子情報技術研究会（QIT25）
   conference_start: '2011-11-21'
   conference_end: '2011-11-22'
   location: 大阪大学 基礎工学研究科 国際棟 （豊中キャンパス）
@@ -4637,7 +4637,7 @@ presentations:
   - 小芦雅斗
   - 井元信之
   title: 可視域エンタングルメント光子対の周波数下方変換実験
-  presentation_type: null
+  presentation_type: oral
   presentation_date: null
   presentation_end_date: null
   conference: 日本物理学会2011年秋季大会 21pED-9
@@ -4658,7 +4658,7 @@ presentations:
   - 小芦雅斗
   - 井元信之
   title: PPLNを用いた非古典光の周波数下方変換実験
-  presentation_type: null
+  presentation_type: oral
   presentation_date: null
   presentation_end_date: null
   conference: 2011年秋季 第72回応用物理学会学術講演会 30a-ZR-7
@@ -4679,7 +4679,7 @@ presentations:
   - 小芦雅斗
   - 井元信之
   title: 可視域から通信波長域への非古典光の周波数下方変換
-  presentation_type: null
+  presentation_type: poster
   presentation_date: null
   presentation_end_date: null
   conference: 第8回原子・分子・光科学（AMO）討論会
@@ -4703,7 +4703,7 @@ presentations:
   presentation_type: null
   presentation_date: null
   presentation_end_date: null
-  conference: 第24回量子情報技術研究会（QIT24
+  conference: 第24回量子情報技術研究会（QIT24）
   conference_start: '2011-05-12'
   conference_end: '2011-05-13'
   location: 東京工業大学 大岡山キャンパス 西９号館 ディジタル多目的ホール
@@ -4720,7 +4720,7 @@ presentations:
   - 小芦雅斗
   - 井元信之
   title: 可視域から通信波長域への非古典光の周波数下方変換実験
-  presentation_type: null
+  presentation_type: oral
   presentation_date: null
   presentation_end_date: null
   conference: 日本物理学会2011年春季大会26pRB-5
