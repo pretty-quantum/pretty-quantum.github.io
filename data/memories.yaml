@@ -8,6 +8,11 @@ memories:
   - 20260803-1.jpg
   - 20260803-2.jpg
   - 20260803-3.jpg
+- presentation_id: int-2026-dee8616e
+  comment: ポスター発表しました。大変よい会議でした。Patin fish というお魚がとても美味でした。クレカで電車に乗れたのがめちゃくちゃ便利でした。
+  photos:
+  - 20260428.png
+  - 20260429.png
 - id: memory-8185c93b
   event:
     scope: international
