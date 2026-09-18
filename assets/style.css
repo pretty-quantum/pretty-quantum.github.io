@@ -63,8 +63,8 @@ body {
 }
 
 .site-logo {
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   flex: 0 0 auto;
 }
 
@@ -986,8 +986,8 @@ body:has(.publication-page) .hero {
   }
 
   .site-logo {
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    height: 28px;
   }
 
   .hero {
@@ -1059,9 +1059,9 @@ body:has(.publication-page) .hero {
   color: #999;
 }
 
-/* Hidden Memories link: keep exactly the same spacing as the visible separator. */
+/* Subtle Memories link. Keep unvisited and visited colors identical. */
 .presentation-jump .memory-secret-separator {
-  color: #fff !important;
+  color: #999;
 }
 
 .presentation-jump .memory-secret-link,
@@ -1069,12 +1069,15 @@ body:has(.publication-page) .hero {
 .presentation-jump .memory-secret-link:visited,
 .presentation-jump .memory-secret-link:hover,
 .presentation-jump .memory-secret-link:focus,
-.presentation-jump .memory-secret-link:focus-visible,
 .presentation-jump .memory-secret-link:active {
-  color: #fff !important;
-  -webkit-text-fill-color: #fff !important;
-  text-decoration: none !important;
-  outline: none !important;
+  color: #999;
+  -webkit-text-fill-color: #999;
+  text-decoration: none;
+}
+
+.presentation-jump .memory-secret-link:focus-visible {
+  outline: 2px solid #bbb;
+  outline-offset: 3px;
 }
 
 /* Memories --------------------------------------------------------- */
