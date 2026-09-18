@@ -112,6 +112,13 @@ memories:
 - presentation_id: int-2009-c5f38e06
   comment: CQIQCに参加しました。大変よい会議でした。ポスター発表しました。 慣れた味の食事を採る事ができて夜も比較的安全で、海外不慣れな人間にはとてもいい街。とても楽しめました。
   photos: []
+- presentation_id: dom-2026-4122122b
+  comment: 口頭発表しました。大変よい会議でした。柳もち、美味でした。とうふ麺もとてもおいしかったです。
+  photos:
+  - 20260910-1.jpg
+  - 20260910-2.jpg
+  - 20260910-3.jpg
+  - 20260910-4.jpg
 - id: memory-232e15ba
   event:
     scope: domestic

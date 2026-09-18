@@ -1993,6 +1993,23 @@ presentations:
   location: Fields Institute, Toronto, Canada
   url: null
   note: null
+- id: dom-2026-4122122b
+  scope: domestic
+  fiscal_year: 2026
+  authors:
+  - 生田力三
+  - 小林弘和
+  - 高橋優樹
+  title: 周波数変換を用いたコヒーレント完全吸収の光制御
+  presentation_type: oral
+  presentation_date: '2026-09-10'
+  presentation_end_date: null
+  conference: 第87回応用物理学会秋季学術講演会
+  conference_start: '2026-09-08'
+  conference_end: '2026-09-11'
+  location: 北海道大学札幌キャンパス
+  url: null
+  note: null
 - id: dom-2025-896f1390
   scope: domestic
   fiscal_year: 2025
