@@ -7,6 +7,21 @@ person:
   - 生田力三
   - 生田 力三
 presentations:
+- id: int-2026-137bf1c9
+  scope: international
+  fiscal_year: 2026
+  authors:
+  - Rikizo Ikuta
+  title: Frequency-conversion quantum switches for heterogeneous quantum networks
+  presentation_type: invited
+  presentation_date: '2026-09-15'
+  presentation_end_date: null
+  conference: International conference on Photonics in Switching and Computing 2026 (PSC2026)
+  conference_start: '2026-09-15'
+  conference_end: '2026-09-17'
+  location: UPV, Valencia, Spain
+  url: null
+  note: null
 - id: int-2026-2ba180d5
   scope: international
   fiscal_year: 2026
