@@ -64,7 +64,7 @@ sections:
     content:
     - 因果律的量子論
     note:
-    - 物理の話が何時間か延々と続く
+    - ゲーム版。物理の話が何時間か延々と続く
   - year: 2007
     title: 電脳コイル
     content:
@@ -292,8 +292,7 @@ sections:
     title: されど罪人は竜と踊る
     content:
     - 「プランク定数hを操作し、森羅万象を生み出す力、咒力」
-    note:
-    - []
+    note: []
   - year: 2019
     title: ルパン三世 グッバイパートナー
     content:
@@ -358,8 +357,7 @@ sections:
     title: 異世界薬局
     content:
     - 「任意の次元の量子の情報は〜」
-    note:
-    - []
+    note: []
   - year: 2023
     title: Q.E.D. iff ―証明終了―
     content:
