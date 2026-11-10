@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import re
+import subprocess
 import yaml
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -35,6 +36,34 @@ def format_date(value) -> str:
     if len(text) in (7, 10) and text[4] == "-" and (len(text) == 7 or text[7] == "-"):
         return text.replace("-", "/")
     return text
+
+
+def data_updated_date() -> str:
+    """Return the date of the latest Git commit that changed the YAML data.
+
+    Keep page.updated in the YAML as a fallback for source archives or local
+    builds that do not contain Git history.
+    """
+    try:
+        result = subprocess.run(
+            [
+                "git",
+                "log",
+                "-1",
+                "--format=%cs",
+                "--",
+                str(DATA_PATH.relative_to(ROOT)),
+            ],
+            cwd=ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        if result.stdout.strip():
+            return result.stdout.strip()
+    except (OSError, subprocess.CalledProcessError, ValueError):
+        pass
+    return ""
 
 
 def tex_url(value) -> str:
@@ -117,7 +146,10 @@ def main() -> None:
         .replace("{{PDF_AUTHOR}}", tex(page.get("author")))
         .replace("{{TITLE}}", tex(page.get("title")))
         .replace("{{AUTHOR}}", tex(page.get("author")))
-        .replace("{{UPDATED}}", tex(format_date(page.get("updated"))))
+        .replace(
+            "{{UPDATED}}",
+            tex(format_date(data_updated_date() or page.get("updated"))),
+        )
         .replace("{{INTRO_LEAD}}", intro_lead)
         .replace("{{INTRO}}", intro)
         .replace("{{SECTIONS}}", sections)
