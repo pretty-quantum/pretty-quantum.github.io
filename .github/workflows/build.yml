@@ -25,6 +25,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
+        with:
+          # Required to determine when each YAML data file was last changed.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
