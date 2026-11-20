@@ -339,8 +339,7 @@ sections:
     title: EX-ARM
     content:
     - 量子コンピュータ
-    note:
-    - []
+    note: []
   - year: 2022
     title: アカデミックSOS
     content:
